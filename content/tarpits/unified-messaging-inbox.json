@@ -1,0 +1,44 @@
+{
+  "slug": "unified-messaging-inbox",
+  "title": "Unified messaging inbox",
+  "category": "Social",
+  "summary": "All your chats — WhatsApp, Messenger, SMS, Slack — in one app.",
+  "keywords": "messaging, aggregation, productivity",
+  "status": "draft",
+  "whyTempting": "Context-switching between messaging apps is a universal annoyance.",
+  "whyItFails": "Platforms block you. Messaging apps don't offer APIs and break unofficial integrations. Security concerns. Users hesitate to hand all messages to a third party. Constant breakage. Maintenance never ends.",
+  "whatWouldChange": "Regulation forcing messaging interoperability (e.g. EU Digital Markets Act).",
+  "attempts": [
+    {
+      "company": "Meebo",
+      "startYear": 2005,
+      "endYear": 2013,
+      "outcome": "Acquired by Google, then shut down",
+      "notes": "Browser-based messenger across Yahoo!, MSN, AIM and Google Talk; products discontinued after the 2012 acquisition.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Meebo"
+    },
+    {
+      "company": "Beeper Mini",
+      "startYear": 2023,
+      "endYear": 2024,
+      "outcome": "Blocked by Apple, then pulled",
+      "notes": "Brought iMessage to Android.",
+      "sourceUrl": "https://9to5google.com/2024/01/11/beeper-mini-play-store-removed-imessage/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Platforms block you: Messaging apps don't offer APIs and break unofficial integrations."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Security concerns: Users hesitate to hand all messages to a third party."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Constant breakage: Maintenance never ends."
+    }
+  ],
+  "sources": []
+}

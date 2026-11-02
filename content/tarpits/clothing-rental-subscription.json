@@ -1,0 +1,43 @@
+{
+  "slug": "clothing-rental-subscription",
+  "title": "Clothing rental subscription",
+  "category": "Commerce",
+  "summary": "Rent clothes monthly.",
+  "keywords": "fashion, rental, subscription",
+  "status": "reviewed",
+  "whyTempting": "Popular consumer trends and a seemingly straightforward concept.",
+  "whyItFails": "Logistics. Cleaning and shipping costs. Inventory. Expensive stock. Churn. Customers leave. Fast fashion is wasteful.",
+  "whatWouldChange": "Peer-to-peer rental models.",
+  "attempts": [
+    {
+      "company": "Rent the Runway",
+      "startYear": 2009,
+      "outcome": "Restructured its debt in 2025",
+      "notes": "Reported to be nearing a possible Chapter 11 filing in 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rent_the_Runway"
+    },
+    {
+      "company": "Le Tote",
+      "startYear": 2012,
+      "endYear": 2020,
+      "outcome": "Bankrupt",
+      "notes": "Clothing rental subscription box; filed Chapter 11 with Lord & Taylor in August 2020.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Le_Tote"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Logistics: Cleaning and shipping costs."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Inventory: Expensive stock."
+    },
+    {
+      "tag": "retention",
+      "detail": "Churn: Customers leave."
+    }
+  ],
+  "sources": []
+}

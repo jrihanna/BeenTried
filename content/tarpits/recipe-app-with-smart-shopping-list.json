@@ -1,0 +1,42 @@
+{
+  "slug": "recipe-app-with-smart-shopping-list",
+  "title": "Recipe app with smart shopping list",
+  "category": "Food",
+  "summary": "Save recipes and turn them into a smart grocery list.",
+  "keywords": "recipes, shopping, groceries",
+  "status": "draft",
+  "whyTempting": "Saving recipes is universal; shopping lists are tedious.",
+  "whyItFails": "Recipes are free. Content is abundant and commoditised. Retailers own checkout. Supermarket apps capture the transaction. Easily copied. Features are simple to replicate.",
+  "whatWouldChange": "Direct checkout integrations with supermarkets earning referral revenue.",
+  "attempts": [
+    {
+      "company": "Yummly",
+      "startYear": 2008,
+      "endYear": 2024,
+      "outcome": "Acquired by Whirlpool, then shut down",
+      "notes": "Recipe recommendations and search; team laid off in 2024 and the app went offline that December.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yummly"
+    },
+    {
+      "company": "Evernote Food",
+      "endYear": 2015,
+      "outcome": "Shut down by Evernote",
+      "sourceUrl": "https://www.thenextweb.com/news/evernote-is-shuttering-its-food-app-on-september-30"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Recipes are free: Content is abundant and commoditised."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Retailers own checkout: Supermarket apps capture the transaction."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Easily copied: Features are simple to replicate."
+    }
+  ],
+  "sources": []
+}

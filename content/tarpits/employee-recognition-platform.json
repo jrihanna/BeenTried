@@ -1,0 +1,40 @@
+{
+  "slug": "employee-recognition-platform",
+  "title": "Employee recognition platform",
+  "category": "Enterprise",
+  "summary": "Peer-to-peer kudos and rewards at work.",
+  "keywords": "hr, recognition, culture",
+  "status": "draft",
+  "whyTempting": "Recognition improves morale.",
+  "whyItFails": "Feature of HR suites. Bundled. Engagement fades. Novelty wears off. Budget. Low priority.",
+  "whatWouldChange": "Integration with payroll and rewards.",
+  "attempts": [
+    {
+      "company": "Kudos",
+      "startYear": 2010,
+      "outcome": "Laid off staff in a 2023 reorganisation",
+      "notes": "Peer recognition and engagement platform.",
+      "sourceUrl": "https://calgary.tech/2023/02/06/kudos-announces-layoffs/"
+    },
+    {
+      "company": "Blueboard",
+      "outcome": "Shut down abruptly",
+      "sourceUrl": "https://www.kqed.org/news/11979696/popular-employee-rewards-company-blueboard-shutters-abruptly"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Feature of HR suites: Bundled."
+    },
+    {
+      "tag": "retention",
+      "detail": "Engagement fades: Novelty wears off."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Budget: Low priority."
+    }
+  ],
+  "sources": []
+}

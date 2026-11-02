@@ -1,0 +1,49 @@
+{
+  "slug": "home-cook-marketplace",
+  "title": "Home cook marketplace",
+  "category": "Food",
+  "summary": "Order home-cooked meals from people in your neighbourhood.",
+  "keywords": "home cooking, marketplace, food",
+  "status": "draft",
+  "whyTempting": "Home cooking is authentic and cooks want income.",
+  "whyItFails": "Food safety regulation. Selling home-cooked food is restricted in most jurisdictions. Supply consistency. Hobby cooks don't cook reliably. Low order frequency. Customers revert to known delivery apps.",
+  "whatWouldChange": "Cottage food law reforms and shared commercial kitchens.",
+  "attempts": [
+    {
+      "company": "Josephine",
+      "startYear": 2014,
+      "endYear": 2018,
+      "outcome": "Shut down",
+      "notes": "Network for home-cooked meals in Oakland; cooks got cease-and-desist orders and the company ran out of resources to push for a law change.",
+      "sourceUrl": "https://hoodline.com/2018/02/private-chef-network-josephine-closing/"
+    },
+    {
+      "company": "Umi Kitchen",
+      "endYear": 2017,
+      "outcome": "Stalled four months after launch",
+      "sourceUrl": "https://www.cnbc.com/2017/01/17/danny-meyer-backed-startup-umi-kitchen-stalls-after-4-months.html"
+    },
+    {
+      "company": "Home Cook",
+      "endYear": 2020,
+      "outcome": "Closed",
+      "notes": "Chinese homemade-meal app.",
+      "sourceUrl": "https://technode.com/2020/06/08/homemade-meal-app-home-cook-is-closing/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "regulation",
+      "detail": "Food safety regulation: Selling home-cooked food is restricted in most jurisdictions."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Supply consistency: Hobby cooks don't cook reliably."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low order frequency: Customers revert to known delivery apps."
+    }
+  ],
+  "sources": []
+}

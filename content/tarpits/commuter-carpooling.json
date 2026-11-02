@@ -1,0 +1,49 @@
+{
+  "slug": "commuter-carpooling",
+  "title": "Commuter carpooling",
+  "category": "Mobility",
+  "summary": "Share rides with people on your commute.",
+  "keywords": "carpooling, commute, mobility",
+  "status": "draft",
+  "whyTempting": "Traffic and costs are painful.",
+  "whyItFails": "Coordination. Schedules don't align. Low savings. Not worth the hassle. Trust. Strangers in cars.",
+  "whatWouldChange": "Employer incentives and congestion pricing.",
+  "attempts": [
+    {
+      "company": "Waze Carpool",
+      "startYear": 2016,
+      "endYear": 2022,
+      "outcome": "Shut down",
+      "notes": "Google closed it citing a sharp decline in carpooling.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Waze"
+    },
+    {
+      "company": "UberPool",
+      "endYear": 2020,
+      "outcome": "Suspended in 2020",
+      "notes": "Uber's shared-ride option, paused at the start of the pandemic.",
+      "sourceUrl": "https://edition.cnn.com/2020/03/17/business/coronavirus-uber-pool-trnd/index.html"
+    },
+    {
+      "company": "Lyft Carpool",
+      "endYear": 2016,
+      "outcome": "Paused months after launch",
+      "sourceUrl": "https://techcrunch.com/2016/08/19/lyft-pauses-carpool-service"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "coordination",
+      "detail": "Coordination: Schedules don't align."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low savings: Not worth the hassle."
+    },
+    {
+      "tag": "moderation",
+      "detail": "Trust: Strangers in cars."
+    }
+  ],
+  "sources": []
+}

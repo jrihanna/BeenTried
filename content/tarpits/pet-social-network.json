@@ -1,0 +1,34 @@
+{
+  "slug": "pet-social-network",
+  "title": "Pet social network",
+  "category": "Family",
+  "summary": "A social network for pets.",
+  "keywords": "pets, social, community",
+  "status": "draft",
+  "whyTempting": "People love sharing pet photos.",
+  "whyItFails": "Instagram exists. Pets already thrive there. Low monetisation. Hard to earn. Novelty. Users churn.",
+  "whatWouldChange": "Commerce integration.",
+  "attempts": [
+    {
+      "company": "Dogster",
+      "outcome": "Sold five times since 2011",
+      "notes": "Began as a dog lovers' community site and won a Webby in 2005; now a magazine and website.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dogster"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Instagram exists: Pets already thrive there."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low monetisation: Hard to earn."
+    },
+    {
+      "tag": "retention",
+      "detail": "Novelty: Users churn."
+    }
+  ],
+  "sources": []
+}

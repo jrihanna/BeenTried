@@ -1,0 +1,43 @@
+{
+  "slug": "audio-social-rooms",
+  "title": "Audio social rooms",
+  "category": "Social",
+  "summary": "Drop into live audio conversations with interesting people.",
+  "keywords": "audio, live, social",
+  "status": "reviewed",
+  "whyTempting": "Felt magical during lockdowns; podcasts prove audio demand.",
+  "whyItFails": "Live content is scarce. Good conversations aren't happening when you open the app. Creators leave. Hosts move to platforms with bigger audiences and monetisation. Clones from incumbents. Big platforms copy the feature quickly.",
+  "whatWouldChange": "AI-generated or AI-assisted hosting that makes good rooms available on demand.",
+  "attempts": [
+    {
+      "company": "Clubhouse",
+      "startYear": 2020,
+      "outcome": "Usage fell; cut about half its staff in 2023",
+      "notes": "Passed 10 million weekly users within a year, then declined.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Clubhouse_(app)"
+    },
+    {
+      "company": "Spotify Live (Greenroom)",
+      "startYear": 2021,
+      "endYear": 2023,
+      "outcome": "Shut down",
+      "notes": "Spotify's live audio rooms app, closed April 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Spotify_Live"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Live content is scarce: Good conversations aren't happening when you open the app."
+    },
+    {
+      "tag": "retention",
+      "detail": "Creators leave: Hosts move to platforms with bigger audiences and monetisation."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Clones from incumbents: Big platforms copy the feature quickly."
+    }
+  ],
+  "sources": []
+}

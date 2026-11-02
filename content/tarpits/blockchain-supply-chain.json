@@ -1,0 +1,57 @@
+{
+  "slug": "blockchain-supply-chain",
+  "title": "Blockchain for supply chain transparency",
+  "category": "Enterprise",
+  "summary": "A shared ledger that lets shippers, ports and buyers track goods and paperwork end to end.",
+  "keywords": "blockchain, distributed ledger, logistics, shipping, traceability, provenance, trade finance",
+  "status": "reviewed",
+  "whyTempting": "Global trade really does run on scattered paperwork, and nobody trusts anyone else's database. A ledger that every party can see and nobody controls sounds like the perfect fix, and large companies were eager to announce pilots.",
+  "whyItFails": "The hard part of supply chain tracking is getting accurate data in at each step, which a ledger doesn't solve: if someone records the wrong thing, the blockchain faithfully stores the wrong thing.\n\nThe network is only valuable if competitors all join, but each one is wary of a platform run by, or benefiting, a rival. Once governance is sorted out, a conventional shared database usually does the job more cheaply.",
+  "whatWouldChange": "A new attempt needs a neutral operator that rivals are willing to trust, or a regulation that requires them to share the same data.\n\nIt should also solve the data entry problem directly, for example with sensors or automatic document capture, and be honest about whether a blockchain is needed at all.",
+  "attempts": [
+    {
+      "company": "we.trade",
+      "startYear": 2017,
+      "endYear": 2022,
+      "outcome": "Shut down",
+      "notes": "A bank-backed trade finance network.",
+      "sourceUrl": "https://www.gtreview.com/news/top-stories/we-trade-calls-it-quits-after-running-out-of-cash/"
+    },
+    {
+      "company": "Marco Polo Network",
+      "startYear": 2017,
+      "endYear": 2023,
+      "outcome": "Insolvent",
+      "notes": "Trade finance network for banks and their corporate clients.",
+      "sourceUrl": "https://www.gtreview.com/news/top-stories/marco-polo-brings-in-liquidators-as-funds-run-dry/"
+    },
+    {
+      "company": "TradeLens",
+      "startYear": 2018,
+      "endYear": 2023,
+      "outcome": "Discontinued",
+      "notes": "Built by IBM and Maersk. Struggled to get the wider shipping industry to join.",
+      "sourceUrl": "https://www.digitalizetrade.org/projects/tradelens"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "coordination",
+      "detail": "Competitors wouldn't join a network that a rival controlled or benefited from."
+    },
+    {
+      "tag": "data-input",
+      "detail": "A ledger can't verify that what was recorded matches reality."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Without broad adoption, members couldn't justify the fees."
+    }
+  ],
+  "sources": [
+    {
+      "title": "TradeLens (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/TradeLens"
+    }
+  ]
+}

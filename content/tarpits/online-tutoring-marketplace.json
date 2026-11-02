@@ -1,0 +1,41 @@
+{
+  "slug": "online-tutoring-marketplace",
+  "title": "Online tutoring marketplace",
+  "category": "Education",
+  "summary": "Connect students with tutors online.",
+  "keywords": "tutoring, marketplace, education",
+  "status": "draft",
+  "whyTempting": "Parents spend heavily on tutoring.",
+  "whyItFails": "Disintermediation. Tutors and parents go direct after the first session. Seasonal demand. Exams drive spikes. High acquisition cost. Parents are expensive to acquire.",
+  "whatWouldChange": "AI tutoring changing the cost structure, though it competes rather than helps.",
+  "attempts": [
+    {
+      "company": "Byju's",
+      "startYear": 2011,
+      "outcome": "Insolvency proceedings",
+      "notes": "Lenders began bankruptcy proceedings in 2024; US division filed Chapter 11.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Byju%27s"
+    },
+    {
+      "company": "Tutorspree",
+      "outcome": "Shut down",
+      "notes": "Backed by Sequoia and Y Combinator.",
+      "sourceUrl": "https://techcrunch.com/?p=874033"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Disintermediation: Tutors and parents go direct after the first session."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Seasonal demand: Exams drive spikes."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "High acquisition cost: Parents are expensive to acquire."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "family-organiser-app",
+  "title": "Family organiser app",
+  "category": "Family",
+  "summary": "One app to coordinate family schedules.",
+  "keywords": "family, calendar, organisation",
+  "status": "draft",
+  "whyTempting": "Families are busy.",
+  "whyItFails": "Shared calendars exist. Google and Apple. Adoption. All members must use it. Low willingness to pay. Free alternatives.",
+  "whatWouldChange": "AI that pulls schedules from school emails automatically.",
+  "attempts": [
+    {
+      "company": "Cozi",
+      "startYear": 2005,
+      "outcome": "Sold three times",
+      "notes": "Family calendar and lists; owned by Time Inc. from 2014, then Meredith, then OurFamilyWizard from 2022.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cozi"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Shared calendars exist: Google and Apple."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Adoption: All members must use it."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Low willingness to pay: Free alternatives."
+    }
+  ],
+  "sources": []
+}

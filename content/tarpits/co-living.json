@@ -1,0 +1,58 @@
+{
+  "slug": "co-living",
+  "title": "Co-living",
+  "category": "Property",
+  "summary": "Shared homes with community amenities.",
+  "keywords": "housing, co living, community",
+  "status": "reviewed",
+  "whyTempting": "Housing is expensive; people are lonely.",
+  "whyItFails": "Real estate costs. Leases are expensive. Churn. Residents move often. Community decays. Culture is hard to maintain.",
+  "whatWouldChange": "Owning buildings with long-term capital.",
+  "attempts": [
+    {
+      "company": "Quarters (Medici Living)",
+      "startYear": 2012,
+      "endYear": 2021,
+      "outcome": "US arm filed for bankruptcy and closed its US locations",
+      "notes": "Quarters' US entity filed for Chapter 7 in January 2021, and its European portfolio was absorbed by Habyt",
+      "sourceUrl": "https://www.bisnow.com/news/national/multifamily/co-living-company-quarters-files-for-bankruptcy-107419"
+    },
+    {
+      "company": "Common",
+      "startYear": 2015,
+      "endYear": 2024,
+      "outcome": "Filed for bankruptcy",
+      "notes": "Common Living filed for Chapter 7 bankruptcy and completely ceased operations in June 2024, leading to the liquidation of its assets.",
+      "sourceUrl": "https://commercialobserver.com/2024/06/common-living-files-bankruptcy/"
+    },
+    {
+      "company": "WeLive (WeWork)",
+      "startYear": 2016,
+      "endYear": 2021,
+      "outcome": "Business line terminated",
+      "notes": "WeWork's co-living venture in New York and near Washington DC.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/WeWork"
+    },
+    {
+      "company": "HubHaus",
+      "endYear": 2020,
+      "outcome": "Shut down",
+      "sourceUrl": "https://www.inman.com/2020/09/14/co-living-startup-hubhaus-to-shut-down/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Real estate costs: Leases are expensive."
+    },
+    {
+      "tag": "retention",
+      "detail": "Churn: Residents move often."
+    },
+    {
+      "tag": "retention",
+      "detail": "Community decays: Culture is hard to maintain."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "dna-based-personalised-nutrition",
+  "title": "DNA-based personalised nutrition",
+  "category": "Health",
+  "summary": "Diet recommendations tailored to your genes.",
+  "keywords": "genetics, nutrition, personalisation",
+  "status": "draft",
+  "whyTempting": "Personalisation sounds scientific and premium.",
+  "whyItFails": "Weak science. Genetic signals for diet are mostly small. One-time purchase. Test once, no recurring revenue. Privacy concerns. Genetic data sharing worries consumers.",
+  "whatWouldChange": "Continuous measurement (glucose, microbiome) with stronger evidence.",
+  "attempts": [
+    {
+      "company": "23andMe",
+      "startYear": 2006,
+      "endYear": 2025,
+      "outcome": "Filed for bankruptcy",
+      "notes": "Consumer genetic testing; disclosed a major data breach in 2023, filed Chapter 11 in March 2025, and was sold to a nonprofit founded by its co-founder.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/23andMe"
+    },
+    {
+      "company": "Arivale",
+      "endYear": 2019,
+      "outcome": "Closed abruptly",
+      "sourceUrl": "https://www.geekwire.com/2019/scientific-wellness-startup-arivale-closes-abruptly-tragic-end-vision-transform-personal-health/"
+    },
+    {
+      "company": "Habit",
+      "endYear": 2019,
+      "outcome": "Dropped by Campbell Soup and sold to Viome",
+      "sourceUrl": "https://www.fooddive.com/news/campbell-soup-drops-habit-selling-its-nutrition-company-to-viome/547854/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Weak science: Genetic signals for diet are mostly small."
+    },
+    {
+      "tag": "frequency",
+      "detail": "One-time purchase: Test once, no recurring revenue."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Privacy concerns: Genetic data sharing worries consumers."
+    }
+  ],
+  "sources": []
+}

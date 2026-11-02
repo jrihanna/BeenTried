@@ -1,0 +1,50 @@
+{
+  "slug": "local-handyman-marketplace",
+  "title": "Local handyman marketplace",
+  "category": "Marketplaces",
+  "summary": "Book trusted local tradespeople on demand.",
+  "keywords": "services, local, marketplace",
+  "status": "draft",
+  "whyTempting": "Finding reliable tradies is painful.",
+  "whyItFails": "Disintermediation. After the first job, customers go direct. Supply quality. Good tradies are busy and don't need you. Low frequency. Homeowners need help occasionally.",
+  "whatWouldChange": "Software for tradies (scheduling, payments) that makes staying on-platform worth it.",
+  "attempts": [
+    {
+      "company": "TaskRabbit",
+      "startYear": 2008,
+      "endYear": 2017,
+      "outcome": "Acquired by IKEA",
+      "sourceUrl": "https://en.wikipedia.org/wiki/TaskRabbit"
+    },
+    {
+      "company": "Homejoy",
+      "startYear": 2010,
+      "endYear": 2015,
+      "outcome": "Shut down",
+      "notes": "Cleaners and handymen on demand; cited profitability problems, worker-classification lawsuits and workers leaving for direct arrangements with clients.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Homejoy"
+    },
+    {
+      "company": "Handy",
+      "startYear": 2012,
+      "outcome": "Acquired by ANGI Homeservices in 2018",
+      "notes": "Marketplace for cleaning and home services.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Handy_(company)"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Disintermediation: After the first job, customers go direct."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Supply quality: Good tradies are busy and don't need you."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low frequency: Homeowners need help occasionally."
+    }
+  ],
+  "sources": []
+}

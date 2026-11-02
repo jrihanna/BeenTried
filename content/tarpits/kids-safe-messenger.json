@@ -1,0 +1,35 @@
+{
+  "slug": "kids-safe-messenger",
+  "title": "Kids' safe messenger",
+  "category": "Family",
+  "summary": "A safe messaging app for children.",
+  "keywords": "kids, messaging, safety",
+  "status": "draft",
+  "whyTempting": "Parents fear online dangers.",
+  "whyItFails": "Kids want what peers use. Network effects. Safety burden. Moderation is expensive. Regulatory obligations. Online safety laws apply.",
+  "whatWouldChange": "Regulation forcing age-appropriate design.",
+  "attempts": [
+    {
+      "company": "Messenger Kids",
+      "startYear": 2017,
+      "outcome": "FTC found parental controls misrepresented",
+      "notes": "Children could chat with unapproved contacts in group chats and video calls.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Messenger_Kids"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Kids want what peers use: Network effects."
+    },
+    {
+      "tag": "moderation",
+      "detail": "Safety burden: Moderation is expensive."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Regulatory obligations: Online safety laws apply."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "read-later-and-bookmark-manager",
+  "title": "Read-later and bookmark manager",
+  "category": "Social",
+  "summary": "Save articles to read later, organised and searchable.",
+  "keywords": "reading, bookmarks, productivity",
+  "status": "draft",
+  "whyTempting": "Everyone has 200 open tabs and good intentions.",
+  "whyItFails": "Saved, never read. Users save compulsively and never return, then churn. Browser features. Reading lists and bookmarks are built into browsers. Low willingness to pay. Few pay for what feels like a utility.",
+  "whatWouldChange": "Summarisation and digest delivery so the value arrives without the user returning.",
+  "attempts": [
+    {
+      "company": "Pocket (Read It Later)",
+      "startYear": 2007,
+      "endYear": 2025,
+      "outcome": "Shut down",
+      "notes": "Acquired by Mozilla in 2017; closed in July 2025.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pocket_(service)"
+    },
+    {
+      "company": "Omnivore",
+      "endYear": 2024,
+      "outcome": "Shut down",
+      "sourceUrl": "https://heise.de/-9998733"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Saved, never read: Users save compulsively and never return, then churn."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Browser features: Reading lists and bookmarks are built into browsers."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low willingness to pay: Few pay for what feels like a utility."
+    }
+  ],
+  "sources": []
+}

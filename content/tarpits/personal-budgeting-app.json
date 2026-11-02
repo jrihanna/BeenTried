@@ -1,0 +1,50 @@
+{
+  "slug": "personal-budgeting-app",
+  "title": "Personal budgeting app",
+  "category": "Fintech",
+  "summary": "Track your spending automatically and stick to a budget.",
+  "keywords": "budgeting, personal finance",
+  "status": "draft",
+  "whyTempting": "Most people are stressed about money and say they want to budget.",
+  "whyItFails": "Motivation decays. People use it for a few weeks then stop looking. Bank data access is fragile. Connections break and data is messy. Banks bundle it free. Banking apps add spending insights.",
+  "whatWouldChange": "Open banking (e.g. Australia's Consumer Data Right) making data access reliable, plus agentic actions not just charts.",
+  "attempts": [
+    {
+      "company": "Wesabe",
+      "startYear": 2005,
+      "endYear": 2010,
+      "outcome": "Shut down",
+      "notes": "Analysed users' bank data to suggest savings; closed July 2010.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wesabe"
+    },
+    {
+      "company": "Mint",
+      "startYear": 2006,
+      "endYear": 2024,
+      "outcome": "Acquired by Intuit, then shut down",
+      "notes": "Acquired in 2009; Intuit closed it in March 2024.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Intuit_Mint"
+    },
+    {
+      "company": "Level Money",
+      "endYear": 2017,
+      "outcome": "Bought by Capital One, then shut down",
+      "sourceUrl": "https://techcrunch.com/2017/08/04/level-money-shutting-down"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Motivation decays: People use it for a few weeks then stop looking."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Bank data access is fragile: Connections break and data is messy."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Banks bundle it free: Banking apps add spending insights."
+    }
+  ],
+  "sources": []
+}

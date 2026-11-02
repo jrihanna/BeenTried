@@ -1,0 +1,46 @@
+{
+  "slug": "fair-ticket-resale",
+  "title": "Fair ticket resale",
+  "category": "Marketplaces",
+  "summary": "Resell event tickets at fair prices, no scalpers.",
+  "keywords": "tickets, events, resale",
+  "status": "draft",
+  "whyTempting": "Fans hate scalpers and fees.",
+  "whyItFails": "Primary ticketers control inventory. They own the tickets. Scalpers adapt. Bots and fraud persist. Low margins. Fair pricing limits revenue.",
+  "whatWouldChange": "Regulation enforcing price caps and transfer controls.",
+  "attempts": [
+    {
+      "company": "Lyte",
+      "endYear": 2024,
+      "outcome": "Shut down abruptly, leaving tickets in limbo",
+      "sourceUrl": "https://www.ticketnews.com/2024/09/ticketing-company-lyte-abruptly-shuts-down-thousands-of-tickets-in-limbo/"
+    },
+    {
+      "company": "Songkick (ticketing)",
+      "endYear": 2017,
+      "outcome": "Closed its ticket-selling business",
+      "sourceUrl": "https://journals.law.harvard.edu/jsel/2017/10/songkick-to-kick-its-ticket-selling-business"
+    },
+    {
+      "company": "Twickets",
+      "outcome": "Still operating",
+      "notes": "Face-value-or-less resale and official partner for some big tours; Ticketmaster and AEG then launched their own fan-to-fan exchanges.",
+      "sourceUrl": "https://www.musicweek.com/live/read/we-ve-helped-change-the-landscape-richard-davies-on-what-s-next-for-twickets/075622"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Primary ticketers control inventory: They own the tickets."
+    },
+    {
+      "tag": "moderation",
+      "detail": "Scalpers adapt: Bots and fraud persist."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Low margins: Fair pricing limits revenue."
+    }
+  ],
+  "sources": []
+}

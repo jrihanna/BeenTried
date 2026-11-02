@@ -1,0 +1,43 @@
+{
+  "slug": "symptom-checker",
+  "title": "Symptom checker",
+  "category": "Health",
+  "summary": "Describe your symptoms and get likely causes and next steps.",
+  "keywords": "healthcare, diagnosis, ai",
+  "status": "draft",
+  "whyTempting": "Everyone googles symptoms; doctors are expensive and slow.",
+  "whyItFails": "Liability. Regulators and lawyers watch medical advice closely. Low trust. Users still want to see a doctor. No clear payer. Consumers won't pay; insurers are slow to buy.",
+  "whatWouldChange": "Integration with telehealth so triage leads directly to care and payment.",
+  "attempts": [
+    {
+      "company": "Babylon Health",
+      "startYear": 2013,
+      "endYear": 2023,
+      "outcome": "Collapsed",
+      "notes": "AI triage chatbot; claims of doctor-level diagnosis were disputed. Went public via SPAC in 2021, then liquidated in the US and entered administration in the UK in 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Babylon_Health"
+    },
+    {
+      "company": "Forward",
+      "endYear": 2024,
+      "outcome": "Shut down after raising $400 million",
+      "notes": "Tech-first primary care, including self-serve AI CarePods.",
+      "sourceUrl": "https://www.fiercehealthcare.com/health-tech/primary-care-player-forward-shutters-after-raising-400m-rolling-out-carepods"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "regulation",
+      "detail": "Liability: Regulators and lawyers watch medical advice closely."
+    },
+    {
+      "tag": "retention",
+      "detail": "Low trust: Users still want to see a doctor."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "No clear payer: Consumers won't pay; insurers are slow to buy."
+    }
+  ],
+  "sources": []
+}

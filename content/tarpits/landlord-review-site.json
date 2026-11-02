@@ -1,0 +1,34 @@
+{
+  "slug": "landlord-review-site",
+  "title": "Landlord review site",
+  "category": "Property",
+  "summary": "Tenants review landlords and properties.",
+  "keywords": "housing, reviews, landlords",
+  "status": "draft",
+  "whyTempting": "Renters suffer bad landlords.",
+  "whyItFails": "Defamation risk. Landlords sue reviewers and platforms. Low traffic. Used only when moving. Data sparsity. Few reviews per property.",
+  "whatWouldChange": "Government-backed data on landlords.",
+  "attempts": [
+    {
+      "company": "dontrentme.com",
+      "outcome": "Threatened with legal action by agents",
+      "notes": "Australian site for tenants' rental reviews; agents and property managers demanded removals or court in 2013.",
+      "sourceUrl": "https://www.realestatebusiness.com.au/industry/12528-pms-threaten-to-sue-negative-review-site"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "regulation",
+      "detail": "Defamation risk: Landlords sue reviewers and platforms."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low traffic: Used only when moving."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Data sparsity: Few reviews per property."
+    }
+  ],
+  "sources": []
+}

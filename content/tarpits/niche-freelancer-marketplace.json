@@ -1,0 +1,40 @@
+{
+  "slug": "niche-freelancer-marketplace",
+  "title": "Niche freelancer marketplace",
+  "category": "Marketplaces",
+  "summary": "A freelancer marketplace for a specific skill or industry.",
+  "keywords": "freelance, marketplace, b2b",
+  "status": "draft",
+  "whyTempting": "Generic marketplaces are noisy and low quality.",
+  "whyItFails": "Liquidity. Too few buyers and freelancers. Disintermediation. Repeat clients leave the platform. Big platforms. Upwork and Fiverr add categories.",
+  "whatWouldChange": "Managed services where the platform guarantees outcomes.",
+  "attempts": [
+    {
+      "company": "Elance",
+      "startYear": 1998,
+      "outcome": "Merged with oDesk, later phased out as Upwork",
+      "notes": "Merger announced 2013; rebranded Upwork in 2015.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Elance"
+    },
+    {
+      "company": "Solvate",
+      "outcome": "Shut down",
+      "sourceUrl": "https://legacy.xconomy.com/?p=180370"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Liquidity: Too few buyers and freelancers."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Disintermediation: Repeat clients leave the platform."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Big platforms: Upwork and Fiverr add categories."
+    }
+  ],
+  "sources": []
+}

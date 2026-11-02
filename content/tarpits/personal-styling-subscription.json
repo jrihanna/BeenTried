@@ -1,0 +1,49 @@
+{
+  "slug": "personal-styling-subscription",
+  "title": "Personal styling subscription",
+  "category": "Commerce",
+  "summary": "A stylist picks clothes for you.",
+  "keywords": "fashion, styling, subscription",
+  "status": "draft",
+  "whyTempting": "People want help with style.",
+  "whyItFails": "Returns. High return rates. Inventory risk. Stock costs. Stylist costs. Human labour.",
+  "whatWouldChange": "AI styling with on-demand inventory.",
+  "attempts": [
+    {
+      "company": "Trunk Club",
+      "startYear": 2009,
+      "endYear": 2022,
+      "outcome": "Acquired by Nordstrom, then shut down",
+      "notes": "Bought for $350 million in 2014; closed May 2022.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Trunk_Club"
+    },
+    {
+      "company": "Stitch Fix",
+      "startYear": 2011,
+      "outcome": "Repeated layoffs; left the UK",
+      "notes": "Cut staff in 2020, 2022 and 2023 and closed its UK business in 2024.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stitch_Fix"
+    },
+    {
+      "company": "Bombfell",
+      "outcome": "Closed",
+      "notes": "Menswear styling subscription.",
+      "sourceUrl": "https://www.modernfellows.com/subscription-menswear-startup-bombfell-shuts-down/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Returns: High return rates."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Inventory risk: Stock costs."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Stylist costs: Human labour."
+    }
+  ],
+  "sources": []
+}

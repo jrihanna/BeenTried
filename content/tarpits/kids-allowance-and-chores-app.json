@@ -1,0 +1,41 @@
+{
+  "slug": "kids-allowance-and-chores-app",
+  "title": "Kids' allowance and chores app",
+  "category": "Fintech",
+  "summary": "Kids earn pocket money for chores via an app and card.",
+  "keywords": "kids, allowance, family",
+  "status": "draft",
+  "whyTempting": "Parents want to teach money habits; it's a family-wide daily habit.",
+  "whyItFails": "Banks copy it. Banks launch kids' accounts for free. Small revenue per family. Subscription fees are resisted. Kids age out. Customer lifetime is a few years.",
+  "whatWouldChange": "Using it as an acquisition channel for a broader family financial product.",
+  "attempts": [
+    {
+      "company": "GoHenry",
+      "startYear": 2012,
+      "outcome": "Acquired by Acorns in 2023",
+      "notes": "Kids' debit card and money app in the UK and US.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/GoHenry"
+    },
+    {
+      "company": "iTunes Allowances",
+      "endYear": 2016,
+      "outcome": "Discontinued by Apple",
+      "sourceUrl": "https://techcrunch.com/2016/04/14/apples-itunes-allowances-will-be-shut-down-next-month"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Banks copy it: Banks launch kids' accounts for free."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Small revenue per family: Subscription fees are resisted."
+    },
+    {
+      "tag": "retention",
+      "detail": "Kids age out: Customer lifetime is a few years."
+    }
+  ],
+  "sources": []
+}

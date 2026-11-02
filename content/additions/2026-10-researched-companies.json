@@ -1,0 +1,1244 @@
+[
+  {
+    "slug": "ai-travel-itinerary-planner",
+    "attempts": [
+      {
+        "company": "Lola",
+        "startYear": 2015,
+        "outcome": "Ceased operations; acquired by Capital One",
+        "notes": "AI travel assistant from Kayak co-founder Paul English. Pivoted to business travel before closing.",
+        "sourceUrl": "https://www.businesstravelnewseurope.com/Management/Lola-ceases-operations-and-touts-next-phase-"
+      },
+      {
+        "company": "Tripnotes",
+        "endYear": 2023,
+        "outcome": "Acquired and shut down",
+        "notes": "ChatGPT-based trip planner.",
+        "sourceUrl": "https://skift.com/2024/01/02/tripnotes-a-buzzy-chatgpt-based-trip-planner-was-acquired-and-shut-down/"
+      }
+    ]
+  },
+  {
+    "slug": "babysitting-marketplace",
+    "attempts": [
+      {
+        "company": "Swishboom",
+        "endYear": 2023,
+        "outcome": "Closed; technology put up for sale",
+        "sourceUrl": "https://siliconprairienews.com/2023/11/swishboom-closing-down-for-sale/"
+      },
+      {
+        "company": "Cozykin",
+        "endYear": 2019,
+        "outcome": "Shut down abruptly",
+        "notes": "Nanny-share childcare startup.",
+        "sourceUrl": "https://www.bostonglobe.com/metro/2019/10/11/nanny-share-child-care-startup-cozykin-abruptly-shuts-down/hyIrG5a8JHVK6TlOe8IEpO/story.html"
+      }
+    ]
+  },
+  {
+    "slug": "bill-splitting-app",
+    "attempts": [
+      {
+        "company": "BillMonk",
+        "endYear": 2013,
+        "outcome": "Sold by Obopay to rival BillPin",
+        "sourceUrl": "https://techcrunch.com/2013/04/03/billpin-acquires-obopays-billmonk-bill-splitting-service"
+      }
+    ]
+  },
+  {
+    "slug": "carbon-offset-app",
+    "attempts": [
+      {
+        "company": "CarbonCancel",
+        "outcome": "Shut down",
+        "notes": "Helped people offset their carbon footprint.",
+        "sourceUrl": "https://siliconcanals.com/carboncancel-shuts-shop/"
+      },
+      {
+        "company": "Planetly",
+        "endYear": 2022,
+        "outcome": "Shut down with layoffs",
+        "notes": "Carbon accounting for companies.",
+        "sourceUrl": "https://www.axios.com/pro/climate-deals/2022/11/04/planetly-shuts-down-layoffs-carbon-accounting"
+      }
+    ]
+  },
+  {
+    "slug": "co-living",
+    "attempts": [
+      {
+        "company": "Quarters (Medici Living)",
+        "endYear": 2021,
+        "outcome": "US arm filed for bankruptcy and closed its US locations",
+        "sourceUrl": "https://www.bisnow.com/news/national/multifamily/co-living-company-quarters-files-for-bankruptcy-107419"
+      },
+      {
+        "company": "HubHaus",
+        "endYear": 2020,
+        "outcome": "Shut down",
+        "sourceUrl": "https://www.inman.com/2020/09/14/co-living-startup-hubhaus-to-shut-down/"
+      },
+      {
+        "company": "Common",
+        "endYear": 2024,
+        "outcome": "Filed for bankruptcy",
+        "sourceUrl": "https://commercialobserver.com/2024/06/common-living-files-bankruptcy/"
+      }
+    ]
+  },
+  {
+    "slug": "college-admissions-advice-platform",
+    "attempts": [
+      {
+        "company": "Zinch",
+        "endYear": 2011,
+        "outcome": "Acquired by Chegg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Zinch"
+      }
+    ]
+  },
+  {
+    "slug": "commuter-carpooling",
+    "attempts": [
+      {
+        "company": "UberPool",
+        "endYear": 2020,
+        "outcome": "Suspended in 2020",
+        "notes": "Uber's shared-ride option, paused at the start of the pandemic.",
+        "sourceUrl": "https://edition.cnn.com/2020/03/17/business/coronavirus-uber-pool-trnd/index.html"
+      },
+      {
+        "company": "Lyft Carpool",
+        "endYear": 2016,
+        "outcome": "Paused months after launch",
+        "sourceUrl": "https://techcrunch.com/2016/08/19/lyft-pauses-carpool-service"
+      }
+    ]
+  },
+  {
+    "slug": "consumer-3d-printer",
+    "attempts": [
+      {
+        "company": "Solidoodle",
+        "endYear": 2016,
+        "outcome": "Suspended operations",
+        "sourceUrl": "https://makezine.com/article/maker-news/solidoodle-bows-3d-printing/"
+      },
+      {
+        "company": "Pirate3D",
+        "outcome": "Most Kickstarter backers never received a printer",
+        "notes": "Raised $1.5 million on Kickstarter for the Buccaneer printer.",
+        "sourceUrl": "https://all3dp.com/pirate3d-fails-1-5m-kickstarter-campaign/"
+      }
+    ]
+  },
+  {
+    "slug": "consumer-smart-glasses",
+    "attempts": [
+      {
+        "company": "Snap Spectacles",
+        "startYear": 2016,
+        "outcome": "Wrote off $40 million of unsold inventory",
+        "notes": "Snap took the write-off in 2017.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Snapchat_Spectacles"
+      },
+      {
+        "company": "North Focals",
+        "endYear": 2020,
+        "outcome": "Acquired by Google; the glasses stopped working",
+        "sourceUrl": "https://www.vice.com/en/article/focals-maker-north-shutting-off-smart-glasses-after-google-purchase/"
+      }
+    ]
+  },
+  {
+    "slug": "couples-relationship-coaching-app",
+    "attempts": [
+      {
+        "company": "Tuned (Meta)",
+        "startYear": 2020,
+        "endYear": 2022,
+        "outcome": "Shut down two years after launch",
+        "notes": "Meta's private messaging app for couples.",
+        "sourceUrl": "https://tech.slashdot.org/story/22/07/25/2049239/meta-is-shutting-down-tuned-its-social-app-for-couples"
+      }
+    ]
+  },
+  {
+    "slug": "crypto-payments-for-merchants",
+    "attempts": [
+      {
+        "company": "Diem (Libra)",
+        "startYear": 2019,
+        "endYear": 2022,
+        "outcome": "Shut down; assets sold to Silvergate Bank",
+        "notes": "Facebook's payments currency project.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Diem_(digital_currency)"
+      }
+    ]
+  },
+  {
+    "slug": "date-planning-app",
+    "attempts": [
+      {
+        "company": "Grouper",
+        "startYear": 2011,
+        "endYear": 2016,
+        "outcome": "Shut down",
+        "notes": "Set up group drinks between two sets of friends.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Grouper_social_club"
+      }
+    ]
+  },
+  {
+    "slug": "digital-legacy-vault",
+    "attempts": [
+      {
+        "company": "Entrustet",
+        "outcome": "Acquired by rival SecureSafe",
+        "sourceUrl": "https://itwire.com/it-industry-news/deals/dswiss-securesafe-acquires-competitor-entrustet"
+      }
+    ]
+  },
+  {
+    "slug": "discount-real-estate-agent",
+    "attempts": [
+      {
+        "company": "REX",
+        "endYear": 2022,
+        "outcome": "Laid off most staff and closed its brokerage",
+        "sourceUrl": "https://www.realtrends.com/articles/rex-closes-brokerage-hires-david-boies-in-zillow-lawsuit/"
+      }
+    ]
+  },
+  {
+    "slug": "dna-based-personalised-nutrition",
+    "attempts": [
+      {
+        "company": "Arivale",
+        "endYear": 2019,
+        "outcome": "Closed abruptly",
+        "sourceUrl": "https://www.geekwire.com/2019/scientific-wellness-startup-arivale-closes-abruptly-tragic-end-vision-transform-personal-health/"
+      },
+      {
+        "company": "Habit",
+        "endYear": 2019,
+        "outcome": "Dropped by Campbell Soup and sold to Viome",
+        "sourceUrl": "https://www.fooddive.com/news/campbell-soup-drops-habit-selling-its-nutrition-company-to-viome/547854/"
+      }
+    ]
+  },
+  {
+    "slug": "dog-walking-marketplace",
+    "attempts": [
+      {
+        "company": "DogVacay",
+        "endYear": 2017,
+        "outcome": "Merged into rival Rover",
+        "sourceUrl": "https://techcrunch.com/2017/03/29/rover-dogvacay-merge/"
+      }
+    ]
+  },
+  {
+    "slug": "e-scooter-sharing",
+    "attempts": [
+      {
+        "company": "Skip",
+        "endYear": 2021,
+        "outcome": "Filed for bankruptcy",
+        "sourceUrl": "https://qz.com/2045789/scooter-startup-skip-files-for-bankruptcy"
+      },
+      {
+        "company": "Superpedestrian",
+        "endYear": 2023,
+        "outcome": "Shut down; scooters auctioned",
+        "sourceUrl": "https://techcrunch.com/2024/01/03/superpedestrian-scooter-auction-shutting-down/"
+      }
+    ]
+  },
+  {
+    "slug": "employee-recognition-platform",
+    "attempts": [
+      {
+        "company": "Blueboard",
+        "outcome": "Shut down abruptly",
+        "sourceUrl": "https://www.kqed.org/news/11979696/popular-employee-rewards-company-blueboard-shutters-abruptly"
+      }
+    ]
+  },
+  {
+    "slug": "event-discovery-app",
+    "attempts": [
+      {
+        "company": "Toga",
+        "endYear": 2018,
+        "outcome": "Shut down",
+        "notes": "Social calendar for campus events.",
+        "sourceUrl": "https://dailytrojan.com/2018/09/21/popular-social-calendar-app-toga-shuts-down/"
+      },
+      {
+        "company": "EventVue",
+        "endYear": 2010,
+        "outcome": "Shut down",
+        "sourceUrl": "https://digitalbydefault.com/2010/02/07/end-of-eventvue/"
+      }
+    ]
+  },
+  {
+    "slug": "fact-checking-platform",
+    "attempts": [
+      {
+        "company": "Meta third-party fact-checking",
+        "startYear": 2016,
+        "endYear": 2025,
+        "outcome": "Ended in the US; replaced by Community Notes",
+        "sourceUrl": "https://ktvu.com/news/meta-ends-us-fact-checking-2025"
+      }
+    ]
+  },
+  {
+    "slug": "fair-ticket-resale",
+    "attempts": [
+      {
+        "company": "Lyte",
+        "endYear": 2024,
+        "outcome": "Shut down abruptly, leaving tickets in limbo",
+        "sourceUrl": "https://www.ticketnews.com/2024/09/ticketing-company-lyte-abruptly-shuts-down-thousands-of-tickets-in-limbo/"
+      },
+      {
+        "company": "Songkick (ticketing)",
+        "endYear": 2017,
+        "outcome": "Closed its ticket-selling business",
+        "sourceUrl": "https://journals.law.harvard.edu/jsel/2017/10/songkick-to-kick-its-ticket-selling-business"
+      }
+    ]
+  },
+  {
+    "slug": "fan-funded-creator-platform",
+    "attempts": [
+      {
+        "company": "Drip (Kickstarter)",
+        "endYear": 2019,
+        "outcome": "Bought by Kickstarter, then shut down",
+        "notes": "Kickstarter said serving small creators this way was unsustainable.",
+        "sourceUrl": "https://www.adafruitdaily.com/2019/10/29/kickstarter-shutters-drip-its-patreon-like-competitor/"
+      }
+    ]
+  },
+  {
+    "slug": "fitness-accountability-app",
+    "attempts": [
+      {
+        "company": "Pact (GymPact)",
+        "endYear": 2017,
+        "outcome": "Settled with the FTC over charging users",
+        "notes": "Paid users for hitting exercise goals, funded by those who missed them.",
+        "sourceUrl": "https://www.engadget.com/2017/09/22/fitness-app-company-settles-ftc-nearly-1-million/"
+      }
+    ]
+  },
+  {
+    "slug": "flying-taxi",
+    "attempts": [
+      {
+        "company": "Kitty Hawk",
+        "startYear": 2010,
+        "endYear": 2022,
+        "outcome": "Wound down",
+        "notes": "Founded as Zee.Aero. Its Boeing joint venture Wisk Aero carried on.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kitty_Hawk_Corporation"
+      }
+    ]
+  },
+  {
+    "slug": "friends-recommendations-network",
+    "attempts": [
+      {
+        "company": "Gowalla",
+        "startYear": 2007,
+        "endYear": 2012,
+        "outcome": "Shut down after Facebook acquired it",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Gowalla"
+      },
+      {
+        "company": "Dodgeball",
+        "startYear": 2000,
+        "endYear": 2009,
+        "outcome": "Bought by Google, then discontinued",
+        "notes": "Google replaced it with Latitude.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Dodgeball_(service)"
+      }
+    ]
+  },
+  {
+    "slug": "get-paid-for-your-personal-data",
+    "attempts": [
+      {
+        "company": "Facebook Research",
+        "endYear": 2019,
+        "outcome": "Paid users for data; ended on iPhone after Apple banned it",
+        "sourceUrl": "https://techcrunch.com/2019/01/30/apple-bans-facebook-vpn"
+      }
+    ]
+  },
+  {
+    "slug": "ghost-kitchens",
+    "attempts": [
+      {
+        "company": "Kitchen United",
+        "endYear": 2023,
+        "outcome": "Closed or sold all its kitchens and pivoted to software",
+        "sourceUrl": "https://www.restaurantdive.com/news/kitchen-united-closes-kroger-units-sells-or-closes-the-rest-software-pivot/700900/"
+      }
+    ]
+  },
+  {
+    "slug": "gift-recommendation-and-wishlist",
+    "attempts": [
+      {
+        "company": "Wishberg",
+        "endYear": 2014,
+        "outcome": "Shut down",
+        "sourceUrl": "https://www.medianama.com/2014/07/223-wishberg-shuts-freecharge"
+      }
+    ]
+  },
+  {
+    "slug": "gig-worker-benefits-platform",
+    "attempts": [
+      {
+        "company": "Level",
+        "outcome": "Shut down after an acquisition fell through",
+        "sourceUrl": "https://pymnts.com/?p=2422249"
+      }
+    ]
+  },
+  {
+    "slug": "group-trip-planning-app",
+    "attempts": [
+      {
+        "company": "TripHub",
+        "outcome": "Shut down",
+        "sourceUrl": "https://techcrunch.com/?p=21392"
+      },
+      {
+        "company": "Twigmore",
+        "outcome": "Shut down",
+        "sourceUrl": "https://www.phocuswire.com/End-of-the-road-for-social-travel-app-Twigmore"
+      }
+    ]
+  },
+  {
+    "slug": "home-cook-marketplace",
+    "attempts": [
+      {
+        "company": "Umi Kitchen",
+        "endYear": 2017,
+        "outcome": "Stalled four months after launch",
+        "sourceUrl": "https://www.cnbc.com/2017/01/17/danny-meyer-backed-startup-umi-kitchen-stalls-after-4-months.html"
+      },
+      {
+        "company": "Home Cook",
+        "endYear": 2020,
+        "outcome": "Closed",
+        "notes": "Chinese homemade-meal app.",
+        "sourceUrl": "https://technode.com/2020/06/08/homemade-meal-app-home-cook-is-closing/"
+      }
+    ]
+  },
+  {
+    "slug": "home-robot",
+    "attempts": [
+      {
+        "company": "Kuri (Mayfield Robotics)",
+        "endYear": 2018,
+        "outcome": "Ceased production, then shut down",
+        "notes": "Backed by Bosch.",
+        "sourceUrl": "https://qz.com/1336108/mayfield-robotics-shuts-down-kuri-robot-production"
+      }
+    ]
+  },
+  {
+    "slug": "kids-allowance-and-chores-app",
+    "attempts": [
+      {
+        "company": "iTunes Allowances",
+        "endYear": 2016,
+        "outcome": "Discontinued by Apple",
+        "sourceUrl": "https://techcrunch.com/2016/04/14/apples-itunes-allowances-will-be-shut-down-next-month"
+      }
+    ]
+  },
+  {
+    "slug": "kitchen-appliance-with-pods",
+    "attempts": [
+      {
+        "company": "Teforia",
+        "endYear": 2017,
+        "outcome": "Shut down",
+        "notes": "Sold a $1,000 tea infuser.",
+        "sourceUrl": "https://techcrunch.com/2017/10/27/1000-tea-infuser-startup-teforia-shuts-down"
+      },
+      {
+        "company": "Keurig Kold",
+        "startYear": 2015,
+        "endYear": 2016,
+        "outcome": "Discontinued",
+        "notes": "Pod-based soda maker.",
+        "sourceUrl": "https://www.engadget.com/2016-06-07-keurig-kold-goes-flat.html"
+      }
+    ]
+  },
+  {
+    "slug": "language-exchange-app",
+    "attempts": [
+      {
+        "company": "FriendsAbroad",
+        "endYear": 2008,
+        "outcome": "Acquired by Babbel",
+        "sourceUrl": "https://techcrunch.com/2008/11/06/babbel-acquires-friendsabroad-in-cash-deal"
+      },
+      {
+        "company": "Lang-8",
+        "startYear": 2006,
+        "endYear": 2024,
+        "outcome": "Closed to new users in 2017, shut down in 2024",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Lang-8.com"
+      }
+    ]
+  },
+  {
+    "slug": "learn-to-code-for-kids",
+    "attempts": [
+      {
+        "company": "DevKids",
+        "outcome": "Shut down, then relaunched as uLesson Coding School",
+        "sourceUrl": "https://thecondia.com/devkids-is-shutting-down/"
+      }
+    ]
+  },
+  {
+    "slug": "local-experiences-marketplace",
+    "attempts": [
+      {
+        "company": "Vayable",
+        "startYear": 2011,
+        "outcome": "Shut down",
+        "sourceUrl": "https://arival.travel/vayable-shutters-operations/"
+      },
+      {
+        "company": "SideTour",
+        "outcome": "Bought by Groupon, then closed",
+        "sourceUrl": "https://skift.com/?p=151085"
+      },
+      {
+        "company": "RAVN",
+        "outcome": "Shut down after six months",
+        "sourceUrl": "https://www.phocuswire.com/RAVN-shuts-down-after-just-six-months-not-the-Airbnb-for-experiences-before-or-after-rebrand"
+      }
+    ]
+  },
+  {
+    "slug": "local-handyman-marketplace",
+    "attempts": [
+      {
+        "company": "TaskRabbit",
+        "startYear": 2008,
+        "endYear": 2017,
+        "outcome": "Acquired by IKEA",
+        "sourceUrl": "https://en.wikipedia.org/wiki/TaskRabbit"
+      }
+    ]
+  },
+  {
+    "slug": "loyalty-points-aggregator",
+    "attempts": [
+      {
+        "company": "Carrot Rewards",
+        "endYear": 2019,
+        "outcome": "Shut down after running out of money",
+        "sourceUrl": "https://www.iphoneincanada.ca/2019/06/19/carrot-rewards-app-shuts-down/"
+      },
+      {
+        "company": "Plink",
+        "outcome": "Closed with immediate effect",
+        "sourceUrl": "https://www.doctorofcredit.com/plink-closes-down-effective-immediately/"
+      }
+    ]
+  },
+  {
+    "slug": "meal-kit-delivery",
+    "attempts": [
+      {
+        "company": "Chef'd",
+        "endYear": 2018,
+        "outcome": "Shut down abruptly as funding dried up",
+        "sourceUrl": "https://www.supermarketnews.com/deli/as-funding-dries-up-chef-d-shuts-down"
+      }
+    ]
+  },
+  {
+    "slug": "meal-planning-app",
+    "attempts": [
+      {
+        "company": "Mealime",
+        "outcome": "Closed",
+        "sourceUrl": "https://www.mealime.com/closing"
+      }
+    ]
+  },
+  {
+    "slug": "medication-reminder-app",
+    "attempts": [
+      {
+        "company": "MedicineWise app",
+        "outcome": "Decommissioned",
+        "notes": "NPS MedicineWise's Australian app for tracking medicines.",
+        "sourceUrl": "https://www.nps.org.au/assets/MedicineWise-app-decommission-FAQ.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "meditation-and-mental-health-chatbot",
+    "attempts": [
+      {
+        "company": "Tessa (NEDA)",
+        "endYear": 2023,
+        "outcome": "Taken offline after giving harmful advice",
+        "notes": "An eating disorder charity replaced its human helpline with the chatbot.",
+        "sourceUrl": "https://www.npr.org/2023/06/08/1181131532/eating-disorder-helpline-takes-down-chatbot-after-it-gave-weight-loss-advice"
+      }
+    ]
+  },
+  {
+    "slug": "meet-people-nearby",
+    "attempts": [
+      {
+        "company": "Glancee",
+        "endYear": 2012,
+        "outcome": "Acquired by Facebook",
+        "sourceUrl": "https://techcrunch.com/2012/05/04/facebook-buys-location-based-discovery-app-glancee/amp/"
+      }
+    ]
+  },
+  {
+    "slug": "meeting-productivity-tool",
+    "attempts": [
+      {
+        "company": "Clara Labs",
+        "outcome": "Acquired by Topfunnel",
+        "notes": "AI scheduling assistant.",
+        "sourceUrl": "https://globalventuring.com/topfunnel-sucks-in-clara-labs/"
+      }
+    ]
+  },
+  {
+    "slug": "micro-investing-for-teens",
+    "attempts": [
+      {
+        "company": "Copper",
+        "endYear": 2024,
+        "outcome": "Discontinued its banking and debit products",
+        "notes": "Hit by the collapse of its banking-as-a-service partner, Synapse.",
+        "sourceUrl": "https://techcrunch.com/2024/05/21/teen-fintech-copper-had-to-emergency-discontinue-its-banking-debit-products"
+      }
+    ]
+  },
+  {
+    "slug": "niche-dating-app",
+    "attempts": [
+      {
+        "company": "Archer",
+        "outcome": "Shut down by Match Group",
+        "notes": "Gay dating app.",
+        "sourceUrl": "https://www.globaldatinginsights.com/news/match-group-prepares-to-shut-down-gay-dating-app-archer/"
+      },
+      {
+        "company": "Chappy",
+        "endYear": 2020,
+        "outcome": "Shut down",
+        "notes": "Gay dating app.",
+        "sourceUrl": "https://www.thepinknews.com/2020/02/17/chappy-app-shut-down-ollie-locke-jack-rogers"
+      }
+    ]
+  },
+  {
+    "slug": "niche-freelancer-marketplace",
+    "attempts": [
+      {
+        "company": "Solvate",
+        "outcome": "Shut down",
+        "sourceUrl": "https://legacy.xconomy.com/?p=180370"
+      }
+    ]
+  },
+  {
+    "slug": "niche-hotel-booking-site",
+    "attempts": [
+      {
+        "company": "Jetsetter",
+        "outcome": "Unprofitable; put up for sale by TripAdvisor",
+        "sourceUrl": "https://www.phocuswire.com/The-Scan-Unprofitable-Jetsetter-is-up-for-sale-and-more-travel-tech-news"
+      }
+    ]
+  },
+  {
+    "slug": "on-demand-fuel-delivery",
+    "attempts": [
+      {
+        "company": "Filld",
+        "endYear": 2018,
+        "outcome": "Stopped fuelling in Seattle after clashes with fire marshals",
+        "sourceUrl": "https://www.geekwire.com/2018/filld-shut-mobile-fueling-seattle-wrestles-fire-marshals-across-countr"
+      },
+      {
+        "company": "Zebra Fuel",
+        "outcome": "Stopped delivering in London",
+        "sourceUrl": "https://techcrunch.com/?p=1917772"
+      }
+    ]
+  },
+  {
+    "slug": "online-tutoring-marketplace",
+    "attempts": [
+      {
+        "company": "Tutorspree",
+        "outcome": "Shut down",
+        "notes": "Backed by Sequoia and Y Combinator.",
+        "sourceUrl": "https://techcrunch.com/?p=874033"
+      }
+    ]
+  },
+  {
+    "slug": "parent-teacher-communication-app",
+    "attempts": [
+      {
+        "company": "Edmodo",
+        "startYear": 2008,
+        "endYear": 2022,
+        "outcome": "Shut down",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Edmodo"
+      }
+    ]
+  },
+  {
+    "slug": "parking-spot-sharing",
+    "attempts": [
+      {
+        "company": "Haystack",
+        "endYear": 2014,
+        "outcome": "Closed after Boston banned it",
+        "notes": "Let drivers sell the public street spot they were leaving.",
+        "sourceUrl": "https://technical.ly/startups/haystack-closing-down/"
+      }
+    ]
+  },
+  {
+    "slug": "peer-to-peer-lending",
+    "attempts": [
+      {
+        "company": "Prosper",
+        "startYear": 2005,
+        "outcome": "Hit with an SEC cease-and-desist order in 2008",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Prosper_Marketplace"
+      },
+      {
+        "company": "Zopa",
+        "startYear": 2005,
+        "endYear": 2021,
+        "outcome": "Closed its peer-to-peer business to focus on banking",
+        "sourceUrl": "https://www.fintechfutures.com/bankingtech/zopa-shutters-p2p-retail-investment-business-to-focus-on-banking-offering"
+      },
+      {
+        "company": "RateSetter",
+        "endYear": 2020,
+        "outcome": "Sold to Metro Bank for £2.5 million; investor accounts closed",
+        "sourceUrl": "https://www.crowdfundinsider.com/2020/08/164883-metro-bank-acquires-p2p-lender-ratesetter-metro-bank-to-use-its-deposit-base-to-new-fund-loans/"
+      }
+    ]
+  },
+  {
+    "slug": "peer-to-peer-rental-of-stuff",
+    "attempts": [
+      {
+        "company": "Spinlister",
+        "endYear": 2018,
+        "outcome": "Shut down as funding dried up",
+        "notes": "Peer-to-peer bike and board rentals.",
+        "sourceUrl": "https://bicycleretailer.com/industry-news/2018/03/26/spinlister-shuts-down-funding-dries"
+      },
+      {
+        "company": "WhipCar",
+        "outcome": "Closed",
+        "notes": "Peer-to-peer car rental in the UK.",
+        "sourceUrl": "https://www.autorentalnews.com/news/whipcar-uk-shuts-down-operations"
+      }
+    ]
+  },
+  {
+    "slug": "personal-budgeting-app",
+    "attempts": [
+      {
+        "company": "Level Money",
+        "endYear": 2017,
+        "outcome": "Bought by Capital One, then shut down",
+        "sourceUrl": "https://techcrunch.com/2017/08/04/level-money-shutting-down"
+      }
+    ]
+  },
+  {
+    "slug": "personal-crm-for-friendships",
+    "attempts": [
+      {
+        "company": "Etacts",
+        "endYear": 2010,
+        "outcome": "Shut down",
+        "sourceUrl": "https://techcrunch.com/2010/12/21/email-contact-manager-etacts-shuts-down"
+      }
+    ]
+  },
+  {
+    "slug": "personal-health-record-aggregator",
+    "attempts": [
+      {
+        "company": "Google Health",
+        "startYear": 2008,
+        "endYear": 2012,
+        "outcome": "Shut down after failing to gain adoption",
+        "sourceUrl": "https://mobihealthnews.com/node/101996"
+      }
+    ]
+  },
+  {
+    "slug": "personal-styling-subscription",
+    "attempts": [
+      {
+        "company": "Bombfell",
+        "outcome": "Closed",
+        "notes": "Menswear styling subscription.",
+        "sourceUrl": "https://www.modernfellows.com/subscription-menswear-startup-bombfell-shuts-down/"
+      }
+    ]
+  },
+  {
+    "slug": "platonic-friend-matching",
+    "attempts": [
+      {
+        "company": "Tallygram (OkCupid)",
+        "outcome": "Shut down",
+        "notes": "OkCupid's friend-finding experiment on Facebook.",
+        "sourceUrl": "https://techcrunch.com/?p=800271"
+      }
+    ]
+  },
+  {
+    "slug": "podcast-discovery-app",
+    "attempts": [
+      {
+        "company": "Breaker",
+        "endYear": 2021,
+        "outcome": "Acquired by Twitter to help build Spaces",
+        "sourceUrl": "https://techcrunch.com/2021/01/04/twitter-acquires-social-podcasting-app-breaker-team-to-help-build-twitter-spaces/"
+      }
+    ]
+  },
+  {
+    "slug": "premium-short-form-video",
+    "attempts": [
+      {
+        "company": "Vessel",
+        "endYear": 2016,
+        "outcome": "Bought by Verizon and shut down",
+        "notes": "Subscription video from a Hulu co-founder.",
+        "sourceUrl": "https://techcrunch.com/2016/10/26/verizon-acquires-vessel"
+      },
+      {
+        "company": "go90",
+        "startYear": 2015,
+        "endYear": 2018,
+        "outcome": "Shut down by Verizon",
+        "sourceUrl": "https://variety.com/2018/digital/news/go90-shutting-down-verizon-1202860864"
+      }
+    ]
+  },
+  {
+    "slug": "read-later-and-bookmark-manager",
+    "attempts": [
+      {
+        "company": "Omnivore",
+        "endYear": 2024,
+        "outcome": "Shut down",
+        "sourceUrl": "https://heise.de/-9998733"
+      }
+    ]
+  },
+  {
+    "slug": "recipe-app-with-smart-shopping-list",
+    "attempts": [
+      {
+        "company": "Evernote Food",
+        "endYear": 2015,
+        "outcome": "Shut down by Evernote",
+        "sourceUrl": "https://www.thenextweb.com/news/evernote-is-shuttering-its-food-app-on-september-30"
+      }
+    ]
+  },
+  {
+    "slug": "recycling-rewards",
+    "attempts": [
+      {
+        "company": "Philacycle",
+        "outcome": "Ended by the City of Philadelphia",
+        "notes": "Philadelphia's recycling rewards program.",
+        "sourceUrl": "https://www.cbsnews.com/philadelphia/news/philadelphia-philacycle-recycling-rewards-program-ending"
+      }
+    ]
+  },
+  {
+    "slug": "renovation-project-management",
+    "attempts": [
+      {
+        "company": "Made Renovation",
+        "endYear": 2023,
+        "outcome": "Shut down",
+        "sourceUrl": "https://techcrunch.com/2023/10/18/made-renovation-which-intrigued-then-infuriated-its-customers-is-shutting-down"
+      }
+    ]
+  },
+  {
+    "slug": "reservation-system-for-small-restaurants",
+    "attempts": [
+      {
+        "company": "Quandoo",
+        "outcome": "Closing its booking platform by the end of 2026",
+        "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+      },
+      {
+        "company": "ReservationHop",
+        "startYear": 2014,
+        "endYear": 2014,
+        "outcome": "Shut down",
+        "notes": "Sold reservations at popular restaurants.",
+        "sourceUrl": "https://techcrunch.com/2014/11/07/reservationhop-no-more"
+      }
+    ]
+  },
+  {
+    "slug": "restaurant-ordering-software",
+    "attempts": [
+      {
+        "company": "Ordermark",
+        "endYear": 2023,
+        "outcome": "US business sold to UrbanPiper after its parent cut staff",
+        "sourceUrl": "https://www.restaurantdive.com/news/Nextbite-sells-Ordermark-US-to-Urbanpiper/652643/"
+      }
+    ]
+  },
+  {
+    "slug": "resume-builder",
+    "attempts": [
+      {
+        "company": "itzbig",
+        "outcome": "Shut down",
+        "sourceUrl": "https://www.ere.net/articles/itzbig-to-shut-down"
+      }
+    ]
+  },
+  {
+    "slug": "reverse-recruiting-platform",
+    "attempts": [
+      {
+        "company": "TalentPad",
+        "endYear": 2015,
+        "outcome": "Shut down operations",
+        "sourceUrl": "https://www.medianama.com/2015/08/223-talentpad-shutdown-operations-2/"
+      }
+    ]
+  },
+  {
+    "slug": "roommate-matching",
+    "attempts": [
+      {
+        "company": "Roomi",
+        "outcome": "Laid off most of its staff",
+        "sourceUrl": "https://www.mobileworldlive.com/apps/news-apps/roomi-lays-off-bulk-of-employees/"
+      },
+      {
+        "company": "ROOM8",
+        "outcome": "Paused by its insurer owner, CSAA",
+        "sourceUrl": "https://coverager.com/csaa-is-pausing-room8/"
+      }
+    ]
+  },
+  {
+    "slug": "second-brain-note-taking-app",
+    "attempts": [
+      {
+        "company": "Google Notebook",
+        "startYear": 2006,
+        "endYear": 2012,
+        "outcome": "Discontinued by Google",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Google_Notebook"
+      }
+    ]
+  },
+  {
+    "slug": "second-hand-fashion-resale",
+    "attempts": [
+      {
+        "company": "Vinted",
+        "startYear": 2008,
+        "outcome": "Profitable; profit more than tripled in 2024",
+        "notes": "A rare success in the category, built on free selling and buyer fees.",
+        "sourceUrl": "https://www.retailgazette.co.uk/blog/2025/04/vinted-triples/"
+      },
+      {
+        "company": "Depop",
+        "startYear": 2011,
+        "endYear": 2026,
+        "outcome": "Bought by Etsy, then sold to eBay for $1.2 billion",
+        "notes": "Etsy paid about $1.6 billion in 2021.",
+        "sourceUrl": "https://techcrunch.com/2026/02/18/etsy-sells-secondhand-clothing-marketplace-depop-to-ebay-for-1-2b/"
+      }
+    ]
+  },
+  {
+    "slug": "self-updating-internal-wiki",
+    "attempts": [
+      {
+        "company": "Wikispaces",
+        "endYear": 2018,
+        "outcome": "Shut down",
+        "sourceUrl": "https://blog.nuclino.com/so-about-wikispaces"
+      }
+    ]
+  },
+  {
+    "slug": "shared-event-photo-album",
+    "attempts": [
+      {
+        "company": "Everalbum (Ever)",
+        "endYear": 2021,
+        "outcome": "Settled with the FTC over facial recognition; told to delete the models",
+        "sourceUrl": "https://jolt.law.harvard.edu/digest/everalbum-inc-in-first-facial-recognition-misuse-settlement-ftc-requires-destruction-of-algorithms-trained-on-deceptively-obtained-photos"
+      }
+    ]
+  },
+  {
+    "slug": "skills-course-marketplace",
+    "attempts": [
+      {
+        "company": "CreativeLive",
+        "endYear": 2025,
+        "outcome": "Sold by Fiverr to CourseHorse, avoiding a shutdown",
+        "sourceUrl": "https://petapixel.com/2025/12/18/fiverr-offloads-creativelive-to-coursehorse-saving-it-from-shutdown"
+      }
+    ]
+  },
+  {
+    "slug": "sleep-tracking-device",
+    "attempts": [
+      {
+        "company": "Zeo",
+        "startYear": 2003,
+        "endYear": 2013,
+        "outcome": "Closed amid financial trouble",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Zeo,_Inc."
+      }
+    ]
+  },
+  {
+    "slug": "smart-doorbell-or-lock",
+    "attempts": [
+      {
+        "company": "Otto",
+        "outcome": "Suspended operations before shipping its lock",
+        "sourceUrl": "https://techcrunch.com/2018/01/01/smart-lock-maker-otto-suspends-operations/"
+      }
+    ]
+  },
+  {
+    "slug": "smart-home-hub",
+    "attempts": [
+      {
+        "company": "Iris by Lowe's",
+        "endYear": 2019,
+        "outcome": "Shut down after Lowe's failed to sell it",
+        "sourceUrl": "https://www.securitysales.com/news/lowes-shut-down-iris-smart-home/"
+      }
+    ]
+  },
+  {
+    "slug": "smart-pet-feeder-or-tracker",
+    "attempts": [
+      {
+        "company": "Petlibro",
+        "outcome": "Outage left smart feeders offline",
+        "sourceUrl": "https://cybernews.com/news/petlibro-smart-pet-feeder-outage-dogs-cats-hungry/"
+      }
+    ]
+  },
+  {
+    "slug": "smart-water-bottle",
+    "attempts": [
+      {
+        "company": "LifeFuels",
+        "endYear": 2021,
+        "outcome": "Closed after seven years",
+        "sourceUrl": "https://www.restonnow.com/2021/03/16/reston-based-smart-water-bottle-company-to-shut-down/"
+      }
+    ]
+  },
+  {
+    "slug": "spare-room-storage-sharing",
+    "attempts": [
+      {
+        "company": "Omni",
+        "endYear": 2019,
+        "outcome": "Shut down; storage business sold to Clutter",
+        "sourceUrl": "https://techcrunch.com/?p=1916522"
+      },
+      {
+        "company": "Boxbee",
+        "outcome": "Sold its valet-storage operation and pivoted to software",
+        "sourceUrl": "https://www.insideselfstorage.com/self-storage-products/boxbee-sells-valet-storage-operation-unveils-software-platform-entrepreneurs"
+      }
+    ]
+  },
+  {
+    "slug": "subscription-cancellation-manager",
+    "attempts": [
+      {
+        "company": "Trim",
+        "outcome": "Acquired by OneMain Financial",
+        "sourceUrl": "https://coverager.com/onemain-financial-acquires-trim/"
+      }
+    ]
+  },
+  {
+    "slug": "surplus-food-marketplace",
+    "attempts": [
+      {
+        "company": "SIRPLUS",
+        "endYear": 2024,
+        "outcome": "Filed for insolvency",
+        "sourceUrl": "https://tech.eu/2024/01/19/food-waste-startup-sirplus-files-for-insolvency-due-to"
+      },
+      {
+        "company": "UglyFood",
+        "endYear": 2023,
+        "outcome": "Closed after failing to raise funds",
+        "sourceUrl": "https://mothership.sg/2023/01/uglyfood-closes//amp"
+      }
+    ]
+  },
+  {
+    "slug": "symptom-checker",
+    "attempts": [
+      {
+        "company": "Forward",
+        "endYear": 2024,
+        "outcome": "Shut down after raising $400 million",
+        "notes": "Tech-first primary care, including self-serve AI CarePods.",
+        "sourceUrl": "https://www.fiercehealthcare.com/health-tech/primary-care-player-forward-shutters-after-raising-400m-rolling-out-carepods"
+      }
+    ]
+  },
+  {
+    "slug": "textbook-rental-and-resale",
+    "attempts": [
+      {
+        "company": "Kno",
+        "endYear": 2013,
+        "outcome": "Acquired by Intel for pennies on the dollar",
+        "notes": "Digital textbook startup.",
+        "sourceUrl": "https://www.k12dive.com/news/kno-acquired-by-intel-for-pennies-on-the-dollar/193748/"
+      }
+    ]
+  },
+  {
+    "slug": "tool-library",
+    "attempts": [
+      {
+        "company": "Hamilton Tool Library",
+        "endYear": 2017,
+        "outcome": "Closed over financial concerns",
+        "sourceUrl": "https://globalnews.ca/news/3790129/hamilton-tool-library-forced-to-close-up-shop-due-to-financial-concerns"
+      }
+    ]
+  },
+  {
+    "slug": "travel-buddy-finder",
+    "attempts": [
+      {
+        "company": "TravBuddy",
+        "startYear": 2005,
+        "endYear": 2018,
+        "outcome": "Ceased operations",
+        "sourceUrl": "https://en.wikipedia.org/wiki/TravBuddy.com"
+      }
+    ]
+  },
+  {
+    "slug": "unbiased-news-aggregator",
+    "attempts": [
+      {
+        "company": "Circa",
+        "startYear": 2012,
+        "endYear": 2019,
+        "outcome": "Acquired by Sinclair, then closed",
+        "notes": "News app that broke stories into short, neutral summaries.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Circa_(news_app)"
+      }
+    ]
+  },
+  {
+    "slug": "unified-messaging-inbox",
+    "attempts": [
+      {
+        "company": "Beeper Mini",
+        "startYear": 2023,
+        "endYear": 2024,
+        "outcome": "Blocked by Apple, then pulled",
+        "notes": "Brought iMessage to Android.",
+        "sourceUrl": "https://9to5google.com/2024/01/11/beeper-mini-play-store-removed-imessage/"
+      }
+    ]
+  },
+  {
+    "slug": "used-furniture-marketplace-with-delivery",
+    "attempts": [
+      {
+        "company": "Kaiyo",
+        "endYear": 2024,
+        "outcome": "Wound down after seller complaints",
+        "sourceUrl": "https://www.modernretail.co/operations/online-furniture-platform-kaiyo-says-it-will-wind-down-by-the-end-of-the-month-after-sellers-file-complaints/"
+      }
+    ]
+  },
+  {
+    "slug": "virtual-try-on",
+    "attempts": [
+      {
+        "company": "Fits.me",
+        "endYear": 2015,
+        "outcome": "Acquired by Rakuten",
+        "notes": "Robotic mannequins that showed how clothes would fit.",
+        "sourceUrl": "https://techcrunch.com/2015/07/12/rakuten-buys-virtual-fitting-room-startup-fits-me-in-a-fashion-commerce-play"
+      }
+    ]
+  },
+  {
+    "slug": "wedding-planning-marketplace",
+    "attempts": [
+      {
+        "company": "Weddington Way",
+        "endYear": 2018,
+        "outcome": "Bought by Gap, then closed",
+        "notes": "Online bridesmaid dress shopping.",
+        "sourceUrl": "https://www.businessinsider.nl/affordable-bridesmaid-dress-shopping-weddington-way-closes-2018-7"
+      }
+    ]
+  }
+]

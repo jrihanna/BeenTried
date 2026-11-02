@@ -1,0 +1,43 @@
+{
+  "slug": "sleep-tracking-device",
+  "title": "Sleep tracking device",
+  "category": "Health",
+  "summary": "A device that tracks and improves your sleep.",
+  "keywords": "sleep, wearables, hardware",
+  "status": "draft",
+  "whyTempting": "Sleep is a growing wellness obsession.",
+  "whyItFails": "Data without action. Knowing you slept badly doesn't fix it. Wearables already do it. Watches and rings track sleep. Hardware economics. Inventory and returns are costly.",
+  "whatWouldChange": "Closed-loop products that act (temperature, light, sound) rather than just measure.",
+  "attempts": [
+    {
+      "company": "Zeo",
+      "startYear": 2003,
+      "endYear": 2013,
+      "outcome": "Closed amid financial trouble",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zeo,_Inc."
+    },
+    {
+      "company": "Hello (Sense)",
+      "startYear": 2012,
+      "endYear": 2017,
+      "outcome": "Shut down",
+      "notes": "Bedside sleep tracker with a pillow clip; most staff laid off in June 2017.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hello_(company)"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Data without action: Knowing you slept badly doesn't fix it."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Wearables already do it: Watches and rings track sleep."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Hardware economics: Inventory and returns are costly."
+    }
+  ],
+  "sources": []
+}

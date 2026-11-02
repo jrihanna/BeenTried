@@ -1,0 +1,42 @@
+{
+  "slug": "college-admissions-advice-platform",
+  "title": "College admissions advice platform",
+  "category": "Education",
+  "summary": "Affordable expert admissions advice for every student.",
+  "keywords": "admissions, students, advice",
+  "status": "draft",
+  "whyTempting": "Admissions are high-stakes and consulting is expensive.",
+  "whyItFails": "Trust. Parents want proven human consultants. Seasonal. Demand is concentrated. One-time customers. No repeat business.",
+  "whatWouldChange": "AI feedback on essays at low cost, with human premium tiers.",
+  "attempts": [
+    {
+      "company": "Unigo",
+      "startYear": 2008,
+      "endYear": 2014,
+      "outcome": "Acquired by EDPlus Holdings",
+      "notes": "College reviews, admissions advice and counselling portal.",
+      "sourceUrl": "https://www.edsurge.com/news/2014-05-06-college-review-portal-unigo-acquired-by-edplus-holdings"
+    },
+    {
+      "company": "Zinch",
+      "endYear": 2011,
+      "outcome": "Acquired by Chegg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zinch"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "moderation",
+      "detail": "Trust: Parents want proven human consultants."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Seasonal: Demand is concentrated."
+    },
+    {
+      "tag": "frequency",
+      "detail": "One-time customers: No repeat business."
+    }
+  ],
+  "sources": []
+}

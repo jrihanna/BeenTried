@@ -1,0 +1,41 @@
+{
+  "slug": "discount-real-estate-agent",
+  "title": "Discount real estate agent",
+  "category": "Property",
+  "summary": "Sell your home with low fees instead of commissions.",
+  "keywords": "real estate, agents, fees",
+  "status": "draft",
+  "whyTempting": "Agent commissions are large.",
+  "whyItFails": "Sellers fear underpricing. They trust traditional agents. Agents fight back. Industry pressure. Low volume. Few transactions per customer.",
+  "whatWouldChange": "Regulatory changes on commissions.",
+  "attempts": [
+    {
+      "company": "Purplebricks",
+      "startYear": 2012,
+      "outcome": "Sold for £1 in 2023",
+      "notes": "Flat-fee estate agent once valued over £1.3 billion; quit Australia and the US in 2019 as unprofitable.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Purplebricks"
+    },
+    {
+      "company": "REX",
+      "endYear": 2022,
+      "outcome": "Laid off most staff and closed its brokerage",
+      "sourceUrl": "https://www.realtrends.com/articles/rex-closes-brokerage-hires-david-boies-in-zillow-lawsuit/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Sellers fear underpricing: They trust traditional agents."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Agents fight back: Industry pressure."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low volume: Few transactions per customer."
+    }
+  ],
+  "sources": []
+}

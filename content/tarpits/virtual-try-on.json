@@ -1,0 +1,42 @@
+{
+  "slug": "virtual-try-on",
+  "title": "Virtual try-on",
+  "category": "Commerce",
+  "summary": "Try clothes on virtually before buying.",
+  "keywords": "fashion, ar, ecommerce",
+  "status": "draft",
+  "whyTempting": "Online returns are costly.",
+  "whyItFails": "Accuracy. Fit is hard to model. Adoption. Shoppers don't use it. Retailer integration. Hard to sell.",
+  "whatWouldChange": "Better body scanning and AI.",
+  "attempts": [
+    {
+      "company": "Fits.me",
+      "endYear": 2015,
+      "outcome": "Acquired by Rakuten",
+      "notes": "Robotic mannequins that showed how clothes would fit.",
+      "sourceUrl": "https://techcrunch.com/2015/07/12/rakuten-buys-virtual-fitting-room-startup-fits-me-in-a-fashion-commerce-play"
+    },
+    {
+      "company": "Zeekit",
+      "endYear": 2021,
+      "outcome": "Acquired by Walmart",
+      "notes": "Virtual fitting room using a photo of the shopper.",
+      "sourceUrl": "https://corporate.walmart.com/news/2021/05/13/walmart-announces-plans-to-acquire-zeekit-a-leading-virtual-fitting-room-platform-to-enable-enhanced-and-social-shopping-experience-for-customer"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Accuracy: Fit is hard to model."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Adoption: Shoppers don't use it."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Retailer integration: Hard to sell."
+    }
+  ],
+  "sources": []
+}

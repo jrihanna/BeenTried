@@ -1,0 +1,44 @@
+{
+  "slug": "micropayments-for-news",
+  "title": "Micropayments for news",
+  "category": "Fintech",
+  "summary": "Pay a few cents per article instead of subscribing.",
+  "keywords": "news, micropayments, media",
+  "status": "draft",
+  "whyTempting": "People hate subscription walls but would pay for single articles.",
+  "whyItFails": "Mental transaction cost. Every payment decision creates friction, even if tiny. Publishers prefer subscriptions. Recurring revenue beats per-article income. Chicken and egg. Needs many publishers and many wallets at once.",
+  "whatWouldChange": "Wallet-level payments built into browsers or OSes with automatic budgets.",
+  "attempts": [
+    {
+      "company": "Flattr",
+      "startYear": 2010,
+      "endYear": 2023,
+      "outcome": "Shut down",
+      "notes": "Monthly micro-donations split across sites you visited; acquired by eyeo in 2017, closed November 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Flattr"
+    },
+    {
+      "company": "Blendle",
+      "startYear": 2013,
+      "endYear": 2023,
+      "outcome": "Micropayment model shut down",
+      "notes": "Pay-per-article news; not profitable by 2019, sold to Cafeyn in 2020, micropayments ended in 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Blendle"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Mental transaction cost: Every payment decision creates friction, even if tiny."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Publishers prefer subscriptions: Recurring revenue beats per-article income."
+    },
+    {
+      "tag": "cold-start",
+      "detail": "Chicken and egg: Needs many publishers and many wallets at once."
+    }
+  ],
+  "sources": []
+}

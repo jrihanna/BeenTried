@@ -1,0 +1,42 @@
+{
+  "slug": "fan-funded-creator-platform",
+  "title": "Fan-funded creator platform",
+  "category": "Media",
+  "summary": "Fans directly fund creators.",
+  "keywords": "creators, crowdfunding, fans",
+  "status": "draft",
+  "whyTempting": "Creators want independence.",
+  "whyItFails": "Crowded. Patreon and others dominate. Small creator incomes. Most earn little. Platform fees. Margins thin.",
+  "whatWouldChange": "Bundling services for creators.",
+  "attempts": [
+    {
+      "company": "Patreon",
+      "startYear": 2013,
+      "outcome": "Still operating",
+      "notes": "Reversed a 2017 fee change after creator backlash; layoffs in 2020, 2021 and 2022.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Patreon"
+    },
+    {
+      "company": "Drip (Kickstarter)",
+      "endYear": 2019,
+      "outcome": "Bought by Kickstarter, then shut down",
+      "notes": "Kickstarter said serving small creators this way was unsustainable.",
+      "sourceUrl": "https://www.adafruitdaily.com/2019/10/29/kickstarter-shutters-drip-its-patreon-like-competitor/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Crowded: Patreon and others dominate."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Small creator incomes: Most earn little."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Platform fees: Margins thin."
+    }
+  ],
+  "sources": []
+}

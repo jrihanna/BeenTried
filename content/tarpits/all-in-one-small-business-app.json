@@ -1,0 +1,44 @@
+{
+  "slug": "all-in-one-small-business-app",
+  "title": "All-in-one small business app",
+  "category": "Enterprise",
+  "summary": "One app for all small business needs.",
+  "keywords": "smb, software, all in one",
+  "status": "reviewed",
+  "whyTempting": "Small businesses juggle many tools.",
+  "whyItFails": "Breadth vs depth. Can't beat specialists. Sales costs. SMBs are expensive to acquire. Churn. Businesses close frequently.",
+  "whatWouldChange": "AI that makes building breadth cheaper.",
+  "attempts": [
+    {
+      "company": "Bench",
+      "startYear": 2012,
+      "endYear": 2024,
+      "outcome": "Shut down abruptly, then acquired",
+      "notes": "Bookkeeping and tax for small businesses; raised about $113 million and went offline without notice in December 2024.",
+      "sourceUrl": "https://techcrunch.com/2024/12/27/bench-shuts-down-leaving-thousands-of-businesses-without-access-to-accounting-and-tax-docs"
+    },
+    {
+      "company": "SAP Anywhere",
+      "startYear": 2016,
+      "endYear": 2018,
+      "outcome": "Shut down",
+      "notes": "SAP's all-in-one e-commerce, marketing, inventory and analytics suite for small businesses; closed with almost immediate effect.",
+      "sourceUrl": "https://channelx.world/2018/04/saps-sme-solution-sap-anywhere-to-be-shut-down/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Breadth vs depth: Can't beat specialists."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Sales costs: SMBs are expensive to acquire."
+    },
+    {
+      "tag": "retention",
+      "detail": "Churn: Businesses close frequently."
+    }
+  ],
+  "sources": []
+}

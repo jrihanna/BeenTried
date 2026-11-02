@@ -1,0 +1,41 @@
+{
+  "slug": "restaurant-ordering-software",
+  "title": "Restaurant ordering software",
+  "category": "Enterprise",
+  "summary": "Online ordering software for independent restaurants.",
+  "keywords": "restaurants, ordering, saas",
+  "status": "draft",
+  "whyTempting": "Delivery apps charge high commissions.",
+  "whyItFails": "Restaurants struggle. Low budgets. Platform competition. Delivery apps add tools. Sales cost. High acquisition costs.",
+  "whatWouldChange": "Bundling with POS.",
+  "attempts": [
+    {
+      "company": "ChowNow",
+      "startYear": 2011,
+      "outcome": "Still operating; laid off staff in 2024",
+      "notes": "Commission-free ordering for restaurants on a monthly subscription.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/ChowNow"
+    },
+    {
+      "company": "Ordermark",
+      "endYear": 2023,
+      "outcome": "US business sold to UrbanPiper after its parent cut staff",
+      "sourceUrl": "https://www.restaurantdive.com/news/Nextbite-sells-Ordermark-US-to-Urbanpiper/652643/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Restaurants struggle: Low budgets."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Platform competition: Delivery apps add tools."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Sales cost: High acquisition costs."
+    }
+  ],
+  "sources": []
+}

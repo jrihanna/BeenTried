@@ -1,0 +1,48 @@
+{
+  "slug": "e-scooter-sharing",
+  "title": "E-scooter sharing",
+  "category": "Mobility",
+  "summary": "Dockless scooters for short trips.",
+  "keywords": "scooters, micromobility, sharing",
+  "status": "draft",
+  "whyTempting": "Short trips are common and convenient.",
+  "whyItFails": "Vandalism and wear. Scooters break. Regulation. Cities restrict. Unit economics. Costs exceed revenue.",
+  "whatWouldChange": "Durable hardware and better regulation.",
+  "attempts": [
+    {
+      "company": "Bird",
+      "startYear": 2017,
+      "endYear": 2023,
+      "outcome": "Filed for bankruptcy",
+      "notes": "Public from 2021; Chapter 11 in December 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bird_Global"
+    },
+    {
+      "company": "Skip",
+      "endYear": 2021,
+      "outcome": "Filed for bankruptcy",
+      "sourceUrl": "https://qz.com/2045789/scooter-startup-skip-files-for-bankruptcy"
+    },
+    {
+      "company": "Superpedestrian",
+      "endYear": 2023,
+      "outcome": "Shut down; scooters auctioned",
+      "sourceUrl": "https://techcrunch.com/2024/01/03/superpedestrian-scooter-auction-shutting-down/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Vandalism and wear: Scooters break."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Regulation: Cities restrict."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Unit economics: Costs exceed revenue."
+    }
+  ],
+  "sources": []
+}

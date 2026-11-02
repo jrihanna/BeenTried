@@ -1,0 +1,49 @@
+{
+  "slug": "language-exchange-app",
+  "title": "Language exchange app",
+  "category": "Education",
+  "summary": "Practise languages by chatting with native speakers learning yours.",
+  "keywords": "languages, exchange, social",
+  "status": "draft",
+  "whyTempting": "Language learning is huge and conversation practice is the gap.",
+  "whyItFails": "Unbalanced demand. Everyone wants English partners. Dating/creep problem. Exchange apps attract unwanted advances. Low commitment. Conversations fizzle.",
+  "whatWouldChange": "AI conversation partners for practice, humans for premium.",
+  "attempts": [
+    {
+      "company": "Lang-8",
+      "startYear": 2006,
+      "endYear": 2024,
+      "outcome": "Closed to new users in 2017, shut down in 2024",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lang-8.com"
+    },
+    {
+      "company": "Livemocha",
+      "startYear": 2007,
+      "endYear": 2016,
+      "outcome": "Acquired by Rosetta Stone, then closed",
+      "notes": "Language-learning community where members practised with each other.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Livemocha"
+    },
+    {
+      "company": "FriendsAbroad",
+      "endYear": 2008,
+      "outcome": "Acquired by Babbel",
+      "sourceUrl": "https://techcrunch.com/2008/11/06/babbel-acquires-friendsabroad-in-cash-deal"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Unbalanced demand: Everyone wants English partners."
+    },
+    {
+      "tag": "moderation",
+      "detail": "Dating/creep problem: Exchange apps attract unwanted advances."
+    },
+    {
+      "tag": "retention",
+      "detail": "Low commitment: Conversations fizzle."
+    }
+  ],
+  "sources": []
+}

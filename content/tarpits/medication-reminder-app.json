@@ -1,0 +1,41 @@
+{
+  "slug": "medication-reminder-app",
+  "title": "Medication reminder app",
+  "category": "Health",
+  "summary": "Reminds patients to take medication and tracks adherence.",
+  "keywords": "medication, adherence, health",
+  "status": "draft",
+  "whyTempting": "Non-adherence costs health systems billions.",
+  "whyItFails": "Free alternatives. Phone alarms work fine. Hard to monetise. Patients won't pay and payers are slow. Engagement. People ignore notifications.",
+  "whatWouldChange": "Value-based care contracts that pay for measured adherence improvements.",
+  "attempts": [
+    {
+      "company": "PillPack",
+      "startYear": 2013,
+      "outcome": "Acquired by Amazon in 2018",
+      "notes": "Online pharmacy that pre-sorted doses to help people take medication on time; bought for a reported $753 million.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/PillPack"
+    },
+    {
+      "company": "MedicineWise app",
+      "outcome": "Decommissioned",
+      "notes": "NPS MedicineWise's Australian app for tracking medicines.",
+      "sourceUrl": "https://www.nps.org.au/assets/MedicineWise-app-decommission-FAQ.pdf"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Free alternatives: Phone alarms work fine."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Hard to monetise: Patients won't pay and payers are slow."
+    },
+    {
+      "tag": "retention",
+      "detail": "Engagement: People ignore notifications."
+    }
+  ],
+  "sources": []
+}

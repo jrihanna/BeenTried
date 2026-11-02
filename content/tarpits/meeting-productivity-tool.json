@@ -1,0 +1,41 @@
+{
+  "slug": "meeting-productivity-tool",
+  "title": "Meeting productivity tool",
+  "category": "Enterprise",
+  "summary": "Make meetings shorter and more productive.",
+  "keywords": "meetings, productivity, saas",
+  "status": "draft",
+  "whyTempting": "Everyone hates meetings.",
+  "whyItFails": "Behaviour change. Tools don't change culture. Bundled. Zoom and Teams add features. Low urgency. Meetings persist.",
+  "whatWouldChange": "AI notes and actions built in.",
+  "attempts": [
+    {
+      "company": "Clara Labs",
+      "outcome": "Acquired by Topfunnel",
+      "notes": "AI scheduling assistant.",
+      "sourceUrl": "https://globalventuring.com/topfunnel-sucks-in-clara-labs/"
+    },
+    {
+      "company": "x.ai",
+      "endYear": 2021,
+      "outcome": "Acquired by Bizzabo",
+      "notes": "AI assistant that scheduled meetings by email; its engine was folded into an events platform.",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2021/06/03/2241277/0/en/bizzabo-acquires-x-ai-to-launch-ai-powered-scheduling-accelerate-personalized-event-experiences.html"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Behaviour change: Tools don't change culture."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Bundled: Zoom and Teams add features."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low urgency: Meetings persist."
+    }
+  ],
+  "sources": []
+}

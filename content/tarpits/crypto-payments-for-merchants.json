@@ -1,0 +1,43 @@
+{
+  "slug": "crypto-payments-for-merchants",
+  "title": "Crypto payments for merchants",
+  "category": "Fintech",
+  "summary": "Let shops accept crypto with lower fees than cards.",
+  "keywords": "crypto, payments, merchants",
+  "status": "draft",
+  "whyTempting": "Card fees are a real pain for merchants.",
+  "whyItFails": "Consumers don't pay in crypto. Holders don't want to spend appreciating assets. Volatility and tax complexity. Every payment becomes a tax event in many jurisdictions. Card networks fight back. Rewards make cards attractive to consumers.",
+  "whatWouldChange": "Stablecoins with clear regulation and real consumer incentives.",
+  "attempts": [
+    {
+      "company": "BitPay",
+      "startYear": 2011,
+      "outcome": "Still operating",
+      "notes": "Signed up thousands of merchants; Steam dropped bitcoin via BitPay in 2017 over fees and volatility.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/BitPay"
+    },
+    {
+      "company": "Diem (Libra)",
+      "startYear": 2019,
+      "endYear": 2022,
+      "outcome": "Shut down; assets sold to Silvergate Bank",
+      "notes": "Facebook's payments currency project.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diem_(digital_currency)"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Consumers don't pay in crypto: Holders don't want to spend appreciating assets."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Volatility and tax complexity: Every payment becomes a tax event in many jurisdictions."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Card networks fight back: Rewards make cards attractive to consumers."
+    }
+  ],
+  "sources": []
+}

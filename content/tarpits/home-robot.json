@@ -1,0 +1,51 @@
+{
+  "slug": "home-robot",
+  "title": "Home robot",
+  "category": "Hardware",
+  "summary": "A general-purpose robot that helps around the house.",
+  "keywords": "robotics, home, ai",
+  "status": "draft",
+  "whyTempting": "Everyone wants help with chores.",
+  "whyItFails": "Technical difficulty. Homes are unstructured. Cost. Robots are expensive. Limited usefulness. Early robots do little.",
+  "whatWouldChange": "Advances in foundation models for robotics and cheaper actuators.",
+  "attempts": [
+    {
+      "company": "Anki",
+      "startYear": 2010,
+      "endYear": 2019,
+      "outcome": "Bankrupt",
+      "notes": "Consumer robots including Cozmo and Vector; shut down May 2019.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Anki_(American_company)"
+    },
+    {
+      "company": "Jibo",
+      "startYear": 2012,
+      "endYear": 2020,
+      "outcome": "Assets sold to NTT",
+      "notes": "Marketed as the first family robot; failed to raise further funding.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jibo"
+    },
+    {
+      "company": "Kuri (Mayfield Robotics)",
+      "endYear": 2018,
+      "outcome": "Ceased production, then shut down",
+      "notes": "Backed by Bosch.",
+      "sourceUrl": "https://qz.com/1336108/mayfield-robotics-shuts-down-kuri-robot-production"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "hardware",
+      "detail": "Technical difficulty: Homes are unstructured."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Cost: Robots are expensive."
+    },
+    {
+      "tag": "timing",
+      "detail": "Limited usefulness: Early robots do little."
+    }
+  ],
+  "sources": []
+}

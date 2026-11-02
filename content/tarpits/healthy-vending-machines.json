@@ -1,0 +1,36 @@
+{
+  "slug": "healthy-vending-machines",
+  "title": "Healthy vending machines",
+  "category": "Food",
+  "summary": "Fresh, healthy food in smart vending machines.",
+  "keywords": "vending, healthy food, retail",
+  "status": "draft",
+  "whyTempting": "Junk-food vending is everywhere; healthy options are lacking.",
+  "whyItFails": "Spoilage. Fresh food expires, destroying margins. Location economics. Good spots are scarce and owners take a cut. Restocking costs. Logistics for perishables are heavy.",
+  "whatWouldChange": "Better demand prediction and placement in high-traffic captive locations like hospitals.",
+  "attempts": [
+    {
+      "company": "Bodega (Stockwell)",
+      "startYear": 2017,
+      "endYear": 2020,
+      "outcome": "Shut down, then acquired by 365 Retail Markets",
+      "notes": "Unmanned app-paid pantry boxes stocked with convenience-store items.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bodega_(company)"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Spoilage: Fresh food expires, destroying margins."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Location economics: Good spots are scarce and owners take a cut."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Restocking costs: Logistics for perishables are heavy."
+    }
+  ],
+  "sources": []
+}

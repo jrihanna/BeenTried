@@ -1,0 +1,42 @@
+{
+  "slug": "fact-checking-platform",
+  "title": "Fact-checking platform",
+  "category": "Media",
+  "summary": "Crowd or AI fact-checking for the internet.",
+  "keywords": "fact checking, misinformation",
+  "status": "draft",
+  "whyTempting": "Misinformation is a recognised problem.",
+  "whyItFails": "No paying customer. Consumers won't pay. Polarisation. Fact-checkers are distrusted. Scale. Misinformation outpaces checking.",
+  "whatWouldChange": "Platform partnerships paying for checks.",
+  "attempts": [
+    {
+      "company": "Meta third-party fact-checking",
+      "startYear": 2016,
+      "endYear": 2025,
+      "outcome": "Ended in the US; replaced by Community Notes",
+      "sourceUrl": "https://ktvu.com/news/meta-ends-us-fact-checking-2025"
+    },
+    {
+      "company": "Community Notes (X)",
+      "startYear": 2021,
+      "outcome": "Still operating; studies found most misleading posts get no note",
+      "notes": "Crowd fact-checking launched as Birdwatch; Meta announced a similar system in 2025 to replace fact-checkers.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Community_Notes"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "No paying customer: Consumers won't pay."
+    },
+    {
+      "tag": "moderation",
+      "detail": "Polarisation: Fact-checkers are distrusted."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Scale: Misinformation outpaces checking."
+    }
+  ],
+  "sources": []
+}

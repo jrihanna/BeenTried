@@ -1,0 +1,42 @@
+{
+  "slug": "self-updating-internal-wiki",
+  "title": "Self-updating internal wiki",
+  "category": "Enterprise",
+  "summary": "A knowledge base that stays accurate.",
+  "keywords": "knowledge base, wiki, saas",
+  "status": "draft",
+  "whyTempting": "Wikis rot quickly.",
+  "whyItFails": "Nobody maintains it. Content goes stale. Search failures. Users can't find info. Crowded. Many tools.",
+  "whatWouldChange": "AI that updates and answers questions.",
+  "attempts": [
+    {
+      "company": "Quip",
+      "startYear": 2012,
+      "endYear": 2027,
+      "outcome": "Being retired by Salesforce",
+      "notes": "Collaborative docs for teams; bought by Salesforce for about $750 million in 2016, end of life announced in 2026.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Quip_(software)"
+    },
+    {
+      "company": "Wikispaces",
+      "endYear": 2018,
+      "outcome": "Shut down",
+      "sourceUrl": "https://blog.nuclino.com/so-about-wikispaces"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Nobody maintains it: Content goes stale."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Search failures: Users can't find info."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Crowded: Many tools."
+    }
+  ],
+  "sources": []
+}

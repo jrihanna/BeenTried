@@ -1,0 +1,42 @@
+{
+  "slug": "shared-event-photo-album",
+  "title": "Shared event photo album",
+  "category": "Social",
+  "summary": "Everyone at a wedding or party drops their photos into one shared album.",
+  "keywords": "photos, events, sharing",
+  "status": "draft",
+  "whyTempting": "Every event ends with 'can you send me those photos?'",
+  "whyItFails": "Platform features. Google Photos and iCloud shared albums are free and good enough. One-off usage. Users come once per event and churn. Hard to monetise. Consumers won't pay for something that feels like it should be free.",
+  "whatWouldChange": "Narrow B2B angle: paid by wedding photographers or event venues rather than guests.",
+  "attempts": [
+    {
+      "company": "Color Labs",
+      "startYear": 2011,
+      "endYear": 2012,
+      "outcome": "Shut down",
+      "notes": "Photo sharing with people nearby; launched to confused users and closed at the end of 2012.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Color_Labs"
+    },
+    {
+      "company": "Everalbum (Ever)",
+      "endYear": 2021,
+      "outcome": "Settled with the FTC over facial recognition; told to delete the models",
+      "sourceUrl": "https://jolt.law.harvard.edu/digest/everalbum-inc-in-first-facial-recognition-misuse-settlement-ftc-requires-destruction-of-algorithms-trained-on-deceptively-obtained-photos"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Platform features: Google Photos and iCloud shared albums are free and good enough."
+    },
+    {
+      "tag": "frequency",
+      "detail": "One-off usage: Users come once per event and churn."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Hard to monetise: Consumers won't pay for something that feels like it should be free."
+    }
+  ],
+  "sources": []
+}

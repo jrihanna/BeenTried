@@ -1,0 +1,43 @@
+{
+  "slug": "couples-relationship-coaching-app",
+  "title": "Couples relationship coaching app",
+  "category": "Dating",
+  "summary": "An app that helps couples communicate and stay connected.",
+  "keywords": "relationships, coaching, couples",
+  "status": "draft",
+  "whyTempting": "Relationships matter and therapy is expensive.",
+  "whyItFails": "Both partners must engage. Usually one partner is keen. Crisis use. People come when things are bad, then leave. Stigma. Admitting relationship trouble is hard.",
+  "whatWouldChange": "AI-guided exercises cheap enough to use preventively.",
+  "attempts": [
+    {
+      "company": "Tuned (Meta)",
+      "startYear": 2020,
+      "endYear": 2022,
+      "outcome": "Shut down two years after launch",
+      "notes": "Meta's private messaging app for couples.",
+      "sourceUrl": "https://tech.slashdot.org/story/22/07/25/2049239/meta-is-shutting-down-tuned-its-social-app-for-couples"
+    },
+    {
+      "company": "Lasting",
+      "endYear": 2020,
+      "outcome": "Acquired by Talkspace",
+      "notes": "Self-guided couples counselling app.",
+      "sourceUrl": "https://www.mobihealthnews.com/news/talkspace-dives-relationship-counseling-acquisition-lasting"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "coordination",
+      "detail": "Both partners must engage: Usually one partner is keen."
+    },
+    {
+      "tag": "retention",
+      "detail": "Crisis use: People come when things are bad, then leave."
+    },
+    {
+      "tag": "retention",
+      "detail": "Stigma: Admitting relationship trouble is hard."
+    }
+  ],
+  "sources": []
+}

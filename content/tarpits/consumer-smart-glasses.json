@@ -1,0 +1,49 @@
+{
+  "slug": "consumer-smart-glasses",
+  "title": "Consumer smart glasses",
+  "category": "Hardware",
+  "summary": "Glasses that overlay digital info on the world.",
+  "keywords": "ar, wearables, glasses",
+  "status": "draft",
+  "whyTempting": "The next computing platform after phones.",
+  "whyItFails": "Battery and weight. Hardware constraints. Social stigma. Wearers face privacy backlash. Lack of killer apps. Few compelling uses.",
+  "whatWouldChange": "AI assistants as the killer app; lighter displays.",
+  "attempts": [
+    {
+      "company": "Google Glass",
+      "startYear": 2014,
+      "endYear": 2023,
+      "outcome": "Discontinued",
+      "notes": "Consumer sales halted in January 2015; Enterprise Edition ended in March 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Google_Glass"
+    },
+    {
+      "company": "Snap Spectacles",
+      "startYear": 2016,
+      "outcome": "Wrote off $40 million of unsold inventory",
+      "notes": "Snap took the write-off in 2017.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Snapchat_Spectacles"
+    },
+    {
+      "company": "North Focals",
+      "endYear": 2020,
+      "outcome": "Acquired by Google; the glasses stopped working",
+      "sourceUrl": "https://www.vice.com/en/article/focals-maker-north-shutting-off-smart-glasses-after-google-purchase/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "hardware",
+      "detail": "Battery and weight: Hardware constraints."
+    },
+    {
+      "tag": "retention",
+      "detail": "Social stigma: Wearers face privacy backlash."
+    },
+    {
+      "tag": "timing",
+      "detail": "Lack of killer apps: Few compelling uses."
+    }
+  ],
+  "sources": []
+}

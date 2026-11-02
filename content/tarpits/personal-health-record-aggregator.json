@@ -1,0 +1,43 @@
+{
+  "slug": "personal-health-record-aggregator",
+  "title": "Personal health record aggregator",
+  "category": "Health",
+  "summary": "All your medical records from every provider in one app.",
+  "keywords": "health records, interoperability",
+  "status": "draft",
+  "whyTempting": "Records are scattered and patients are frustrated.",
+  "whyItFails": "Interoperability. Providers' systems don't share data easily. Low urgency. People only need records occasionally. Government and platform competition. Public health records and Apple Health exist.",
+  "whatWouldChange": "Mandated interoperability standards (e.g. FHIR APIs) actually enforced.",
+  "attempts": [
+    {
+      "company": "Microsoft HealthVault",
+      "startYear": 2007,
+      "endYear": 2019,
+      "outcome": "Shut down",
+      "notes": "Web-based personal health record; closed November 2019 and remaining data deleted.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Microsoft_HealthVault"
+    },
+    {
+      "company": "Google Health",
+      "startYear": 2008,
+      "endYear": 2012,
+      "outcome": "Shut down after failing to gain adoption",
+      "sourceUrl": "https://mobihealthnews.com/node/101996"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "coordination",
+      "detail": "Interoperability: Providers' systems don't share data easily."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low urgency: People only need records occasionally."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Government and platform competition: Public health records and Apple Health exist."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "roommate-matching",
+  "title": "Roommate matching",
+  "category": "Property",
+  "summary": "Find compatible roommates.",
+  "keywords": "housing, roommates, matching",
+  "status": "draft",
+  "whyTempting": "Bad roommates are miserable.",
+  "whyItFails": "One-time use. People move rarely. Free alternatives. Facebook groups and listings. Liquidity. Local markets.",
+  "whatWouldChange": "Integration with rental listings.",
+  "attempts": [
+    {
+      "company": "Roomi",
+      "outcome": "Laid off most of its staff",
+      "sourceUrl": "https://www.mobileworldlive.com/apps/news-apps/roomi-lays-off-bulk-of-employees/"
+    },
+    {
+      "company": "ROOM8",
+      "outcome": "Paused by its insurer owner, CSAA",
+      "sourceUrl": "https://coverager.com/csaa-is-pausing-room8/"
+    },
+    {
+      "company": "Roomster",
+      "outcome": "Settled with the FTC and states in 2023",
+      "notes": "Accused of buying thousands of fake reviews and labelling listings verified; $1.6 million restitution.",
+      "sourceUrl": "https://www.oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-room-rental-app-purchasing-fake"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "One-time use: People move rarely."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Free alternatives: Facebook groups and listings."
+    },
+    {
+      "tag": "cold-start",
+      "detail": "Liquidity: Local markets."
+    }
+  ],
+  "sources": []
+}

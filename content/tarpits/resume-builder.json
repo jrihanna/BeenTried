@@ -1,0 +1,41 @@
+{
+  "slug": "resume-builder",
+  "title": "Resume builder",
+  "category": "Enterprise",
+  "summary": "Build a great resume quickly.",
+  "keywords": "resume, jobs, career",
+  "status": "draft",
+  "whyTempting": "Job seekers need resumes.",
+  "whyItFails": "Commoditised. Many free tools. One-time use. Low lifetime value. AI chatbots. General AI does it.",
+  "whatWouldChange": "Bundling with job search services.",
+  "attempts": [
+    {
+      "company": "Resume.com",
+      "startYear": 2014,
+      "endYear": 2018,
+      "outcome": "Acquired by Indeed, made free",
+      "notes": "Charged a monthly fee to download resumes until Indeed bought it and dropped the fee.",
+      "sourceUrl": "https://huntscanlon.com/indeed-acquires-resume-com/"
+    },
+    {
+      "company": "itzbig",
+      "outcome": "Shut down",
+      "sourceUrl": "https://www.ere.net/articles/itzbig-to-shut-down"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Commoditised: Many free tools."
+    },
+    {
+      "tag": "frequency",
+      "detail": "One-time use: Low lifetime value."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "AI chatbots: General AI does it."
+    }
+  ],
+  "sources": []
+}

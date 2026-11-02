@@ -1,0 +1,42 @@
+{
+  "slug": "used-furniture-marketplace-with-delivery",
+  "title": "Used furniture marketplace with delivery",
+  "category": "Marketplaces",
+  "summary": "Buy and sell used furniture with delivery handled.",
+  "keywords": "furniture, resale, logistics",
+  "status": "draft",
+  "whyTempting": "Furniture is bulky and moving it is the real pain.",
+  "whyItFails": "Logistics costs. Delivery costs exceed item value. Inventory quality. Items vary wildly. Free alternatives. Facebook Marketplace and Gumtree.",
+  "whatWouldChange": "Pooled logistics with existing delivery networks.",
+  "attempts": [
+    {
+      "company": "Move Loot",
+      "startYear": 2013,
+      "endYear": 2016,
+      "outcome": "Shut down",
+      "notes": "Handled appraisal, pickup and delivery of secondhand furniture and kept 50% of each sale.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Move_Loot"
+    },
+    {
+      "company": "Kaiyo",
+      "endYear": 2024,
+      "outcome": "Wound down after seller complaints",
+      "sourceUrl": "https://www.modernretail.co/operations/online-furniture-platform-kaiyo-says-it-will-wind-down-by-the-end-of-the-month-after-sellers-file-complaints/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Logistics costs: Delivery costs exceed item value."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Inventory quality: Items vary wildly."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Free alternatives: Facebook Marketplace and Gumtree."
+    }
+  ],
+  "sources": []
+}

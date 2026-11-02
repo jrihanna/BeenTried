@@ -1,0 +1,44 @@
+{
+  "slug": "date-planning-app",
+  "title": "Date planning app",
+  "category": "Dating",
+  "summary": "Curated date ideas and bookings for couples.",
+  "keywords": "dating, events, planning",
+  "status": "draft",
+  "whyTempting": "Couples run out of date ideas.",
+  "whyItFails": "Low frequency. Dates happen occasionally. Content is free. Ideas are on Instagram and blogs. Bookings happen elsewhere. Commissions are thin.",
+  "whatWouldChange": "Bundling with experiences or local venues as a subscription.",
+  "attempts": [
+    {
+      "company": "Grouper",
+      "startYear": 2011,
+      "endYear": 2016,
+      "outcome": "Shut down",
+      "notes": "Set up group drinks between two sets of friends.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grouper_social_club"
+    },
+    {
+      "company": "Delightful (IAC)",
+      "startYear": 2014,
+      "endYear": 2014,
+      "outcome": "Shut down within three months",
+      "notes": "Match.com owner's service that planned dates for couples.",
+      "sourceUrl": "https://www.buzzfeednews.com/article/sapna/matchcom-abruptly-drops-date-planning-service-delightful"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "Low frequency: Dates happen occasionally."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Content is free: Ideas are on Instagram and blogs."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Bookings happen elsewhere: Commissions are thin."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "music-discovery",
+  "title": "A better way to discover music",
+  "category": "Media",
+  "summary": "A social or algorithmic app that finds you new music better than the big streaming services do.",
+  "keywords": "music, streaming, playlists, recommendations, listening together, songs, artists",
+  "status": "reviewed",
+  "whyTempting": "Music fans are passionate, opinionated, and constantly complaining that their recommendations are stale. Sharing music with friends feels inherently social, and the technical side looks approachable.",
+  "whyItFails": "Playing music means licensing it, and labels charge in ways that make thin margins thinner as you grow. Most people are happy enough with the recommendations from the service they already pay for, so discovery alone rarely justifies a second app or a second subscription.\n\nWhen a discovery feature does catch on, the large streaming services can build a version of it into a product with every song already licensed.",
+  "whatWouldChange": "A new attempt needs a business that doesn't depend on playing licensed tracks itself, for example sending listeners to existing services, or serving artists and labels as paying customers.\n\nIt also needs a reason to exist that the big platforms are structurally unwilling to copy, such as being independent from any one service.",
+  "attempts": [
+    {
+      "company": "Grooveshark",
+      "startYear": 2007,
+      "endYear": 2015,
+      "outcome": "Shut down after label lawsuits",
+      "notes": "Web-based music streaming service that allowed users to search for, stream, and share millions of songs for free",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grooveshark"
+    },
+    {
+      "company": "Rdio",
+      "startYear": 2010,
+      "endYear": 2015,
+      "outcome": "Bankrupt, assets sold to Pandora",
+      "notes": "Well-loved design and social features, but couldn't compete on scale.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rdio"
+    },
+    {
+      "company": "Turntable.fm",
+      "startYear": 2011,
+      "endYear": 2013,
+      "outcome": "Shut down",
+      "notes": "Virtual rooms where people took turns DJing. Huge early buzz.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Turntable.fm"
+    },
+    {
+      "company": "This Is My Jam",
+      "startYear": 2011,
+      "endYear": 2015,
+      "outcome": "Closed and archived",
+      "notes": "Share one song at a time with followers.",
+      "sourceUrl": "https://www.theguardian.com/technology/2015/aug/10/this-is-my-jam-music-website-shuts-down-open-web"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "licensing",
+      "detail": "Label licensing costs scale with usage and leave little margin."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Streaming services ship their own discovery features with the full catalogue."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Few people pay for discovery on top of a streaming subscription."
+    },
+    {
+      "tag": "retention",
+      "detail": "Social listening features drew crowds at launch, then quietened."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rdio (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Rdio"
+    },
+    {
+      "title": "Grooveshark (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Grooveshark"
+    },
+    {
+      "title": "Turntable.fm (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Turntable.fm"
+    }
+  ]
+}

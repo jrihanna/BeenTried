@@ -1,0 +1,45 @@
+{
+  "slug": "on-demand-fuel-delivery",
+  "title": "On-demand fuel delivery",
+  "category": "Mobility",
+  "summary": "Fuel delivered to your car.",
+  "keywords": "fuel, delivery, cars",
+  "status": "draft",
+  "whyTempting": "Petrol stations are inconvenient.",
+  "whyItFails": "Low margins. Fuel is cheap. Regulation. Safety rules. EV shift. Demand declines.",
+  "whatWouldChange": "Fleet services instead of consumers.",
+  "attempts": [
+    {
+      "company": "Filld",
+      "endYear": 2018,
+      "outcome": "Stopped fuelling in Seattle after clashes with fire marshals",
+      "sourceUrl": "https://www.geekwire.com/2018/filld-shut-mobile-fueling-seattle-wrestles-fire-marshals-across-countr"
+    },
+    {
+      "company": "Zebra Fuel",
+      "outcome": "Stopped delivering in London",
+      "sourceUrl": "https://techcrunch.com/?p=1917772"
+    },
+    {
+      "company": "Booster",
+      "outcome": "Shifted from consumers to commercial fleets",
+      "notes": "Started by refuelling employees' cars at their workplaces; moved to fleets after remote work took off.",
+      "sourceUrl": "https://www.cnbc.com/2022/05/25/booster-is-making-renewable-fuels-accessible-in-ways-a-gas-station-cannot.html"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Low margins: Fuel is cheap."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Regulation: Safety rules."
+    },
+    {
+      "tag": "timing",
+      "detail": "EV shift: Demand declines."
+    }
+  ],
+  "sources": []
+}

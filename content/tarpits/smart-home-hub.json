@@ -1,0 +1,48 @@
+{
+  "slug": "smart-home-hub",
+  "title": "Smart home hub",
+  "category": "Hardware",
+  "summary": "One hub to control all your smart home devices.",
+  "keywords": "smart home, iot, hardware",
+  "status": "draft",
+  "whyTempting": "Smart homes are fragmented and frustrating.",
+  "whyItFails": "Big tech dominates. Apple, Google and Amazon own the platform. Standards churn. Protocols keep changing. Hardware economics. Margins are thin.",
+  "whatWouldChange": "Matter standard reducing fragmentation (also reducing the need for hubs).",
+  "attempts": [
+    {
+      "company": "Wink",
+      "startYear": 2014,
+      "outcome": "Changed owners several times; moved to paid subscription in 2020",
+      "notes": "Spun out of Quirky; users had to pay monthly or lose control of their devices.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wink_(platform)"
+    },
+    {
+      "company": "Iris by Lowe's",
+      "endYear": 2019,
+      "outcome": "Shut down after Lowe's failed to sell it",
+      "sourceUrl": "https://www.securitysales.com/news/lowes-shut-down-iris-smart-home/"
+    },
+    {
+      "company": "Revolv",
+      "endYear": 2016,
+      "outcome": "Acquired by Nest, then devices disabled",
+      "notes": "Nest remotely bricked all hubs in May 2016 despite 'lifetime' subscriptions.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Revolv"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Big tech dominates: Apple, Google and Amazon own the platform."
+    },
+    {
+      "tag": "timing",
+      "detail": "Standards churn: Protocols keep changing."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Hardware economics: Margins are thin."
+    }
+  ],
+  "sources": []
+}

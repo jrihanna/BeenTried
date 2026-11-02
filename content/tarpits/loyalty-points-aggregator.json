@@ -1,0 +1,46 @@
+{
+  "slug": "loyalty-points-aggregator",
+  "title": "Loyalty points aggregator",
+  "category": "Fintech",
+  "summary": "Combine all your loyalty programs and points in one place.",
+  "keywords": "loyalty, points, rewards",
+  "status": "draft",
+  "whyTempting": "People have dozens of loyalty programs and forget their points.",
+  "whyItFails": "Programs block access. Loyalty schemes don't want aggregation. Low engagement. Users check rarely. Programs own the economics. Little room for a middleman.",
+  "whatWouldChange": "Programs opening APIs for points exchange; still unlikely.",
+  "attempts": [
+    {
+      "company": "Carrot Rewards",
+      "endYear": 2019,
+      "outcome": "Shut down after running out of money",
+      "sourceUrl": "https://www.iphoneincanada.ca/2019/06/19/carrot-rewards-app-shuts-down/"
+    },
+    {
+      "company": "Plink",
+      "outcome": "Closed with immediate effect",
+      "sourceUrl": "https://www.doctorofcredit.com/plink-closes-down-effective-immediately/"
+    },
+    {
+      "company": "Points.com",
+      "endYear": 2022,
+      "outcome": "Acquired by Plusgrade",
+      "notes": "Lets members buy, transfer and exchange loyalty currency for nearly 60 programs; acquired for US$385 million. Works with the programs rather than around them.",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1204413/000106299322015665/exhibit99-1.htm"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "coordination",
+      "detail": "Programs block access: Loyalty schemes don't want aggregation."
+    },
+    {
+      "tag": "retention",
+      "detail": "Low engagement: Users check rarely."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Programs own the economics: Little room for a middleman."
+    }
+  ],
+  "sources": []
+}

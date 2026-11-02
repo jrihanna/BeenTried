@@ -1,0 +1,51 @@
+{
+  "slug": "ai-travel-itinerary-planner",
+  "title": "AI travel itinerary planner",
+  "category": "Travel",
+  "summary": "Describe your trip; get a full itinerary instantly.",
+  "keywords": "travel, ai, planning",
+  "status": "reviewed",
+  "whyTempting": "Trip planning takes hours; AI can do it fast.",
+  "whyItFails": "Revenue leaks. Bookings happen elsewhere. Low frequency. Users travel occasionally. Free general chatbots. General AI assistants do this well.",
+  "whatWouldChange": "Agents that can actually book and manage changes end-to-end.",
+  "attempts": [
+    {
+      "company": "Lola",
+      "startYear": 2015,
+      "outcome": "Ceased operations; acquired by Capital One",
+      "notes": "AI travel assistant from Kayak co-founder Paul English. Pivoted to business travel before closing.",
+      "sourceUrl": "https://www.businesstravelnewseurope.com/Management/Lola-ceases-operations-and-touts-next-phase-"
+    },
+    {
+      "company": "Google Trips",
+      "startYear": 2016,
+      "endYear": 2019,
+      "outcome": "App shut down",
+      "notes": "Auto-built itineraries from your bookings; Google closed the app in 2019.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Google_Trips"
+    },
+    {
+      "company": "Tripnotes",
+      "startYear": 2023,
+      "endYear": 2023,
+      "outcome": "Acquired and shut down",
+      "notes": "ChatGPT-based trip planner.",
+      "sourceUrl": "https://skift.com/2024/01/02/tripnotes-a-buzzy-chatgpt-based-trip-planner-was-acquired-and-shut-down/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Revenue leaks: Bookings happen elsewhere."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low frequency: Users travel occasionally."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Free general chatbots: General AI assistants do this well."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "fitness-accountability-app",
+  "title": "Fitness accountability app",
+  "category": "Health",
+  "summary": "Get matched with a buddy or coach to keep you exercising.",
+  "keywords": "fitness, habits, accountability",
+  "status": "draft",
+  "whyTempting": "Everyone knows they should exercise and lacks motivation.",
+  "whyItFails": "January spike. Signups surge then crash every year. Human coaching doesn't scale. Margins shrink with real coaches. Commitment fades. Accountability partners drift apart.",
+  "whatWouldChange": "AI coaches that are actually motivating and cheap enough to scale.",
+  "attempts": [
+    {
+      "company": "Fitocracy",
+      "startYear": 2011,
+      "outcome": "Acquired in 2016, now inactive",
+      "notes": "Gamified fitness social network; website offline by 2024.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fitocracy"
+    },
+    {
+      "company": "Pact (GymPact)",
+      "endYear": 2017,
+      "outcome": "Settled with the FTC over charging users",
+      "notes": "Paid users for hitting exercise goals, funded by those who missed them.",
+      "sourceUrl": "https://www.engadget.com/2017/09/22/fitness-app-company-settles-ftc-nearly-1-million/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "January spike: Signups surge then crash every year."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Human coaching doesn't scale: Margins shrink with real coaches."
+    },
+    {
+      "tag": "retention",
+      "detail": "Commitment fades: Accountability partners drift apart."
+    }
+  ],
+  "sources": []
+}

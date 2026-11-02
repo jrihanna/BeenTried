@@ -1,0 +1,42 @@
+{
+  "slug": "personal-crm-for-friendships",
+  "title": "Personal CRM for friendships",
+  "category": "Social",
+  "summary": "Reminds you to keep in touch with friends, remember birthdays and life events.",
+  "keywords": "relationships, crm, productivity",
+  "status": "draft",
+  "whyTempting": "People feel guilty about drifting apart from friends.",
+  "whyItFails": "Manual data entry. Logging interactions feels transactional and tedious. Aspirational usage. People want to be the kind of person who uses it, but don't. Small paying segment. Mostly networkers and salespeople pay, and they already use real CRMs.",
+  "whatWouldChange": "On-device AI that reads your messages and calendar and suggests check-ins automatically, privately.",
+  "attempts": [
+    {
+      "company": "Plaxo",
+      "startYear": 2002,
+      "endYear": 2017,
+      "outcome": "Acquired by Comcast, then shut down",
+      "notes": "Kept your contacts' details up to date automatically; acquired in 2008 and closed at the end of 2017.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Plaxo"
+    },
+    {
+      "company": "Etacts",
+      "endYear": 2010,
+      "outcome": "Shut down",
+      "sourceUrl": "https://techcrunch.com/2010/12/21/email-contact-manager-etacts-shuts-down"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Manual data entry: Logging interactions feels transactional and tedious."
+    },
+    {
+      "tag": "retention",
+      "detail": "Aspirational usage: People want to be the kind of person who uses it, but don't."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Small paying segment: Mostly networkers and salespeople pay, and they already use real CRMs."
+    }
+  ],
+  "sources": []
+}

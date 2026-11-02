@@ -1,0 +1,46 @@
+{
+  "slug": "spare-room-storage-sharing",
+  "title": "Spare room storage sharing",
+  "category": "Marketplaces",
+  "summary": "Store your stuff in a neighbour's spare room or garage.",
+  "keywords": "storage, sharing, p2p",
+  "status": "draft",
+  "whyTempting": "Self-storage is expensive and spare space is abundant.",
+  "whyItFails": "Trust. Strangers holding belongings is risky. Insurance. Coverage is complicated. Low engagement. Hosts lose interest.",
+  "whatWouldChange": "Insurance products tailored for P2P storage.",
+  "attempts": [
+    {
+      "company": "Omni",
+      "endYear": 2019,
+      "outcome": "Shut down; storage business sold to Clutter",
+      "sourceUrl": "https://techcrunch.com/?p=1916522"
+    },
+    {
+      "company": "Boxbee",
+      "outcome": "Sold its valet-storage operation and pivoted to software",
+      "sourceUrl": "https://www.insideselfstorage.com/self-storage-products/boxbee-sells-valet-storage-operation-unveils-software-platform-entrepreneurs"
+    },
+    {
+      "company": "MakeSpace",
+      "endYear": 2022,
+      "outcome": "Merged into Clutter",
+      "notes": "On-demand storage; all-equity merger to get the scale logistics businesses need. Not peer-to-peer, but the same storage problem.",
+      "sourceUrl": "https://techcrunch.com/2022/02/24/clutter-merges-with-makespace-to-add-scale-to-the-business-of-moving-and-storage"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "moderation",
+      "detail": "Trust: Strangers holding belongings is risky."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Insurance: Coverage is complicated."
+    },
+    {
+      "tag": "retention",
+      "detail": "Low engagement: Hosts lose interest."
+    }
+  ],
+  "sources": []
+}

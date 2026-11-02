@@ -1,0 +1,42 @@
+{
+  "slug": "dog-walking-marketplace",
+  "title": "Dog walking marketplace",
+  "category": "Family",
+  "summary": "Book dog walkers on demand.",
+  "keywords": "pets, dog walking, marketplace",
+  "status": "draft",
+  "whyTempting": "Busy owners need help.",
+  "whyItFails": "Disintermediation. Repeat walkers go direct. Trust. Owners want known walkers. Low margins. Cheap services.",
+  "whatWouldChange": "Bundling with pet insurance or vet services.",
+  "attempts": [
+    {
+      "company": "Wag!",
+      "startYear": 2015,
+      "endYear": 2025,
+      "outcome": "Filed for bankruptcy",
+      "notes": "Raised $300 million from SoftBank in 2018 and listed via SPAC; filed Chapter 11 in July 2025.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wag_(company)"
+    },
+    {
+      "company": "DogVacay",
+      "endYear": 2017,
+      "outcome": "Merged into rival Rover",
+      "sourceUrl": "https://techcrunch.com/2017/03/29/rover-dogvacay-merge/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Disintermediation: Repeat walkers go direct."
+    },
+    {
+      "tag": "moderation",
+      "detail": "Trust: Owners want known walkers."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Low margins: Cheap services."
+    }
+  ],
+  "sources": []
+}

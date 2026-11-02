@@ -1,0 +1,40 @@
+{
+  "slug": "niche-hotel-booking-site",
+  "title": "Niche hotel booking site",
+  "category": "Travel",
+  "summary": "Hotel booking for a specific traveller niche.",
+  "keywords": "hotels, booking, travel",
+  "status": "draft",
+  "whyTempting": "OTAs are generic and niche travellers are underserved.",
+  "whyItFails": "OTA dominance. Booking giants win on inventory and price. Customer acquisition. Search ads are expensive. Thin commissions. Little margin left.",
+  "whatWouldChange": "Community-driven niches with loyal audiences.",
+  "attempts": [
+    {
+      "company": "HotelTonight",
+      "startYear": 2010,
+      "outcome": "Acquired by Airbnb in 2019",
+      "notes": "Last-minute hotel deals; bought for about $450 million.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/HotelTonight"
+    },
+    {
+      "company": "Jetsetter",
+      "outcome": "Unprofitable; put up for sale by TripAdvisor",
+      "sourceUrl": "https://www.phocuswire.com/The-Scan-Unprofitable-Jetsetter-is-up-for-sale-and-more-travel-tech-news"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "OTA dominance: Booking giants win on inventory and price."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Customer acquisition: Search ads are expensive."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Thin commissions: Little margin left."
+    }
+  ],
+  "sources": []
+}

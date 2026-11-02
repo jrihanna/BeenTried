@@ -1,0 +1,43 @@
+{
+  "slug": "bill-splitting-app",
+  "title": "Bill splitting app",
+  "category": "Fintech",
+  "summary": "Split bills and track who owes what among friends and housemates.",
+  "keywords": "payments, splitting, friends",
+  "status": "reviewed",
+  "whyTempting": "Everyone has awkward money moments with friends.",
+  "whyItFails": "Feature, not company. Payment apps and banks add splitting. Hard to monetise. Users won't pay to split $40. Low frequency for most. Heavy users are a small niche.",
+  "whatWouldChange": "Embedded in a payment rail that earns on the transaction.",
+  "attempts": [
+    {
+      "company": "BillMonk",
+      "startYear": 2006,
+      "endYear": 2013,
+      "outcome": "Sold by Obopay to rival BillPin",
+      "notes": "Purchased by mobile payments company Obopay in January 2007, integrating SMS expense entry and mobile/online payments.",
+      "sourceUrl": "https://techcrunch.com/2013/04/03/billpin-acquires-obopays-billmonk-bill-splitting-service"
+    },
+    {
+      "company": "Venmo",
+      "startYear": 2009,
+      "outcome": "Acquired by Braintree, now part of PayPal",
+      "notes": "Bought by Braintree in 2012 for $26.2 million; PayPal acquired Braintree in 2013.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Venmo"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Feature, not company: Payment apps and banks add splitting."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Hard to monetise: Users won't pay to split $40."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low frequency for most: Heavy users are a small niche."
+    }
+  ],
+  "sources": []
+}

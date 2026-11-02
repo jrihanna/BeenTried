@@ -1,0 +1,50 @@
+{
+  "slug": "flying-taxi",
+  "title": "Flying taxi",
+  "category": "Mobility",
+  "summary": "Electric air taxis over traffic.",
+  "keywords": "evtol, aviation, mobility",
+  "status": "draft",
+  "whyTempting": "Escape traffic; futuristic appeal.",
+  "whyItFails": "Regulation. Aviation certification is slow. Cost. Expensive vehicles. Infrastructure. Landing sites needed.",
+  "whatWouldChange": "Certification and battery advances.",
+  "attempts": [
+    {
+      "company": "Kitty Hawk",
+      "startYear": 2010,
+      "endYear": 2022,
+      "outcome": "Wound down",
+      "notes": "Founded as Zee.Aero. Its Boeing joint venture Wisk Aero carried on.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kitty_Hawk_Corporation"
+    },
+    {
+      "company": "Lilium",
+      "startYear": 2015,
+      "endYear": 2024,
+      "outcome": "Insolvent, ceased operations",
+      "notes": "Electric jet air taxi; filed for insolvency twice and laid off about 1,000 staff in December 2024.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lilium_GmbH"
+    },
+    {
+      "company": "Volocopter",
+      "outcome": "Filed for insolvency in December 2024",
+      "notes": "Electric multicopter air taxi; could not maintain funding.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Volocopter"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "regulation",
+      "detail": "Regulation: Aviation certification is slow."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Cost: Expensive vehicles."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Infrastructure: Landing sites needed."
+    }
+  ],
+  "sources": []
+}

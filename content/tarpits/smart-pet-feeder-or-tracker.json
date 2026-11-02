@@ -1,0 +1,39 @@
+{
+  "slug": "smart-pet-feeder-or-tracker",
+  "title": "Smart pet feeder or tracker",
+  "category": "Hardware",
+  "summary": "Track and feed your pet remotely.",
+  "keywords": "pets, iot, hardware",
+  "status": "draft",
+  "whyTempting": "Pet owners spend heavily.",
+  "whyItFails": "Hardware competition. Cheap alternatives. Reliability. Failures harm pets. Low recurring revenue. Hard to sell subscriptions.",
+  "whatWouldChange": "Subscription services (food, vet) bundled with hardware.",
+  "attempts": [
+    {
+      "company": "Petlibro",
+      "outcome": "Outage left smart feeders offline",
+      "sourceUrl": "https://cybernews.com/news/petlibro-smart-pet-feeder-outage-dogs-cats-hungry/"
+    },
+    {
+      "company": "Petnet",
+      "outcome": "Week-long outage in 2020 left feeders offline",
+      "notes": "Customers reported feeders not dispensing food; the company was largely unreachable.",
+      "sourceUrl": "https://techcrunch.com/2020/02/24/petnets-smart-pet-feeder-system-is-back-after-a-week-long-outage-but-customers-are-still-waiting-for-answers"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Hardware competition: Cheap alternatives."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Reliability: Failures harm pets."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low recurring revenue: Hard to sell subscriptions."
+    }
+  ],
+  "sources": []
+}

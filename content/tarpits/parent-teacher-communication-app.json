@@ -1,0 +1,42 @@
+{
+  "slug": "parent-teacher-communication-app",
+  "title": "Parent-teacher communication app",
+  "category": "Education",
+  "summary": "Better messaging between schools and parents.",
+  "keywords": "schools, parents, communication",
+  "status": "draft",
+  "whyTempting": "Parents hate school communication chaos.",
+  "whyItFails": "Schools buy slowly. Procurement is bureaucratic. Bundled by school systems. Learning management systems include messaging. Low budgets. Schools have little money for new tools.",
+  "whatWouldChange": "Selling district-wide with compliance and integration features.",
+  "attempts": [
+    {
+      "company": "Edmodo",
+      "startYear": 2008,
+      "endYear": 2022,
+      "outcome": "Shut down",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Edmodo"
+    },
+    {
+      "company": "ClassDojo",
+      "startYear": 2011,
+      "outcome": "Still operating",
+      "notes": "Free for teachers; launched its first paid product, a family subscription, in 2018. Criticised over student behaviour data.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/ClassDojo"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Schools buy slowly: Procurement is bureaucratic."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Bundled by school systems: Learning management systems include messaging."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low budgets: Schools have little money for new tools."
+    }
+  ],
+  "sources": []
+}

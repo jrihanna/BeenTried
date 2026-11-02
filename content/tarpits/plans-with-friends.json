@@ -1,0 +1,61 @@
+{
+  "slug": "plans-with-friends",
+  "title": "An app for making plans with friends",
+  "category": "Social",
+  "summary": "Help groups of friends decide what to do on Friday night without the endless group chat.",
+  "keywords": "group plans, events, hangouts, weekend, social calendar, meetups, availability",
+  "status": "reviewed",
+  "whyTempting": "Everyone has lived the problem. The group chat goes in circles, someone suggests a place, nobody commits, and the night fizzles. It feels like a small, solvable coordination problem, and every friend you pitch it to says they'd use it.\n\nY Combinator uses this exact idea as its standard example of a tarpit: it comes up in applications every year because it sounds so obviously useful.",
+  "whyItFails": "The pain is real but brief and infrequent. A group makes a plan once or twice a week at most, and the existing tools (group chats, calendar invites, event pages on big social networks) are good enough that switching costs more effort than the problem itself.\n\nThe app is also only useful when your whole friend group has it, so every new user needs four or five friends to join at the same moment. Attempts that grew fast often did so through novelty rather than habit, and usage fell away when the novelty did.",
+  "whatWouldChange": "A new attempt needs a reason people open it when they are not actively making a plan, or a way to be useful to the one organiser before anyone else joins.\n\nIt also needs a distribution channel that brings whole friend groups at once (a campus, a club, a team) rather than individuals. An AI assistant that quietly does the coordination inside the chat people already use is the most plausible new angle, but it competes directly with the messaging platforms themselves.",
+  "attempts": [
+    {
+      "company": "Plancast",
+      "startYear": 2009,
+      "endYear": 2012,
+      "outcome": "Shut down",
+      "notes": "Let people share upcoming plans publicly. Its founder later wrote about how rarely people had plans worth sharing.",
+      "sourceUrl": "https://medium.com/@markymark/plancast-wasnt-early-it-needed-agents-with-a-proper-substrate-and-mesh-aef679d90b9e"
+    },
+    {
+      "company": "Houseparty",
+      "startYear": 2016,
+      "endYear": 2021,
+      "outcome": "Acquired by Epic Games, then shut down",
+      "notes": "Group video hangouts. Spiked during 2020 lockdowns, then faded.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Houseparty_(app)"
+    },
+    {
+      "company": "IRL",
+      "startYear": 2017,
+      "endYear": 2023,
+      "outcome": "Shut down",
+      "notes": "Social calendar and events app. Closed after an internal review found most of its reported users were not real.",
+      "sourceUrl": "https://www.irl.com/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "People only make group plans a few times a week, so the app is forgotten between uses."
+    },
+    {
+      "tag": "cold-start",
+      "detail": "It is useless until the whole friend group has installed it."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Group chats and big social networks already handle 'good enough' planning for free."
+    },
+    {
+      "tag": "retention",
+      "detail": "Growth driven by novelty didn't turn into a weekly habit."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tarpit ideas: what they are and how to avoid them (Y Combinator)",
+      "url": "https://www.ycombinator.com/library/Ij-tarpit-ideas-what-are-tarpit-ideas-how-to-avoid-them"
+    }
+  ]
+}

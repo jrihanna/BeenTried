@@ -1,0 +1,41 @@
+{
+  "slug": "reverse-recruiting-platform",
+  "title": "Reverse recruiting platform",
+  "category": "Enterprise",
+  "summary": "Companies apply to candidates instead.",
+  "keywords": "recruiting, hiring, marketplace",
+  "status": "draft",
+  "whyTempting": "Job seekers hate applications.",
+  "whyItFails": "Supply imbalance. Few top candidates. Disintermediation. Contacts go off-platform. Employer adoption. Hard to change processes.",
+  "whatWouldChange": "Niche talent markets.",
+  "attempts": [
+    {
+      "company": "Vettery / Hired",
+      "startYear": 2013,
+      "outcome": "Acquired by Adecco, merged into Hired",
+      "notes": "Bought for a little over $100 million in 2018; combined with Hired in 2021.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hired_(company)"
+    },
+    {
+      "company": "TalentPad",
+      "endYear": 2015,
+      "outcome": "Shut down operations",
+      "sourceUrl": "https://www.medianama.com/2015/08/223-talentpad-shutdown-operations-2/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Supply imbalance: Few top candidates."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Disintermediation: Contacts go off-platform."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Employer adoption: Hard to change processes."
+    }
+  ],
+  "sources": []
+}

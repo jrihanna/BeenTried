@@ -1,0 +1,40 @@
+{
+  "slug": "smart-water-bottle",
+  "title": "Smart water bottle",
+  "category": "Hardware",
+  "summary": "A bottle that tracks your water intake.",
+  "keywords": "hydration, wearables, hardware",
+  "status": "draft",
+  "whyTempting": "Hydration is a wellness trend.",
+  "whyItFails": "Novelty. Users stop caring quickly. Price. Expensive for a bottle. Battery and cleaning. Annoying to maintain.",
+  "whatWouldChange": "Probably nothing; demand is weak.",
+  "attempts": [
+    {
+      "company": "LifeFuels",
+      "endYear": 2021,
+      "outcome": "Closed after seven years",
+      "sourceUrl": "https://www.restonnow.com/2021/03/16/reston-based-smart-water-bottle-company-to-shut-down/"
+    },
+    {
+      "company": "HidrateSpark",
+      "outcome": "Still operating",
+      "notes": "Early batches had high defect rates and connectivity problems, with late deliveries in 2016.",
+      "sourceUrl": "https://www.startribune.com/article/411352145"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Novelty: Users stop caring quickly."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Price: Expensive for a bottle."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Battery and cleaning: Annoying to maintain."
+    }
+  ],
+  "sources": []
+}

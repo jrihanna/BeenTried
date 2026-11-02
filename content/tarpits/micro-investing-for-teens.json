@@ -1,0 +1,42 @@
+{
+  "slug": "micro-investing-for-teens",
+  "title": "Micro-investing for teens",
+  "category": "Fintech",
+  "summary": "Teach teenagers to invest with small amounts.",
+  "keywords": "investing, teens, education",
+  "status": "draft",
+  "whyTempting": "Parents want financially literate kids; long customer lifetime.",
+  "whyItFails": "Low balances. Tiny accounts make revenue negligible. Regulatory burden. Minors, custody and licensing add cost. Kids churn to adult platforms. Lifetime value doesn't materialise.",
+  "whatWouldChange": "Bank partnerships that absorb compliance and value the customer acquisition.",
+  "attempts": [
+    {
+      "company": "Copper",
+      "endYear": 2024,
+      "outcome": "Discontinued its banking and debit products",
+      "notes": "Hit by the collapse of its banking-as-a-service partner, Synapse.",
+      "sourceUrl": "https://techcrunch.com/2024/05/21/teen-fintech-copper-had-to-emergency-discontinue-its-banking-debit-products"
+    },
+    {
+      "company": "Stockpile",
+      "endYear": 2026,
+      "outcome": "Winding down; kids' accounts moved to Stash",
+      "notes": "Gift-card style investing for kids and teens.",
+      "sourceUrl": "https://www.stash.com/news/stash-agrees-to-acquire-stockpile-kids-accounts"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Low balances: Tiny accounts make revenue negligible."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Regulatory burden: Minors, custody and licensing add cost."
+    },
+    {
+      "tag": "retention",
+      "detail": "Kids churn to adult platforms: Lifetime value doesn't materialise."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "textbook-rental-and-resale",
+  "title": "Textbook rental and resale",
+  "category": "Education",
+  "summary": "Rent or resell textbooks cheaply between students.",
+  "keywords": "textbooks, students, marketplace",
+  "status": "draft",
+  "whyTempting": "Textbooks are expensive and students are broke.",
+  "whyItFails": "Digital shift. Publishers move to digital access codes. Seasonal and local. Demand clumps at semester start. Edition changes. Publishers kill resale value.",
+  "whatWouldChange": "Largely closed by digital licensing; little upside left.",
+  "attempts": [
+    {
+      "company": "Chegg",
+      "startYear": 2005,
+      "outcome": "Moved away from textbook rental",
+      "notes": "Started as textbook rental, handed physical textbooks to Ingram in 2014; later hit hard by AI chatbots.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chegg"
+    },
+    {
+      "company": "Kno",
+      "endYear": 2013,
+      "outcome": "Acquired by Intel for pennies on the dollar",
+      "notes": "Digital textbook startup.",
+      "sourceUrl": "https://www.k12dive.com/news/kno-acquired-by-intel-for-pennies-on-the-dollar/193748/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "timing",
+      "detail": "Digital shift: Publishers move to digital access codes."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Seasonal and local: Demand clumps at semester start."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Edition changes: Publishers kill resale value."
+    }
+  ],
+  "sources": []
+}

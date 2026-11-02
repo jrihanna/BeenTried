@@ -1,0 +1,44 @@
+{
+  "slug": "unbiased-news-aggregator",
+  "title": "Unbiased news aggregator",
+  "category": "Media",
+  "summary": "News from all sides without bias.",
+  "keywords": "news, aggregation, bias",
+  "status": "draft",
+  "whyTempting": "Polarisation is a widely felt problem.",
+  "whyItFails": "People prefer their bias. Demand is lower than stated. Publisher dependency. Content isn't yours. Monetisation. Ads and subscriptions are hard.",
+  "whatWouldChange": "AI summarisation of multiple perspectives.",
+  "attempts": [
+    {
+      "company": "Circa",
+      "startYear": 2012,
+      "endYear": 2019,
+      "outcome": "Acquired by Sinclair, then closed",
+      "notes": "News app that broke stories into short, neutral summaries.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Circa_(news_app)"
+    },
+    {
+      "company": "Artifact",
+      "startYear": 2023,
+      "endYear": 2024,
+      "outcome": "Shut down",
+      "notes": "AI-personalised news aggregator from Instagram's founders; closed because the market opportunity wasn't big enough.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Artifact_(app)"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "People prefer their bias: Demand is lower than stated."
+    },
+    {
+      "tag": "licensing",
+      "detail": "Publisher dependency: Content isn't yours."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Monetisation: Ads and subscriptions are hard."
+    }
+  ],
+  "sources": []
+}

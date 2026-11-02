@@ -1,0 +1,42 @@
+{
+  "slug": "parking-spot-sharing",
+  "title": "Parking spot sharing",
+  "category": "Marketplaces",
+  "summary": "Rent out your driveway or parking spot.",
+  "keywords": "parking, sharing, mobility",
+  "status": "draft",
+  "whyTempting": "Parking is scarce and owners have idle spaces.",
+  "whyItFails": "Local liquidity. Demand is hyper-local. Low prices. Spot owners earn little. Access issues. Gates and keys complicate things.",
+  "whatWouldChange": "Smart access tech and integration with navigation apps.",
+  "attempts": [
+    {
+      "company": "MonkeyParking",
+      "startYear": 2013,
+      "outcome": "Pulled out of San Francisco in 2014",
+      "notes": "Let drivers auction public street spaces; the city attorney called it a predatory private market.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/MonkeyParking"
+    },
+    {
+      "company": "Haystack",
+      "endYear": 2014,
+      "outcome": "Closed after Boston banned it",
+      "notes": "Let drivers sell the public street spot they were leaving.",
+      "sourceUrl": "https://technical.ly/startups/haystack-closing-down/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Local liquidity: Demand is hyper-local."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low prices: Spot owners earn little."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Access issues: Gates and keys complicate things."
+    }
+  ],
+  "sources": []
+}

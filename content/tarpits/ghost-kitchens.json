@@ -1,0 +1,41 @@
+{
+  "slug": "ghost-kitchens",
+  "title": "Ghost kitchens",
+  "category": "Food",
+  "summary": "Delivery-only kitchens running many virtual restaurant brands.",
+  "keywords": "restaurants, delivery, kitchens",
+  "status": "draft",
+  "whyTempting": "Delivery growth and lower rent than storefront restaurants.",
+  "whyItFails": "Platform fees. Delivery apps take a large cut. No brand loyalty. Virtual brands are invisible and interchangeable. Quality issues. Food doesn't travel well and reviews suffer.",
+  "whatWouldChange": "Own-channel ordering plus food designed specifically for delivery.",
+  "attempts": [
+    {
+      "company": "CloudKitchens",
+      "startYear": 2016,
+      "outcome": "Closed sites and laid off staff in 2023",
+      "notes": "Ghost kitchen landlord led by Uber co-founder Travis Kalanick.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/CloudKitchens"
+    },
+    {
+      "company": "Kitchen United",
+      "endYear": 2023,
+      "outcome": "Closed or sold all its kitchens and pivoted to software",
+      "sourceUrl": "https://www.restaurantdive.com/news/kitchen-united-closes-kroger-units-sells-or-closes-the-rest-software-pivot/700900/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Platform fees: Delivery apps take a large cut."
+    },
+    {
+      "tag": "retention",
+      "detail": "No brand loyalty: Virtual brands are invisible and interchangeable."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Quality issues: Food doesn't travel well and reviews suffer."
+    }
+  ],
+  "sources": []
+}

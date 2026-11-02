@@ -1,0 +1,43 @@
+{
+  "slug": "neighbourhood-social-network",
+  "title": "Neighbourhood social network",
+  "category": "Social",
+  "summary": "A private network for your street or suburb: lost pets, recommendations, local news.",
+  "keywords": "local, community, neighbourhood",
+  "status": "draft",
+  "whyTempting": "People want local community and trusted local information.",
+  "whyItFails": "Negativity spiral. Content skews to complaints, crime fears and disputes. Moderation burden. Hyper-local disputes are hard and legally risky to moderate. Facebook Groups exist. Local Facebook groups already capture most of this.",
+  "whatWouldChange": "A narrow utility wedge (e.g. local services or council issues) rather than a general feed.",
+  "attempts": [
+    {
+      "company": "EveryBlock",
+      "startYear": 2007,
+      "endYear": 2018,
+      "outcome": "Shut down",
+      "notes": "Hyperlocal neighbourhood news; shut by NBC in 2013, relaunched by Comcast, then acquired and closed by Nextdoor.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/EveryBlock"
+    },
+    {
+      "company": "Nextdoor",
+      "startYear": 2008,
+      "outcome": "Public via SPAC in 2021, loss-making",
+      "notes": "Long-running criticism over racial profiling and a 'snitch app' reputation; cut 25% of staff in 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nextdoor"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "moderation",
+      "detail": "Negativity spiral: Content skews to complaints, crime fears and disputes."
+    },
+    {
+      "tag": "moderation",
+      "detail": "Moderation burden: Hyper-local disputes are hard and legally risky to moderate."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Facebook Groups exist: Local Facebook groups already capture most of this."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "digital-legacy-vault",
+  "title": "Digital legacy vault",
+  "category": "Social",
+  "summary": "Store passwords, wishes and messages to be released when you die.",
+  "keywords": "death, legacy, documents",
+  "status": "draft",
+  "whyTempting": "Everyone dies and families struggle with digital estates.",
+  "whyItFails": "Nobody thinks about death. Urgency is near zero until it's too late. Trust over decades. Users must believe you'll exist in 30 years. Platforms add it themselves. Apple and Google offer legacy contacts.",
+  "whatWouldChange": "Distribution through estate lawyers, banks or insurers at moments of planning.",
+  "attempts": [
+    {
+      "company": "Legacy Locker",
+      "startYear": 2009,
+      "endYear": 2013,
+      "outcome": "Acquired by PasswordBox, then shut down",
+      "notes": "Digital safe deposit box for passwords to pass on after death; user numbers were never disclosed.",
+      "sourceUrl": "https://techcrunch.com/2013/11/20/passwordbox-acquires-digital-afterlife-service-legacy-locker/"
+    },
+    {
+      "company": "Entrustet",
+      "outcome": "Acquired by rival SecureSafe",
+      "sourceUrl": "https://itwire.com/it-industry-news/deals/dswiss-securesafe-acquires-competitor-entrustet"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "Nobody thinks about death: Urgency is near zero until it's too late."
+    },
+    {
+      "tag": "retention",
+      "detail": "Trust over decades: Users must believe you'll exist in 30 years."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Platforms add it themselves: Apple and Google offer legacy contacts."
+    }
+  ],
+  "sources": []
+}

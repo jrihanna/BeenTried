@@ -1,0 +1,51 @@
+{
+  "slug": "local-experiences-marketplace",
+  "title": "Local experiences marketplace",
+  "category": "Travel",
+  "summary": "Book unique experiences hosted by locals.",
+  "keywords": "travel, experiences, local",
+  "status": "draft",
+  "whyTempting": "Travellers want authentic experiences.",
+  "whyItFails": "Supply quality. Hosts vary widely. Big platforms. Airbnb and others offer experiences. Seasonality. Demand fluctuates.",
+  "whatWouldChange": "Curated niches with strong quality control.",
+  "attempts": [
+    {
+      "company": "Vayable",
+      "startYear": 2011,
+      "outcome": "Shut down",
+      "sourceUrl": "https://arival.travel/vayable-shutters-operations/"
+    },
+    {
+      "company": "Airbnb Experiences",
+      "startYear": 2016,
+      "outcome": "Redesigned and relaunched in 2025",
+      "notes": "Bookable activities hosted by locals, inside Airbnb.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Airbnb"
+    },
+    {
+      "company": "SideTour",
+      "outcome": "Bought by Groupon, then closed",
+      "sourceUrl": "https://skift.com/?p=151085"
+    },
+    {
+      "company": "RAVN",
+      "outcome": "Shut down after six months",
+      "sourceUrl": "https://www.phocuswire.com/RAVN-shuts-down-after-just-six-months-not-the-Airbnb-for-experiences-before-or-after-rebrand"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Supply quality: Hosts vary widely."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Big platforms: Airbnb and others offer experiences."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Seasonality: Demand fluctuates."
+    }
+  ],
+  "sources": []
+}

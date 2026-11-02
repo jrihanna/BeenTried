@@ -1,0 +1,42 @@
+{
+  "slug": "travel-buddy-finder",
+  "title": "Travel buddy finder",
+  "category": "Travel",
+  "summary": "Find someone to travel with.",
+  "keywords": "travel, social, matching",
+  "status": "draft",
+  "whyTempting": "Solo travellers want company.",
+  "whyItFails": "Safety. Meeting strangers abroad is risky. Low frequency. Trips are rare. Matching. Dates and preferences rarely align.",
+  "whatWouldChange": "Group tours with built-in matching.",
+  "attempts": [
+    {
+      "company": "Couchsurfing",
+      "startYear": 2004,
+      "outcome": "Moved to a paid subscription in 2020",
+      "notes": "Started as a nonprofit, became a for-profit company in 2011.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Couchsurfing"
+    },
+    {
+      "company": "TravBuddy",
+      "startYear": 2005,
+      "endYear": 2018,
+      "outcome": "Ceased operations",
+      "sourceUrl": "https://en.wikipedia.org/wiki/TravBuddy.com"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "moderation",
+      "detail": "Safety: Meeting strangers abroad is risky."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low frequency: Trips are rare."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Matching: Dates and preferences rarely align."
+    }
+  ],
+  "sources": []
+}

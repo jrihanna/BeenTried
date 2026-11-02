@@ -1,0 +1,40 @@
+{
+  "slug": "subscription-cancellation-manager",
+  "title": "Subscription cancellation manager",
+  "category": "Fintech",
+  "summary": "Find and cancel subscriptions you've forgotten about.",
+  "keywords": "subscriptions, savings, consumer",
+  "status": "draft",
+  "whyTempting": "Everyone wastes money on forgotten subscriptions.",
+  "whyItFails": "One-time value. Once cleaned up, there's nothing left to do. Banks add it. Bank apps surface recurring payments. Cancellations are hard to automate. Merchants make cancelling deliberately difficult.",
+  "whatWouldChange": "Click-to-cancel regulations and AI agents that can navigate cancellation flows.",
+  "attempts": [
+    {
+      "company": "Trim",
+      "outcome": "Acquired by OneMain Financial",
+      "sourceUrl": "https://coverager.com/onemain-financial-acquires-trim/"
+    },
+    {
+      "company": "Truebill",
+      "endYear": 2021,
+      "outcome": "Acquired by Rocket Companies",
+      "notes": "Tracked and cancelled subscriptions and negotiated bills; bought for $1.275 billion in cash, now Rocket Money.",
+      "sourceUrl": "https://www.crowdfundinsider.com/2021/12/184478-rocket-acquires-truebill-for-1-275-billion-in-big-fintech-deal/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "One-time value: Once cleaned up, there's nothing left to do."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Banks add it: Bank apps surface recurring payments."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Cancellations are hard to automate: Merchants make cancelling deliberately difficult."
+    }
+  ],
+  "sources": []
+}

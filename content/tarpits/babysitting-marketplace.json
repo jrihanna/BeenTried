@@ -1,0 +1,50 @@
+{
+  "slug": "babysitting-marketplace",
+  "title": "Babysitting marketplace",
+  "category": "Marketplaces",
+  "summary": "Find vetted babysitters on demand.",
+  "keywords": "childcare, marketplace, parents",
+  "status": "reviewed",
+  "whyTempting": "Parents desperately need reliable childcare.",
+  "whyItFails": "Trust is local. Parents prefer word-of-mouth sitters. Disintermediation. Good matches go direct. Liability. Safety incidents are catastrophic.",
+  "whatWouldChange": "Employer-paid childcare benefits creating a paying buyer.",
+  "attempts": [
+    {
+      "company": "Care.com",
+      "startYear": 2007,
+      "outcome": "Acquired by IAC in 2020",
+      "notes": "A 2019 Wall Street Journal investigation found it listed childcare providers as licensed when they were not.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Care.com"
+    },
+    {
+      "company": "Swishboom",
+      "startYear": 2012,
+      "endYear": 2023,
+      "outcome": "Closed; technology put up for sale",
+      "notes": "Help families schedule their babysitters and grow their sitter network.",
+      "sourceUrl": "https://siliconprairienews.com/2023/11/swishboom-closing-down-for-sale/"
+    },
+    {
+      "company": "Cozykin",
+      "endYear": 2019,
+      "outcome": "Shut down abruptly",
+      "notes": "Nanny-share childcare startup.",
+      "sourceUrl": "https://www.bostonglobe.com/metro/2019/10/11/nanny-share-child-care-startup-cozykin-abruptly-shuts-down/hyIrG5a8JHVK6TlOe8IEpO/story.html"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Trust is local: Parents prefer word-of-mouth sitters."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Disintermediation: Good matches go direct."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Liability: Safety incidents are catastrophic."
+    }
+  ],
+  "sources": []
+}

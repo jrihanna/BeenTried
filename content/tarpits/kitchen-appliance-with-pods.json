@@ -1,0 +1,51 @@
+{
+  "slug": "kitchen-appliance-with-pods",
+  "title": "Kitchen appliance with pods",
+  "category": "Hardware",
+  "summary": "An appliance that uses proprietary pods (juice, cocktails, etc).",
+  "keywords": "kitchen, pods, razor blades",
+  "status": "draft",
+  "whyTempting": "Razor-and-blades model like coffee pods.",
+  "whyItFails": "Pods are unnecessary. Customers find workarounds. High hardware cost. Expensive machines. Waste backlash. Single-use pods draw criticism.",
+  "whatWouldChange": "Unlikely; consumers resist lock-in.",
+  "attempts": [
+    {
+      "company": "Juicero",
+      "startYear": 2013,
+      "endYear": 2017,
+      "outcome": "Shut down",
+      "notes": "Wi-Fi juicer with subscription packs; reporters found the packs could be squeezed by hand.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Juicero"
+    },
+    {
+      "company": "Keurig Kold",
+      "startYear": 2015,
+      "endYear": 2016,
+      "outcome": "Discontinued",
+      "notes": "Pod-based soda maker.",
+      "sourceUrl": "https://www.engadget.com/2016-06-07-keurig-kold-goes-flat.html"
+    },
+    {
+      "company": "Teforia",
+      "endYear": 2017,
+      "outcome": "Shut down",
+      "notes": "Sold a $1,000 tea infuser.",
+      "sourceUrl": "https://techcrunch.com/2017/10/27/1000-tea-infuser-startup-teforia-shuts-down"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Pods are unnecessary: Customers find workarounds."
+    },
+    {
+      "tag": "hardware",
+      "detail": "High hardware cost: Expensive machines."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Waste backlash: Single-use pods draw criticism."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "renovation-project-management",
+  "title": "Renovation project management",
+  "category": "Property",
+  "summary": "Manage your home renovation in one app.",
+  "keywords": "renovation, home, project management",
+  "status": "draft",
+  "whyTempting": "Renovations are stressful.",
+  "whyItFails": "One-time use. Few renovations. Tradie adoption. Hard to get them to use apps. Low monetisation. Homeowners won't pay much.",
+  "whatWouldChange": "Bundling with financing or materials.",
+  "attempts": [
+    {
+      "company": "Houzz",
+      "startYear": 2009,
+      "outcome": "Still operating",
+      "notes": "Home design platform; launched Houzz Pro project tools aimed at professionals rather than homeowners in 2020.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Houzz"
+    },
+    {
+      "company": "Made Renovation",
+      "endYear": 2023,
+      "outcome": "Shut down",
+      "sourceUrl": "https://techcrunch.com/2023/10/18/made-renovation-which-intrigued-then-infuriated-its-customers-is-shutting-down"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "One-time use: Few renovations."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Tradie adoption: Hard to get them to use apps."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low monetisation: Homeowners won't pay much."
+    }
+  ],
+  "sources": []
+}

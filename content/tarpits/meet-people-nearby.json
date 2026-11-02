@@ -1,0 +1,41 @@
+{
+  "slug": "meet-people-nearby",
+  "title": "Meet people nearby",
+  "category": "Social",
+  "summary": "See interesting people around you right now and say hi.",
+  "keywords": "social, location, friendship",
+  "status": "draft",
+  "whyTempting": "Loneliness is widespread and people want serendipitous connection.",
+  "whyItFails": "Safety and creepiness. Showing nearby strangers invites harassment and attracts the wrong users. Density problem. Needs many active users in the same place at the same time. Novelty decays. Initial curiosity fades fast.",
+  "whatWouldChange": "Anchoring to an existing trusted context (a campus, a workplace, an event) rather than open location.",
+  "attempts": [
+    {
+      "company": "Glancee",
+      "endYear": 2012,
+      "outcome": "Acquired by Facebook",
+      "sourceUrl": "https://techcrunch.com/2012/05/04/facebook-buys-location-based-discovery-app-glancee/amp/"
+    },
+    {
+      "company": "Highlight",
+      "endYear": 2015,
+      "outcome": "App taken down; team acquired by Pinterest",
+      "notes": "Showed people nearby with things in common; buzzy at SXSW, but it drained batteries and the use case proved limited.",
+      "sourceUrl": "https://techcrunch.com/2016/07/14/pinterest-acquires-the-team-behind-highlight-and-shorts/amp/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "moderation",
+      "detail": "Safety and creepiness: Showing nearby strangers invites harassment and attracts the wrong users."
+    },
+    {
+      "tag": "cold-start",
+      "detail": "Density problem: Needs many active users in the same place at the same time."
+    },
+    {
+      "tag": "retention",
+      "detail": "Novelty decays: Initial curiosity fades fast."
+    }
+  ],
+  "sources": []
+}

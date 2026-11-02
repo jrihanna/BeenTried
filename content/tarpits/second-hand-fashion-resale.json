@@ -1,0 +1,57 @@
+{
+  "slug": "second-hand-fashion-resale",
+  "title": "Second-hand fashion resale",
+  "category": "Marketplaces",
+  "summary": "Resell clothing easily, with sustainability appeal.",
+  "keywords": "fashion, resale, sustainability",
+  "status": "draft",
+  "whyTempting": "Huge wardrobes and growing sustainability concern.",
+  "whyItFails": "Low item value. Handling costs exceed sale prices. Authentication. Luxury requires expensive verification. Crowded market. Many competitors.",
+  "whatWouldChange": "Brand-run resale programs and AI listing tools.",
+  "attempts": [
+    {
+      "company": "Vinted",
+      "startYear": 2008,
+      "outcome": "Profitable; profit more than tripled in 2024",
+      "notes": "A rare success in the category, built on free selling and buyer fees.",
+      "sourceUrl": "https://www.retailgazette.co.uk/blog/2025/04/vinted-triples/"
+    },
+    {
+      "company": "ThredUp",
+      "startYear": 2009,
+      "outcome": "Public since 2021, still loss-making",
+      "notes": "Online consignment and resale.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/ThredUp"
+    },
+    {
+      "company": "Depop",
+      "startYear": 2011,
+      "endYear": 2026,
+      "outcome": "Bought by Etsy, then sold to eBay for $1.2 billion",
+      "notes": "Etsy paid about $1.6 billion in 2021.",
+      "sourceUrl": "https://techcrunch.com/2026/02/18/etsy-sells-secondhand-clothing-marketplace-depop-to-ebay-for-1-2b/"
+    },
+    {
+      "company": "Poshmark",
+      "startYear": 2011,
+      "outcome": "Acquired by Naver in 2023",
+      "notes": "Went public in 2021 at over $3 billion; sold for $1.2 billion two years later.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Poshmark"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Low item value: Handling costs exceed sale prices."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Authentication: Luxury requires expensive verification."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Crowded market: Many competitors."
+    }
+  ],
+  "sources": []
+}

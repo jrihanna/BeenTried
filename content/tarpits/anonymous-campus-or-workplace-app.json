@@ -1,0 +1,44 @@
+{
+  "slug": "anonymous-campus-or-workplace-app",
+  "title": "Anonymous campus or workplace app",
+  "category": "Social",
+  "summary": "Post anonymously to everyone at your school or company.",
+  "keywords": "anonymous, social, campus",
+  "status": "reviewed",
+  "whyTempting": "Anonymous apps spike in popularity and generate huge engagement fast.",
+  "whyItFails": "Toxicity and bullying. Anonymity reliably produces harassment and defamation. Legal exposure. Hosts get dragged into complaints, subpoenas and takedown demands. Spike-and-crash. Engagement collapses once novelty and safety issues hit.",
+  "whatWouldChange": "Probably nothing; the failure mode is structural, not technological.",
+  "attempts": [
+    {
+      "company": "Yik Yak",
+      "startYear": 2013,
+      "endYear": 2017,
+      "outcome": "Shut down, later relaunched",
+      "notes": "Anonymous posts to people nearby, popular on campuses; ceased in May 2017 and came back in 2021.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yik_Yak"
+    },
+    {
+      "company": "Secret",
+      "startYear": 2014,
+      "endYear": 2015,
+      "outcome": "Shut down",
+      "notes": "Anonymous posts to friends; the founder shut it down after it was used to spread malicious rumours.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Secret_(app)"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "moderation",
+      "detail": "Toxicity and bullying: Anonymity reliably produces harassment and defamation."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Legal exposure: Hosts get dragged into complaints, subpoenas and takedown demands."
+    },
+    {
+      "tag": "retention",
+      "detail": "Spike-and-crash: Engagement collapses once novelty and safety issues hit."
+    }
+  ],
+  "sources": []
+}

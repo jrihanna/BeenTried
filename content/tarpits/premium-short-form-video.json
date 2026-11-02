@@ -1,0 +1,50 @@
+{
+  "slug": "premium-short-form-video",
+  "title": "Premium short-form video",
+  "category": "Media",
+  "summary": "High-budget short videos made for mobile.",
+  "keywords": "video, streaming, mobile",
+  "status": "draft",
+  "whyTempting": "Mobile viewing is huge.",
+  "whyItFails": "Free competition. TikTok and YouTube are free. Expensive content. High production costs. Unclear demand. Users don't pay for short content.",
+  "whatWouldChange": "Unclear; free platforms remain dominant.",
+  "attempts": [
+    {
+      "company": "go90",
+      "startYear": 2015,
+      "endYear": 2018,
+      "outcome": "Shut down by Verizon",
+      "sourceUrl": "https://variety.com/2018/digital/news/go90-shutting-down-verizon-1202860864"
+    },
+    {
+      "company": "Quibi",
+      "startYear": 2020,
+      "endYear": 2020,
+      "outcome": "Shut down",
+      "notes": "Raised $1.75 billion and closed about eight months after launch.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Quibi"
+    },
+    {
+      "company": "Vessel",
+      "endYear": 2016,
+      "outcome": "Bought by Verizon and shut down",
+      "notes": "Subscription video from a Hulu co-founder.",
+      "sourceUrl": "https://techcrunch.com/2016/10/26/verizon-acquires-vessel"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Free competition: TikTok and YouTube are free."
+    },
+    {
+      "tag": "licensing",
+      "detail": "Expensive content: High production costs."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Unclear demand: Users don't pay for short content."
+    }
+  ],
+  "sources": []
+}

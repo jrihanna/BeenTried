@@ -1,0 +1,79 @@
+{
+  "slug": "instant-delivery",
+  "title": "Groceries and essentials delivered in minutes",
+  "category": "Commerce",
+  "summary": "Order snacks, groceries or household items and get them in 10 to 30 minutes from local warehouses.",
+  "keywords": "quick commerce, grocery delivery, dark stores, on-demand delivery, convenience, 15 minute delivery",
+  "status": "draft",
+  "whyTempting": "Customers love it. Fast delivery is easy to explain, easy to market, and early cities show impressive order growth. It looks like a logistics problem that enough capital and software can solve.",
+  "whyItFails": "Each order is small, but it still needs a rider, a warehouse in a high-rent area, and stock that can spoil. Growth is usually bought with discounts and free delivery, and when those stop, many customers order less.\n\nThe model only works with very high order density, and building that density costs more money than most companies can raise, especially once investment dries up.",
+  "whatWouldChange": "A new attempt needs positive margin on a typical order without discounts, which usually means higher order values, delivery fees customers accept, or much cheaper fulfilment.\n\nAutomation of picking or delivery could change the cost structure, but it has to be cheaper in practice, not just in a pilot.",
+  "attempts": [
+    {
+      "company": "Webvan",
+      "startYear": 1996,
+      "endYear": 2001,
+      "outcome": "Bankrupt",
+      "notes": "Online grocery delivery that built expensive warehouses before demand was there.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Webvan"
+    },
+    {
+      "company": "Kozmo.com",
+      "startYear": 1998,
+      "endYear": 2001,
+      "outcome": "Shut down",
+      "notes": "Free one-hour delivery of videos, snacks and more in US cities.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kozmo.com"
+    },
+    {
+      "company": "Getir",
+      "startYear": 2015,
+      "endYear": 2024,
+      "outcome": "Withdrew from the US and Europe",
+      "notes": "Retreated to its home market of Turkey.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Getir"
+    },
+    {
+      "company": "Gorillas",
+      "startYear": 2020,
+      "endYear": 2022,
+      "outcome": "Acquired by Getir",
+      "notes": "Grew very fast across European cities on venture funding."
+    },
+    {
+      "company": "Buyk",
+      "startYear": 2021,
+      "endYear": 2022,
+      "outcome": "Bankrupt",
+      "notes": "Fast grocery delivery in New York and Chicago."
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Small orders can't cover rider, warehouse and spoilage costs."
+    },
+    {
+      "tag": "retention",
+      "detail": "Customers drawn in by discounts order less once prices go up."
+    },
+    {
+      "tag": "timing",
+      "detail": "Both waves expanded on cheap capital that disappeared (2001 and 2022)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Webvan (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Webvan"
+    },
+    {
+      "title": "Kozmo.com (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Kozmo.com"
+    },
+    {
+      "title": "Getir (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Getir"
+    }
+  ]
+}

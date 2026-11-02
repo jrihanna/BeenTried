@@ -1,0 +1,48 @@
+{
+  "slug": "niche-dating-app",
+  "title": "Niche dating app",
+  "category": "Dating",
+  "summary": "A dating app for a specific group or with a new matching twist.",
+  "keywords": "dating, niche, matching",
+  "status": "draft",
+  "whyTempting": "Everyone hates dating apps and has an idea to fix them.",
+  "whyItFails": "Liquidity. Niches lack enough local matches. Success means churn. Happy couples leave. Incumbents copy features. Large apps add your twist.",
+  "whatWouldChange": "Communities that already exist offline and can bring density from day one.",
+  "attempts": [
+    {
+      "company": "The League",
+      "startYear": 2014,
+      "outcome": "Acquired by Match Group in 2022",
+      "notes": "Selective dating app for career-focused singles.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_League_(app)"
+    },
+    {
+      "company": "Archer",
+      "outcome": "Shut down by Match Group",
+      "notes": "Gay dating app.",
+      "sourceUrl": "https://www.globaldatinginsights.com/news/match-group-prepares-to-shut-down-gay-dating-app-archer/"
+    },
+    {
+      "company": "Chappy",
+      "endYear": 2020,
+      "outcome": "Shut down",
+      "notes": "Gay dating app.",
+      "sourceUrl": "https://www.thepinknews.com/2020/02/17/chappy-app-shut-down-ollie-locke-jack-rogers"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Liquidity: Niches lack enough local matches."
+    },
+    {
+      "tag": "retention",
+      "detail": "Success means churn: Happy couples leave."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Incumbents copy features: Large apps add your twist."
+    }
+  ],
+  "sources": []
+}

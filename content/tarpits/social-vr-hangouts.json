@@ -1,0 +1,59 @@
+{
+  "slug": "social-vr-hangouts",
+  "title": "Social VR spaces to hang out in",
+  "category": "VR and AR",
+  "summary": "Virtual worlds where people meet as avatars to chat, attend events, and spend time together.",
+  "keywords": "virtual reality, metaverse, avatars, virtual events, VR social, headsets, virtual worlds",
+  "status": "draft",
+  "whyTempting": "Being in a room with someone in VR feels genuinely different from a video call, and demos are memorable. Every new headset launch makes it feel like the audience is about to arrive.",
+  "whyItFails": "Only a small share of people own a headset, and fewer still wear it regularly. A social space needs a crowd to feel alive, so a small install base produces empty worlds, which then drive away the people who did show up.\n\nOpen spaces with strangers also attract harassment, which is more intense in VR than on a flat screen and expensive to moderate.",
+  "whatWouldChange": "A new attempt needs to work well for people without a headset (on phones or desktops) so it isn't waiting on hardware sales, or it needs a reason for a specific group to show up together at set times, such as classes, teams or events.\n\nIt also needs moderation and personal safety tools designed in from the start.",
+  "attempts": [
+    {
+      "company": "AltspaceVR",
+      "startYear": 2015,
+      "endYear": 2023,
+      "outcome": "Acquired by Microsoft, then shut down",
+      "notes": "Hosted virtual events and meetups.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/AltspaceVR"
+    },
+    {
+      "company": "Sansar",
+      "startYear": 2017,
+      "endYear": 2020,
+      "outcome": "Sold by Linden Lab",
+      "notes": "A VR world platform from the makers of Second Life."
+    },
+    {
+      "company": "Facebook Spaces",
+      "startYear": 2017,
+      "endYear": 2019,
+      "outcome": "Shut down",
+      "notes": "Meet friends as avatars in VR."
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "hardware",
+      "detail": "Too few people own and regularly use a headset."
+    },
+    {
+      "tag": "cold-start",
+      "detail": "Empty worlds feel dead, so early visitors don't come back."
+    },
+    {
+      "tag": "moderation",
+      "detail": "Harassment in shared spaces is intense and costly to manage."
+    },
+    {
+      "tag": "timing",
+      "detail": "Each wave of hardware arrived slower than the platforms needed."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AltspaceVR (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/AltspaceVR"
+    }
+  ]
+}

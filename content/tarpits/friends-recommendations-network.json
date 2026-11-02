@@ -1,0 +1,51 @@
+{
+  "slug": "friends-recommendations-network",
+  "title": "Friends' recommendations network",
+  "category": "Social",
+  "summary": "One place to see what restaurants, shows and products your friends actually recommend.",
+  "keywords": "social, recommendations, cold start",
+  "status": "draft",
+  "whyTempting": "Everyone trusts friends over strangers, and asks for recommendations in group chats constantly.",
+  "whyItFails": "Cold start. The app is useless until many of your friends are on it and posting. Low posting frequency. People consume recommendations far more than they bother to log them. Group chats already work. The behaviour happens fine in iMessage/WhatsApp with zero setup.",
+  "whatWouldChange": "LLMs that can extract recommendations passively from chats, email or photos without manual logging.",
+  "attempts": [
+    {
+      "company": "Dodgeball",
+      "startYear": 2000,
+      "endYear": 2009,
+      "outcome": "Bought by Google, then discontinued",
+      "notes": "Google replaced it with Latitude.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dodgeball_(service)"
+    },
+    {
+      "company": "Gowalla",
+      "startYear": 2007,
+      "endYear": 2012,
+      "outcome": "Shut down after Facebook acquired it",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gowalla"
+    },
+    {
+      "company": "Foursquare City Guide",
+      "startYear": 2009,
+      "endYear": 2024,
+      "outcome": "App shut down",
+      "notes": "Dropped check-ins for local recommendations in 2014; app closed in December 2024.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Foursquare_City_Guide"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Cold start: The app is useless until many of your friends are on it and posting."
+    },
+    {
+      "tag": "cold-start",
+      "detail": "Low posting frequency: People consume recommendations far more than they bother to log them."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Group chats already work: The behaviour happens fine in iMessage/WhatsApp with zero setup."
+    }
+  ],
+  "sources": []
+}

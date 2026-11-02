@@ -1,0 +1,55 @@
+{
+  "slug": "peer-to-peer-lending",
+  "title": "Peer-to-peer lending",
+  "category": "Fintech",
+  "summary": "Cut out the bank: individuals lend directly to borrowers.",
+  "keywords": "lending, p2p, marketplace",
+  "status": "draft",
+  "whyTempting": "Banks' spread looks like pure waste to remove.",
+  "whyItFails": "Adverse selection. The best borrowers get bank loans; you get the rest. Credit cycles. Losses spike in downturns and lenders flee. Regulation and capital. You end up becoming a bank anyway.",
+  "whatWouldChange": "Better underwriting data, but the structural issues remain largely unchanged.",
+  "attempts": [
+    {
+      "company": "Prosper",
+      "startYear": 2005,
+      "outcome": "Hit with an SEC cease-and-desist order in 2008",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Prosper_Marketplace"
+    },
+    {
+      "company": "Zopa",
+      "startYear": 2005,
+      "endYear": 2021,
+      "outcome": "Closed its peer-to-peer business to focus on banking",
+      "sourceUrl": "https://www.fintechfutures.com/bankingtech/zopa-shutters-p2p-retail-investment-business-to-focus-on-banking-offering"
+    },
+    {
+      "company": "LendingClub",
+      "startYear": 2006,
+      "endYear": 2020,
+      "outcome": "Stopped peer-to-peer lending",
+      "notes": "Bought Radius Bank and ceased operating as a peer-to-peer lender in December 2020.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/LendingClub"
+    },
+    {
+      "company": "RateSetter",
+      "endYear": 2020,
+      "outcome": "Sold to Metro Bank for £2.5 million; investor accounts closed",
+      "sourceUrl": "https://www.crowdfundinsider.com/2020/08/164883-metro-bank-acquires-p2p-lender-ratesetter-metro-bank-to-use-its-deposit-base-to-new-fund-loans/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Adverse selection: The best borrowers get bank loans; you get the rest."
+    },
+    {
+      "tag": "timing",
+      "detail": "Credit cycles: Losses spike in downturns and lenders flee."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Regulation and capital: You end up becoming a bank anyway."
+    }
+  ],
+  "sources": []
+}

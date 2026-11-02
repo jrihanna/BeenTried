@@ -1,0 +1,48 @@
+{
+  "slug": "reservation-system-for-small-restaurants",
+  "title": "Reservation system for small restaurants",
+  "category": "Food",
+  "summary": "Cheap, simple booking software for independent restaurants.",
+  "keywords": "restaurants, booking, smb",
+  "status": "draft",
+  "whyTempting": "Big booking platforms are expensive for small venues.",
+  "whyItFails": "Restaurants are low-margin customers. Churn and closures are frequent. Sales cost. Selling to individual restaurants is expensive. Bundled by POS providers. POS systems add booking for free.",
+  "whatWouldChange": "Distribution through a POS or supplier channel that already reaches restaurants.",
+  "attempts": [
+    {
+      "company": "ReservationHop",
+      "startYear": 2014,
+      "endYear": 2014,
+      "outcome": "Shut down",
+      "notes": "Sold reservations at popular restaurants.",
+      "sourceUrl": "https://techcrunch.com/2014/11/07/reservationhop-no-more"
+    },
+    {
+      "company": "Resy",
+      "startYear": 2014,
+      "outcome": "Acquired by American Express in 2019",
+      "notes": "Restaurant booking platform.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Resy"
+    },
+    {
+      "company": "Quandoo",
+      "outcome": "Closing its booking platform by the end of 2026",
+      "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Restaurants are low-margin customers: Churn and closures are frequent."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Sales cost: Selling to individual restaurants is expensive."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Bundled by POS providers: POS systems add booking for free."
+    }
+  ],
+  "sources": []
+}

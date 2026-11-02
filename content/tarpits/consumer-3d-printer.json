@@ -1,0 +1,47 @@
+{
+  "slug": "consumer-3d-printer",
+  "title": "Consumer 3D printer",
+  "category": "Hardware",
+  "summary": "A 3D printer in every home.",
+  "keywords": "3d printing, maker, hardware",
+  "status": "draft",
+  "whyTempting": "Make anything at home.",
+  "whyItFails": "Limited use cases. Most people don't need custom parts. Usability. Printing is fiddly. Price competition. Cheap printers commoditise the market.",
+  "whatWouldChange": "Remains hobbyist; AI-generated designs might help.",
+  "attempts": [
+    {
+      "company": "MakerBot",
+      "startYear": 2009,
+      "outcome": "Acquired by Stratasys, later merged into UltiMaker",
+      "notes": "Shifted from consumers to professional and education markets in 2017 with layoffs of over 30%.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/MakerBot"
+    },
+    {
+      "company": "Solidoodle",
+      "endYear": 2016,
+      "outcome": "Suspended operations",
+      "sourceUrl": "https://makezine.com/article/maker-news/solidoodle-bows-3d-printing/"
+    },
+    {
+      "company": "Pirate3D",
+      "outcome": "Most Kickstarter backers never received a printer",
+      "notes": "Raised $1.5 million on Kickstarter for the Buccaneer printer.",
+      "sourceUrl": "https://all3dp.com/pirate3d-fails-1-5m-kickstarter-campaign/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "Limited use cases: Most people don't need custom parts."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Usability: Printing is fiddly."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Price competition: Cheap printers commoditise the market."
+    }
+  ],
+  "sources": []
+}

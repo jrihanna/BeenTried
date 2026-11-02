@@ -1,0 +1,40 @@
+{
+  "slug": "meal-planning-app",
+  "title": "Meal planning app",
+  "category": "Food",
+  "summary": "Plan your weekly meals and generate a shopping list automatically.",
+  "keywords": "meal planning, recipes, health",
+  "status": "draft",
+  "whyTempting": "Deciding what to cook is a daily pain and tied to health goals.",
+  "whyItFails": "Plans don't survive real life. Users abandon plans by midweek. Free recipe content. Recipes are free everywhere. Low willingness to pay. Hard to charge more than a few dollars.",
+  "whatWouldChange": "AI that adapts plans to what's actually in the fridge and integrates grocery checkout.",
+  "attempts": [
+    {
+      "company": "Mealime",
+      "outcome": "Closed",
+      "sourceUrl": "https://www.mealime.com/closing"
+    },
+    {
+      "company": "Whisk",
+      "endYear": 2023,
+      "outcome": "Acquired by Samsung, rebranded Samsung Food",
+      "notes": "Recipe saving and meal planning app; acquired quietly in 2019.",
+      "sourceUrl": "https://9to5google.com/2023/08/30/whisk-samsung-food-app-rebrand/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Plans don't survive real life: Users abandon plans by midweek."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Free recipe content: Recipes are free everywhere."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low willingness to pay: Hard to charge more than a few dollars."
+    }
+  ],
+  "sources": []
+}

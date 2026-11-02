@@ -1,0 +1,40 @@
+{
+  "slug": "learn-to-code-for-kids",
+  "title": "Learn to code for kids",
+  "category": "Education",
+  "summary": "Teach kids to code through games.",
+  "keywords": "coding, kids, edtech",
+  "status": "draft",
+  "whyTempting": "Parents believe coding is a key future skill.",
+  "whyItFails": "Free alternatives. Scratch and free resources are excellent. Parents are the buyer. Hard to sell kids' fun to paying parents. Engagement drops. Kids lose interest.",
+  "whatWouldChange": "Shifting from 'coding' to AI-building skills, sold to schools.",
+  "attempts": [
+    {
+      "company": "Kano Computing",
+      "startYear": 2013,
+      "outcome": "Went into administration in 2023",
+      "notes": "Raspberry Pi computer kits for kids; assets sold to a company connected to its CEO.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kano_Computing"
+    },
+    {
+      "company": "DevKids",
+      "outcome": "Shut down, then relaunched as uLesson Coding School",
+      "sourceUrl": "https://thecondia.com/devkids-is-shutting-down/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Free alternatives: Scratch and free resources are excellent."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Parents are the buyer: Hard to sell kids' fun to paying parents."
+    },
+    {
+      "tag": "retention",
+      "detail": "Engagement drops: Kids lose interest."
+    }
+  ],
+  "sources": []
+}

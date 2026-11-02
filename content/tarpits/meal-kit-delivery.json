@@ -1,0 +1,49 @@
+{
+  "slug": "meal-kit-delivery",
+  "title": "Meal kit delivery",
+  "category": "Food",
+  "summary": "Pre-portioned ingredients and recipes delivered weekly.",
+  "keywords": "meal kits, delivery, subscription",
+  "status": "draft",
+  "whyTempting": "Removes planning and shopping; strong initial demand.",
+  "whyItFails": "High churn. Customers try discounted boxes and leave. Expensive logistics. Cold chain and packaging eat margins. Customer acquisition cost. Discounts drive signups that don't stick.",
+  "whatWouldChange": "Supermarkets and existing delivery networks absorb the logistics cost.",
+  "attempts": [
+    {
+      "company": "Munchery",
+      "startYear": 2010,
+      "endYear": 2019,
+      "outcome": "Shut down",
+      "notes": "Prepared-meal delivery in San Francisco, Seattle and New York; closed abruptly in January 2019.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Munchery"
+    },
+    {
+      "company": "Blue Apron",
+      "startYear": 2012,
+      "outcome": "Acquired by Wonder Group in 2023",
+      "notes": "IPO in 2017; paying customers fell 24% in one quarter in 2018 and it lost over 80% of its market value within a year.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Blue_Apron"
+    },
+    {
+      "company": "Chef'd",
+      "endYear": 2018,
+      "outcome": "Shut down abruptly as funding dried up",
+      "sourceUrl": "https://www.supermarketnews.com/deli/as-funding-dries-up-chef-d-shuts-down"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "High churn: Customers try discounted boxes and leave."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Expensive logistics: Cold chain and packaging eat margins."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Customer acquisition cost: Discounts drive signups that don't stick."
+    }
+  ],
+  "sources": []
+}

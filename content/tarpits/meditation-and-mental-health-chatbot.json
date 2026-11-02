@@ -1,0 +1,43 @@
+{
+  "slug": "meditation-and-mental-health-chatbot",
+  "title": "Meditation and mental health chatbot",
+  "category": "Health",
+  "summary": "An always-available AI companion for stress and anxiety.",
+  "keywords": "mental health, chatbot, wellbeing",
+  "status": "draft",
+  "whyTempting": "Huge unmet need for mental health support; therapists are scarce.",
+  "whyItFails": "Safety risk. Handling crises requires clinical oversight. Crowded. Many apps, low differentiation. Retention. People use it when struggling, then stop.",
+  "whatWouldChange": "Clinically validated AI used alongside human care, paid by employers or health systems.",
+  "attempts": [
+    {
+      "company": "Woebot",
+      "startYear": 2017,
+      "endYear": 2025,
+      "outcome": "Retired its consumer app",
+      "notes": "Therapy chatbot that started on Facebook Messenger; app closed June 2025.",
+      "sourceUrl": "https://www.mobihealthnews.com/news/woebot-health-shutting-down-its-app"
+    },
+    {
+      "company": "Tessa (NEDA)",
+      "endYear": 2023,
+      "outcome": "Taken offline after giving harmful advice",
+      "notes": "An eating disorder charity replaced its human helpline with the chatbot.",
+      "sourceUrl": "https://www.npr.org/2023/06/08/1181131532/eating-disorder-helpline-takes-down-chatbot-after-it-gave-weight-loss-advice"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "regulation",
+      "detail": "Safety risk: Handling crises requires clinical oversight."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Crowded: Many apps, low differentiation."
+    },
+    {
+      "tag": "retention",
+      "detail": "Retention: People use it when struggling, then stop."
+    }
+  ],
+  "sources": []
+}

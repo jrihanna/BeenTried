@@ -1,0 +1,36 @@
+{
+  "slug": "social-network-for-seniors",
+  "title": "Social network for seniors",
+  "category": "Social",
+  "summary": "A simple social app designed specifically for older adults.",
+  "keywords": "seniors, social, ageing",
+  "status": "draft",
+  "whyTempting": "Ageing populations, loneliness among seniors, and they have money.",
+  "whyItFails": "Seniors don't want a 'seniors app'. Segmenting by age feels patronising. They're already on Facebook. Where their families are. Distribution is hard. Seniors are expensive to reach and onboard.",
+  "whatWouldChange": "Selling through aged-care providers or families rather than direct to seniors.",
+  "attempts": [
+    {
+      "company": "Eons.com",
+      "startYear": 2006,
+      "endYear": 2012,
+      "outcome": "Shut down",
+      "notes": "Social network for people over 40 from Monster.com's founder; sold in 2011, closed in 2012.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eons.com"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "retention",
+      "detail": "Seniors don't want a 'seniors app': Segmenting by age feels patronising."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "They're already on Facebook: Where their families are."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Distribution is hard: Seniors are expensive to reach and onboard."
+    }
+  ],
+  "sources": []
+}

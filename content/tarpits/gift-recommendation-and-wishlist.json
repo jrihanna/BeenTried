@@ -1,0 +1,41 @@
+{
+  "slug": "gift-recommendation-and-wishlist",
+  "title": "Gift recommendation and wishlist",
+  "category": "Social",
+  "summary": "Never buy a bad gift again: wishlists and smart gift suggestions.",
+  "keywords": "gifts, ecommerce, wishlist",
+  "status": "draft",
+  "whyTempting": "Gift-giving is stressful and high-intent shopping.",
+  "whyItFails": "Seasonal usage. Activity spikes at Christmas and birthdays, then dies. Thin affiliate margins. Monetisation relies on small commissions. Amazon wishlists exist. Incumbents cover the basics.",
+  "whatWouldChange": "Strong taste-graph data plus AI that genuinely knows the recipient.",
+  "attempts": [
+    {
+      "company": "Wanelo",
+      "startYear": 2012,
+      "outcome": "Service appears defunct",
+      "notes": "Social shopping and wish lists; about 11 million registered users by 2014, user data stolen in a 2019 hack.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wanelo"
+    },
+    {
+      "company": "Wishberg",
+      "endYear": 2014,
+      "outcome": "Shut down",
+      "sourceUrl": "https://www.medianama.com/2014/07/223-wishberg-shuts-freecharge"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "Seasonal usage: Activity spikes at Christmas and birthdays, then dies."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Thin affiliate margins: Monetisation relies on small commissions."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Amazon wishlists exist: Incumbents cover the basics."
+    }
+  ],
+  "sources": []
+}

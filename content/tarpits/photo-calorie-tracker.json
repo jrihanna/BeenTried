@@ -1,0 +1,35 @@
+{
+  "slug": "photo-calorie-tracker",
+  "title": "Photo calorie tracker",
+  "category": "Health",
+  "summary": "Snap a photo of your meal and get calories instantly.",
+  "keywords": "nutrition, calories, ai",
+  "status": "draft",
+  "whyTempting": "Manual logging is the hardest part of calorie tracking.",
+  "whyItFails": "Accuracy limits. Portion sizes and hidden oils fool image recognition. Big incumbents. Existing calorie apps add photo logging. Tracking fatigue. People stop tracking regardless of ease.",
+  "whatWouldChange": "Multimodal AI improving accuracy, though fatigue remains.",
+  "attempts": [
+    {
+      "company": "MyFitnessPal",
+      "startYear": 2005,
+      "outcome": "Bought by Under Armour, sold at a loss",
+      "notes": "Under Armour paid $475 million in 2015 and sold it for $345 million in 2020.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/MyFitnessPal"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Accuracy limits: Portion sizes and hidden oils fool image recognition."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Big incumbents: Existing calorie apps add photo logging."
+    },
+    {
+      "tag": "retention",
+      "detail": "Tracking fatigue: People stop tracking regardless of ease."
+    }
+  ],
+  "sources": []
+}

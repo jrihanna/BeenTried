@@ -1,0 +1,42 @@
+{
+  "slug": "recycling-rewards",
+  "title": "Recycling rewards",
+  "category": "Climate",
+  "summary": "Earn rewards for recycling.",
+  "keywords": "recycling, rewards, sustainability",
+  "status": "draft",
+  "whyTempting": "Recycling rates are low.",
+  "whyItFails": "Low value. Rewards are tiny. Logistics. Collection is costly. Government schemes. Container deposit schemes exist.",
+  "whatWouldChange": "Integration with deposit schemes.",
+  "attempts": [
+    {
+      "company": "Recyclebank",
+      "startYear": 2006,
+      "endYear": 2019,
+      "outcome": "Acquired by Recycle Track Systems",
+      "notes": "Rewards for household recycling; municipal contracts fell from as many as 400 to 67.",
+      "sourceUrl": "https://www.wastedive.com/news/recycle-track-systems-acquires-recyclebank/565572/"
+    },
+    {
+      "company": "Philacycle",
+      "outcome": "Ended by the City of Philadelphia",
+      "notes": "Philadelphia's recycling rewards program.",
+      "sourceUrl": "https://www.cbsnews.com/philadelphia/news/philadelphia-philacycle-recycling-rewards-program-ending"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Low value: Rewards are tiny."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Logistics: Collection is costly."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Government schemes: Container deposit schemes exist."
+    }
+  ],
+  "sources": []
+}

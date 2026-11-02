@@ -1,0 +1,44 @@
+{
+  "slug": "robot-restaurant",
+  "title": "Robot restaurant",
+  "category": "Food",
+  "summary": "Robots cook and serve food to cut labour costs.",
+  "keywords": "robotics, restaurants, automation",
+  "status": "draft",
+  "whyTempting": "Labour is a restaurant's biggest cost and it's hard to hire.",
+  "whyItFails": "Hardware cost. Robots are expensive and break down. Limited menus. Automation forces narrow, rigid menus. Novelty isn't loyalty. Customers return for food, not robots.",
+  "whatWouldChange": "Cheaper general-purpose robotics; automating back-of-house tasks first.",
+  "attempts": [
+    {
+      "company": "Zume",
+      "startYear": 2015,
+      "endYear": 2023,
+      "outcome": "Shut down",
+      "notes": "Robot-made pizza baked in vans en route; quality complaints, robotics teams laid off in 2020.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zume_Pizza"
+    },
+    {
+      "company": "Eatsa",
+      "startYear": 2015,
+      "endYear": 2019,
+      "outcome": "Closed its restaurants, became Brightloom",
+      "notes": "Automated quinoa-bowl restaurants with kiosks and pickup cubbies; now sells restaurant automation tech.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eatsa"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "hardware",
+      "detail": "Hardware cost: Robots are expensive and break down."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Limited menus: Automation forces narrow, rigid menus."
+    },
+    {
+      "tag": "retention",
+      "detail": "Novelty isn't loyalty: Customers return for food, not robots."
+    }
+  ],
+  "sources": []
+}

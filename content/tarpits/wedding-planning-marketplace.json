@@ -1,0 +1,41 @@
+{
+  "slug": "wedding-planning-marketplace",
+  "title": "Wedding planning marketplace",
+  "category": "Marketplaces",
+  "summary": "Plan your wedding and book vendors in one place.",
+  "keywords": "weddings, events, marketplace",
+  "status": "draft",
+  "whyTempting": "Weddings are expensive and stressful.",
+  "whyItFails": "One-time customers. Couples marry once (usually). Vendor fragmentation. Small vendors are hard to onboard. Heavy content competition. Free inspiration everywhere.",
+  "whatWouldChange": "Vendor software that brings supply onto the platform.",
+  "attempts": [
+    {
+      "company": "Weddington Way",
+      "endYear": 2018,
+      "outcome": "Bought by Gap, then closed",
+      "notes": "Online bridesmaid dress shopping.",
+      "sourceUrl": "https://www.businessinsider.nl/affordable-bridesmaid-dress-shopping-weddington-way-closes-2018-7"
+    },
+    {
+      "company": "The Knot Worldwide",
+      "outcome": "Merged with WeddingWire in 2019 under private equity",
+      "notes": "Vendors sued in 2025 over fake leads; the company denied referring fake accounts.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/The_Knot_Worldwide"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "One-time customers: Couples marry once (usually)."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Vendor fragmentation: Small vendors are hard to onboard."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Heavy content competition: Free inspiration everywhere."
+    }
+  ],
+  "sources": []
+}

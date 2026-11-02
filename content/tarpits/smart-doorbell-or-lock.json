@@ -1,0 +1,40 @@
+{
+  "slug": "smart-doorbell-or-lock",
+  "title": "Smart doorbell or lock",
+  "category": "Hardware",
+  "summary": "A smarter, safer doorbell or lock.",
+  "keywords": "smart home, security, hardware",
+  "status": "draft",
+  "whyTempting": "Home security is a strong emotional purchase.",
+  "whyItFails": "Incumbents. Major brands dominate. Security vulnerabilities. One hack ruins trust. Installation friction. Renters can't install.",
+  "whatWouldChange": "Renter-friendly hardware with no installation.",
+  "attempts": [
+    {
+      "company": "Ring",
+      "startYear": 2013,
+      "outcome": "Acquired by Amazon in 2018",
+      "notes": "Repeated privacy and security controversies; FTC settlement of $5.8 million in 2023 over employee access to videos and hacker protection.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ring_(company)"
+    },
+    {
+      "company": "Otto",
+      "outcome": "Suspended operations before shipping its lock",
+      "sourceUrl": "https://techcrunch.com/2018/01/01/smart-lock-maker-otto-suspends-operations/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Incumbents: Major brands dominate."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Security vulnerabilities: One hack ruins trust."
+    },
+    {
+      "tag": "hardware",
+      "detail": "Installation friction: Renters can't install."
+    }
+  ],
+  "sources": []
+}

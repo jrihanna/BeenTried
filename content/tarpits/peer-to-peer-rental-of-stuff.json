@@ -1,0 +1,49 @@
+{
+  "slug": "peer-to-peer-rental-of-stuff",
+  "title": "Peer-to-peer rental of stuff",
+  "category": "Marketplaces",
+  "summary": "Rent a drill, tent or camera from your neighbour.",
+  "keywords": "rental, sharing economy, p2p",
+  "status": "draft",
+  "whyTempting": "Most owned items sit unused.",
+  "whyItFails": "Low item value. Cheap items aren't worth renting. Logistics friction. Coordinating pickup and return is a hassle. Trust and damage. Insurance and disputes are costly.",
+  "whatWouldChange": "Lockers or delivery that remove coordination friction.",
+  "attempts": [
+    {
+      "company": "Fat Llama",
+      "startYear": 2016,
+      "endYear": 2022,
+      "outcome": "Acquired by rival Hygglo",
+      "notes": "London peer-to-peer rental of cameras, tools and more; sold for $41.5 million.",
+      "sourceUrl": "https://tech.eu/2022/08/16/swedish-hygglo-fattens-portfolio-with-london-based-fat-llama-for-415-million/"
+    },
+    {
+      "company": "Spinlister",
+      "endYear": 2018,
+      "outcome": "Shut down as funding dried up",
+      "notes": "Peer-to-peer bike and board rentals.",
+      "sourceUrl": "https://bicycleretailer.com/industry-news/2018/03/26/spinlister-shuts-down-funding-dries"
+    },
+    {
+      "company": "WhipCar",
+      "outcome": "Closed",
+      "notes": "Peer-to-peer car rental in the UK.",
+      "sourceUrl": "https://www.autorentalnews.com/news/whipcar-uk-shuts-down-operations"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Low item value: Cheap items aren't worth renting."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Logistics friction: Coordinating pickup and return is a hassle."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Trust and damage: Insurance and disputes are costly."
+    }
+  ],
+  "sources": []
+}

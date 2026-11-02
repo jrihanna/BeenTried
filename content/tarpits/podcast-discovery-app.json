@@ -1,0 +1,50 @@
+{
+  "slug": "podcast-discovery-app",
+  "title": "Podcast discovery app",
+  "category": "Media",
+  "summary": "Find great podcasts tailored to you.",
+  "keywords": "podcasts, discovery, audio",
+  "status": "draft",
+  "whyTempting": "Podcasts are hard to discover.",
+  "whyItFails": "Platform dominance. Spotify and Apple own listeners. Low monetisation. Discovery doesn't pay. Retention. Users stick with default apps.",
+  "whatWouldChange": "AI-generated clips and highlights for discovery.",
+  "attempts": [
+    {
+      "company": "Stitcher",
+      "startYear": 2008,
+      "endYear": 2023,
+      "outcome": "App shut down",
+      "notes": "Changed owners three times before SiriusXM closed the app in August 2023.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stitcher_Radio"
+    },
+    {
+      "company": "Google Podcasts",
+      "startYear": 2018,
+      "endYear": 2024,
+      "outcome": "Shut down",
+      "notes": "Closed in favour of YouTube Music.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Google_Podcasts"
+    },
+    {
+      "company": "Breaker",
+      "endYear": 2021,
+      "outcome": "Acquired by Twitter to help build Spaces",
+      "sourceUrl": "https://techcrunch.com/2021/01/04/twitter-acquires-social-podcasting-app-breaker-team-to-help-build-twitter-spaces/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Platform dominance: Spotify and Apple own listeners."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low monetisation: Discovery doesn't pay."
+    },
+    {
+      "tag": "retention",
+      "detail": "Retention: Users stick with default apps."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "skills-course-marketplace",
+  "title": "Skills course marketplace",
+  "category": "Education",
+  "summary": "A marketplace for experts to sell online courses.",
+  "keywords": "courses, marketplace, creators",
+  "status": "draft",
+  "whyTempting": "Creators want to monetise expertise and learners want skills.",
+  "whyItFails": "Commoditisation. Courses are abundant and discounted heavily. Completion rates. Most learners never finish. Creators leave. Successful creators go to their own platforms.",
+  "whatWouldChange": "Cohort-based or outcome-tied learning; AI-personalised instruction.",
+  "attempts": [
+    {
+      "company": "Lynda.com",
+      "startYear": 1995,
+      "endYear": 2017,
+      "outcome": "Acquired by LinkedIn",
+      "notes": "Bought for $1.5 billion in 2015 and folded into LinkedIn Learning.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lynda.com"
+    },
+    {
+      "company": "CreativeLive",
+      "endYear": 2025,
+      "outcome": "Sold by Fiverr to CourseHorse, avoiding a shutdown",
+      "sourceUrl": "https://petapixel.com/2025/12/18/fiverr-offloads-creativelive-to-coursehorse-saving-it-from-shutdown"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Commoditisation: Courses are abundant and discounted heavily."
+    },
+    {
+      "tag": "retention",
+      "detail": "Completion rates: Most learners never finish."
+    },
+    {
+      "tag": "retention",
+      "detail": "Creators leave: Successful creators go to their own platforms."
+    }
+  ],
+  "sources": []
+}

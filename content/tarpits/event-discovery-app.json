@@ -1,0 +1,49 @@
+{
+  "slug": "event-discovery-app",
+  "title": "Event discovery app",
+  "category": "Social",
+  "summary": "Find out what's on tonight near you, personalised to your taste.",
+  "keywords": "events, local, discovery",
+  "status": "draft",
+  "whyTempting": "Everyone has had the 'nothing to do' evening while great events happened nearby.",
+  "whyItFails": "Supply is fragmented. Events live across hundreds of venues, ticketing sites and Instagram posts. Low frequency. Most people go out rarely, so retention is poor. Weak monetisation. Ticketing giants own the transaction; discovery gets crumbs.",
+  "whatWouldChange": "Agents that can aggregate unstructured event listings cheaply and reliably.",
+  "attempts": [
+    {
+      "company": "Upcoming",
+      "startYear": 2003,
+      "endYear": 2013,
+      "outcome": "Acquired by Yahoo!, then retired",
+      "notes": "Social event calendar; Yahoo! retired it in 2013 and the founder relaunched it via Kickstarter in 2014.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Upcoming.org"
+    },
+    {
+      "company": "Toga",
+      "endYear": 2018,
+      "outcome": "Shut down",
+      "notes": "Social calendar for campus events.",
+      "sourceUrl": "https://dailytrojan.com/2018/09/21/popular-social-calendar-app-toga-shuts-down/"
+    },
+    {
+      "company": "EventVue",
+      "endYear": 2010,
+      "outcome": "Shut down",
+      "sourceUrl": "https://digitalbydefault.com/2010/02/07/end-of-eventvue/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Supply is fragmented: Events live across hundreds of venues, ticketing sites and Instagram posts."
+    },
+    {
+      "tag": "frequency",
+      "detail": "Low frequency: Most people go out rarely, so retention is poor."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Weak monetisation: Ticketing giants own the transaction; discovery gets crumbs."
+    }
+  ],
+  "sources": []
+}

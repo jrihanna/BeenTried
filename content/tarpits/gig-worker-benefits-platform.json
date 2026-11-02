@@ -1,0 +1,40 @@
+{
+  "slug": "gig-worker-benefits-platform",
+  "title": "Gig worker benefits platform",
+  "category": "Fintech",
+  "summary": "Portable sick leave, insurance and super for freelancers and gig workers.",
+  "keywords": "gig economy, benefits, insurance",
+  "status": "draft",
+  "whyTempting": "Millions of workers lack benefits and politicians talk about it.",
+  "whyItFails": "Workers won't pay. Low-income users resist deductions. Platforms won't pay. Gig platforms avoid anything resembling employment. Regulatory uncertainty. Rules keep changing.",
+  "whatWouldChange": "Legislation mandating portable benefits contributions from platforms.",
+  "attempts": [
+    {
+      "company": "Level",
+      "outcome": "Shut down after an acquisition fell through",
+      "sourceUrl": "https://pymnts.com/?p=2422249"
+    },
+    {
+      "company": "Catch",
+      "endYear": 2023,
+      "outcome": "Shut down",
+      "notes": "Health and retirement benefits for the self-employed; said it couldn't keep operating in the current market.",
+      "sourceUrl": "https://techcrunch.com/2023/03/06/catch-insurtech-shutting-down"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Workers won't pay: Low-income users resist deductions."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Platforms won't pay: Gig platforms avoid anything resembling employment."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Regulatory uncertainty: Rules keep changing."
+    }
+  ],
+  "sources": []
+}

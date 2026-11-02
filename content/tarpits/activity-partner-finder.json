@@ -1,0 +1,42 @@
+{
+  "slug": "activity-partner-finder",
+  "title": "Activity partner finder",
+  "category": "Social",
+  "summary": "Find a tennis partner, running buddy or board-game group at your level nearby.",
+  "keywords": "sport, hobbies, matching",
+  "status": "reviewed",
+  "whyTempting": "Lots of people want to play but lack partners at the right level and time.",
+  "whyItFails": "Liquidity per niche. Each sport × skill × suburb × time slot is a tiny market. No-shows. Unreliable strangers kill trust quickly. Clubs already solve it. Committed players join clubs; casual ones churn.",
+  "whatWouldChange": "Partnering with venues/courts that already have the bookings and the players.",
+  "attempts": [
+    {
+      "company": "Meetup",
+      "startYear": 2002,
+      "outcome": "Sold several times",
+      "notes": "Acquired by WeWork in 2017, sold to AlleyCorp in 2020 reportedly at a substantial loss, then to Bending Spoons in 2024.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Meetup_(website)"
+    },
+    {
+      "company": "Amigos",
+      "startYear": 2023,
+      "outcome": "Still running",
+      "notes": "A social discovery and networking platform designed to help people connect in real life (IRL) rather than just chatting online",
+      "sourceUrl": "https://www.amigossocial.com/"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "cold-start",
+      "detail": "Liquidity per niche: Each sport × skill × suburb × time slot is a tiny market."
+    },
+    {
+      "tag": "retention",
+      "detail": "No-shows: Unreliable strangers kill trust quickly."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Clubs already solve it: Committed players join clubs; casual ones churn."
+    }
+  ],
+  "sources": []
+}

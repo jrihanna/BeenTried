@@ -1,0 +1,41 @@
+{
+  "slug": "get-paid-for-your-personal-data",
+  "title": "Get paid for your personal data",
+  "category": "Fintech",
+  "summary": "Users own their data and sell it to advertisers directly.",
+  "keywords": "data, privacy, marketplace",
+  "status": "draft",
+  "whyTempting": "Feels fair; Big Tech profits from data that users give away.",
+  "whyItFails": "Data is worth very little per person. Payouts are cents, not dollars. Buyers don't need you. Advertisers already get data elsewhere. Trust and privacy concerns. Selling data contradicts privacy motivations.",
+  "whatWouldChange": "Data for AI training with clear rights might create genuinely valuable individual data.",
+  "attempts": [
+    {
+      "company": "Brave Rewards (BAT)",
+      "startYear": 2017,
+      "outcome": "Still operating",
+      "notes": "Pays users in tokens for viewing ads; publishers objected to Brave replacing their ads.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brave_(web_browser)"
+    },
+    {
+      "company": "Facebook Research",
+      "endYear": 2019,
+      "outcome": "Paid users for data; ended on iPhone after Apple banned it",
+      "sourceUrl": "https://techcrunch.com/2019/01/30/apple-bans-facebook-vpn"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "monetisation",
+      "detail": "Data is worth very little per person: Payouts are cents, not dollars."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Buyers don't need you: Advertisers already get data elsewhere."
+    },
+    {
+      "tag": "regulation",
+      "detail": "Trust and privacy concerns: Selling data contradicts privacy motivations."
+    }
+  ],
+  "sources": []
+}

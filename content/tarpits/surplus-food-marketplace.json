@@ -1,0 +1,47 @@
+{
+  "slug": "surplus-food-marketplace",
+  "title": "Surplus food marketplace",
+  "category": "Food",
+  "summary": "Buy restaurants' and shops' surplus food at a discount.",
+  "keywords": "food waste, sustainability, marketplace",
+  "status": "draft",
+  "whyTempting": "Food waste is huge and everyone hates it.",
+  "whyItFails": "Unpredictable supply. Users can't rely on what's available. Thin margins. Discounted food leaves little to share. Merchant effort. Listing surplus is extra work at closing time.",
+  "whatWouldChange": "POS integration that lists surplus automatically.",
+  "attempts": [
+    {
+      "company": "Too Good To Go",
+      "startYear": 2015,
+      "outcome": "Still operating",
+      "notes": "Surplus food bags from shops and restaurants; claimed 62 million users in 2023. One of the few that made it work.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Too_Good_To_Go"
+    },
+    {
+      "company": "SIRPLUS",
+      "endYear": 2024,
+      "outcome": "Filed for insolvency",
+      "sourceUrl": "https://tech.eu/2024/01/19/food-waste-startup-sirplus-files-for-insolvency-due-to"
+    },
+    {
+      "company": "UglyFood",
+      "endYear": 2023,
+      "outcome": "Closed after failing to raise funds",
+      "sourceUrl": "https://mothership.sg/2023/01/uglyfood-closes//amp"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Unpredictable supply: Users can't rely on what's available."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Thin margins: Discounted food leaves little to share."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Merchant effort: Listing surplus is extra work at closing time."
+    }
+  ],
+  "sources": []
+}

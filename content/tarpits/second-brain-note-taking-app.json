@@ -1,0 +1,42 @@
+{
+  "slug": "second-brain-note-taking-app",
+  "title": "Second-brain note-taking app",
+  "category": "Social",
+  "summary": "A note app that connects your ideas and resurfaces them when useful.",
+  "keywords": "notes, productivity, pkm",
+  "status": "draft",
+  "whyTempting": "Knowledge workers drown in notes; enthusiasts evangelise loudly.",
+  "whyItFails": "Crowded and free. Notion, Obsidian, Apple Notes and Google Keep cover most needs. Switching cost. People don't migrate years of notes. Power-user trap. Enthusiasts love it, mainstream users find it too much work.",
+  "whatWouldChange": "Capture becomes zero effort (voice, screen, meetings) and retrieval is conversational.",
+  "attempts": [
+    {
+      "company": "Google Notebook",
+      "startYear": 2006,
+      "endYear": 2012,
+      "outcome": "Discontinued by Google",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Google_Notebook"
+    },
+    {
+      "company": "Evernote",
+      "startYear": 2007,
+      "outcome": "Acquired by Bending Spoons in 2022",
+      "notes": "Free plan cut back sharply in 2023 and 2024.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Evernote"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "incumbents",
+      "detail": "Crowded and free: Notion, Obsidian, Apple Notes and Google Keep cover most needs."
+    },
+    {
+      "tag": "incumbents",
+      "detail": "Switching cost: People don't migrate years of notes."
+    },
+    {
+      "tag": "retention",
+      "detail": "Power-user trap: Enthusiasts love it, mainstream users find it too much work."
+    }
+  ],
+  "sources": []
+}

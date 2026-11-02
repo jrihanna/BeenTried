@@ -1,0 +1,51 @@
+{
+  "slug": "carbon-offset-app",
+  "title": "Carbon offset app",
+  "category": "Climate",
+  "summary": "Offset your carbon footprint easily.",
+  "keywords": "carbon, climate, consumer",
+  "status": "reviewed",
+  "whyTempting": "Climate concern is high.",
+  "whyItFails": "Offset credibility. Offsets are questioned. Low willingness to pay. Consumers balk. Measurement. Footprints are vague.",
+  "whatWouldChange": "Verified removal credits.",
+  "attempts": [
+    {
+      "company": "Verra",
+      "startYear": 2005,
+      "outcome": "CEO resigned in 2023 after offset investigation",
+      "notes": "Not an app: the biggest offset certifier, whose credits many consumer offset products resell. A 2023 investigation found about 94% of its rainforest credits didn't represent real reductions.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Verified_Carbon_Standard"
+    },
+    {
+      "company": "CarbonCancel",
+      "startYear": 2020,
+      "endYear": 2022,
+      "outcome": "Shut down",
+      "notes": "Helped people offset their carbon footprint.",
+      "sourceUrl": "https://siliconcanals.com/carboncancel-shuts-shop/"
+    },
+    {
+      "company": "Planetly",
+      "startYear": 2020,
+      "endYear": 2022,
+      "outcome": "Shut down with layoffs",
+      "notes": "Carbon accounting for companies.",
+      "sourceUrl": "https://www.axios.com/pro/climate-deals/2022/11/04/planetly-shuts-down-layoffs-carbon-accounting"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "data-input",
+      "detail": "Offset credibility: Offsets are questioned."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low willingness to pay: Consumers balk."
+    },
+    {
+      "tag": "data-input",
+      "detail": "Measurement: Footprints are vague."
+    }
+  ],
+  "sources": []
+}

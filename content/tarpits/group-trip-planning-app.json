@@ -1,0 +1,46 @@
+{
+  "slug": "group-trip-planning-app",
+  "title": "Group trip planning app",
+  "category": "Social",
+  "summary": "Plan a group holiday — dates, budget, itinerary, votes — in one shared space.",
+  "keywords": "travel, groups, planning",
+  "status": "draft",
+  "whyTempting": "Group trip planning is genuinely painful and everyone has a horror story.",
+  "whyItFails": "Infrequent use. People take one or two group trips a year. Only one planner per group. One organiser does the work; others won't install an app. Revenue leaks to booking sites. Bookings happen on Airbnb and airlines, not in your app.",
+  "whatWouldChange": "Embedding into existing chats (WhatsApp/iMessage bots) so nobody needs to install anything.",
+  "attempts": [
+    {
+      "company": "Google Trips",
+      "startYear": 2016,
+      "endYear": 2019,
+      "outcome": "App shut down",
+      "notes": "Google's trip planner app, closed August 2019; folded into a website.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Google_Trips"
+    },
+    {
+      "company": "TripHub",
+      "outcome": "Shut down",
+      "sourceUrl": "https://techcrunch.com/?p=21392"
+    },
+    {
+      "company": "Twigmore",
+      "outcome": "Shut down",
+      "sourceUrl": "https://www.phocuswire.com/End-of-the-road-for-social-travel-app-Twigmore"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "Infrequent use: People take one or two group trips a year."
+    },
+    {
+      "tag": "coordination",
+      "detail": "Only one planner per group: One organiser does the work; others won't install an app."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Revenue leaks to booking sites: Bookings happen on Airbnb and airlines, not in your app."
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "platonic-friend-matching",
+  "title": "Platonic friend matching",
+  "category": "Dating",
+  "summary": "Like a dating app, but for making friends.",
+  "keywords": "friendship, matching, loneliness",
+  "status": "draft",
+  "whyTempting": "Loneliness is widespread, especially after moving cities.",
+  "whyItFails": "Low urgency. People don't prioritise making friends. Awkwardness. Meeting strangers for friendship feels odd. Weak monetisation. Hard to charge for friendship.",
+  "whatWouldChange": "Group-based events and activities that make meeting less awkward.",
+  "attempts": [
+    {
+      "company": "Bumble BFF",
+      "startYear": 2016,
+      "outcome": "Spun out as a separate app in 2025",
+      "notes": "Friend-finding mode inside Bumble from 2016.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bumble_(app)"
+    },
+    {
+      "company": "Tallygram (OkCupid)",
+      "outcome": "Shut down",
+      "notes": "OkCupid's friend-finding experiment on Facebook.",
+      "sourceUrl": "https://techcrunch.com/?p=800271"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "frequency",
+      "detail": "Low urgency: People don't prioritise making friends."
+    },
+    {
+      "tag": "retention",
+      "detail": "Awkwardness: Meeting strangers for friendship feels odd."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Weak monetisation: Hard to charge for friendship."
+    }
+  ],
+  "sources": []
+}

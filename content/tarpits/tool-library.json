@@ -1,0 +1,40 @@
+{
+  "slug": "tool-library",
+  "title": "Tool library",
+  "category": "Marketplaces",
+  "summary": "Borrow tools from a shared community library.",
+  "keywords": "sharing, tools, community",
+  "status": "draft",
+  "whyTempting": "Most tools are used minutes per year.",
+  "whyItFails": "Volunteer reliance. Libraries depend on volunteers. Maintenance. Tools break and go missing. Low revenue. Members pay little.",
+  "whatWouldChange": "Council or Bunnings-style retailer partnerships.",
+  "attempts": [
+    {
+      "company": "Hamilton Tool Library",
+      "endYear": 2017,
+      "outcome": "Closed over financial concerns",
+      "sourceUrl": "https://globalnews.ca/news/3790129/hamilton-tool-library-forced-to-close-up-shop-due-to-financial-concerns"
+    },
+    {
+      "company": "Berkeley Tool Library",
+      "outcome": "Still operating",
+      "notes": "Public tool lending since 1979; tool libraries typically rely on volunteers and community grants.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tool_library"
+    }
+  ],
+  "reasons": [
+    {
+      "tag": "unit-economics",
+      "detail": "Volunteer reliance: Libraries depend on volunteers."
+    },
+    {
+      "tag": "unit-economics",
+      "detail": "Maintenance: Tools break and go missing."
+    },
+    {
+      "tag": "monetisation",
+      "detail": "Low revenue: Members pay little."
+    }
+  ],
+  "sources": []
+}
