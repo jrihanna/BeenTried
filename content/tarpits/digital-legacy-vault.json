@@ -5,6 +5,7 @@
   "summary": "Store passwords, wishes and messages to be released when you die.",
   "keywords": "death, legacy, documents",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Everyone dies and families struggle with digital estates.",
   "whyItFails": "Nobody thinks about death. Urgency is near zero until it's too late. Trust over decades. Users must believe you'll exist in 30 years. Platforms add it themselves. Apple and Google offer legacy contacts.",
   "whatWouldChange": "Distribution through estate lawyers, banks or insurers at moments of planning.",

@@ -1,4 +1,5 @@
 import { getDb } from './db.js';
+import type { AttemptState } from './verdicts.js';
 
 /** A company suggestion after validation, ready to store or approve. */
 export interface SuggestionInput {
@@ -10,10 +11,12 @@ export interface SuggestionInput {
   /** Always set for visitor suggestions; optional when you add a company yourself in admin. */
   sourceUrl: string | null;
   submitterName: string | null;
+  /** Only set by admin forms that show the field. Left out, new companies are "ended". */
+  state?: AttemptState;
 }
 
 /** Raw form values, echoed back into the form when validation fails. */
-export type SuggestionValues = Partial<Record<'company' | 'start_year' | 'end_year' | 'outcome' | 'notes' | 'source_url' | 'submitter_name', string>>;
+export type SuggestionValues = Partial<Record<'company' | 'start_year' | 'end_year' | 'outcome' | 'notes' | 'source_url' | 'submitter_name' | 'state', string>>;
 
 export type ParseResult = { ok: true; value: SuggestionInput } | { ok: false; error: string; values: SuggestionValues };
 
@@ -29,6 +32,7 @@ export function formValues(form: Record<string, unknown>): SuggestionValues {
     notes: field('notes'),
     source_url: field('source_url'),
     submitter_name: field('submitter_name'),
+    state: field('state'),
   };
 }
 
@@ -81,6 +85,7 @@ export function parseSuggestion(form: Record<string, unknown>, opts: { requireSo
       notes: values.notes!,
       sourceUrl,
       submitterName: values.submitter_name || null,
+      state: values.state === 'active' ? 'active' : values.state === 'ended' ? 'ended' : undefined,
     },
   };
 }
@@ -160,12 +165,12 @@ export async function approveSuggestion(
        returning tarpit_id, submitter_name
      ), a as (
        insert into attempts (tarpit_id, company, start_year, end_year, outcome, notes, source_url,
-                             position, source, suggested_by)
-       select tarpit_id, $2, $3, $4, $5, $6, $7, 1000, 'community', submitter_name from s
+                             position, source, suggested_by, state)
+       select tarpit_id, $2, $3, $4, $5, $6, $7, 1000, 'community', submitter_name, $8 from s
        returning id, tarpit_id
      )
      select a.id as attempt_id, t.slug, t.title from a join tarpits t on t.id = a.tarpit_id`,
-    [id, s.company, s.startYear, s.endYear, s.outcome, s.notes, s.sourceUrl],
+    [id, s.company, s.startYear, s.endYear, s.outcome, s.notes, s.sourceUrl, s.state ?? 'ended'],
   );
   if (!created) return null;
   await db.query('update attempt_suggestions set attempt_id = $2 where id = $1', [id, created.attempt_id]);

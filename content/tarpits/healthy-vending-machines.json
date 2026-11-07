@@ -5,6 +5,7 @@
   "summary": "Fresh, healthy food in smart vending machines.",
   "keywords": "vending, healthy food, retail",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Junk-food vending is everywhere; healthy options are lacking.",
   "whyItFails": "Spoilage. Fresh food expires, destroying margins. Location economics. Good spots are scarce and owners take a cut. Restocking costs. Logistics for perishables are heavy.",
   "whatWouldChange": "Better demand prediction and placement in high-traffic captive locations like hospitals.",

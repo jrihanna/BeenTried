@@ -5,6 +5,7 @@
   "summary": "Reminds patients to take medication and tracks adherence.",
   "keywords": "medication, adherence, health",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Non-adherence costs health systems billions.",
   "whyItFails": "Free alternatives. Phone alarms work fine. Hard to monetise. Patients won't pay and payers are slow. Engagement. People ignore notifications.",
   "whatWouldChange": "Value-based care contracts that pay for measured adherence improvements.",

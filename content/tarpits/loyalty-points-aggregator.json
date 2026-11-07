@@ -5,6 +5,7 @@
   "summary": "Combine all your loyalty programs and points in one place.",
   "keywords": "loyalty, points, rewards",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "People have dozens of loyalty programs and forget their points.",
   "whyItFails": "Programs block access. Loyalty schemes don't want aggregation. Low engagement. Users check rarely. Programs own the economics. Little room for a middleman.",
   "whatWouldChange": "Programs opening APIs for points exchange; still unlikely.",

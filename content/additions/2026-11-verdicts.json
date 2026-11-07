@@ -1,0 +1,239 @@
+{
+  "_comment": "Reviewed list for npm run apply-verdicts. Active = still pursuing this idea today, including after an acquisition. Run without --apply first.",
+  "active": [
+    {
+      "slug": "activity-partner-finder",
+      "company": "Meetup"
+    },
+    {
+      "slug": "activity-partner-finder",
+      "company": "Amigos"
+    },
+    {
+      "slug": "audio-social-rooms",
+      "company": "Clubhouse"
+    },
+    {
+      "slug": "babysitting-marketplace",
+      "company": "Care.com"
+    },
+    {
+      "slug": "bill-splitting-app",
+      "company": "Venmo"
+    },
+    {
+      "slug": "clothing-rental-subscription",
+      "company": "Rent the Runway"
+    },
+    {
+      "slug": "consumer-3d-printer",
+      "company": "MakerBot"
+    },
+    {
+      "slug": "consumer-smart-glasses",
+      "company": "Snap Spectacles"
+    },
+    {
+      "slug": "crypto-payments-for-merchants",
+      "company": "BitPay"
+    },
+    {
+      "slug": "employee-recognition-platform",
+      "company": "Kudos"
+    },
+    {
+      "slug": "fact-checking-platform",
+      "company": "Community Notes (X)"
+    },
+    {
+      "slug": "fair-ticket-resale",
+      "company": "Twickets"
+    },
+    {
+      "slug": "family-organiser-app",
+      "company": "Cozi"
+    },
+    {
+      "slug": "fan-funded-creator-platform",
+      "company": "Patreon"
+    },
+    {
+      "slug": "get-paid-for-your-personal-data",
+      "company": "Brave Rewards (BAT)"
+    },
+    {
+      "slug": "ghost-kitchens",
+      "company": "CloudKitchens"
+    },
+    {
+      "slug": "kids-allowance-and-chores-app",
+      "company": "GoHenry"
+    },
+    {
+      "slug": "kids-safe-messenger",
+      "company": "Messenger Kids"
+    },
+    {
+      "slug": "local-experiences-marketplace",
+      "company": "Airbnb Experiences"
+    },
+    {
+      "slug": "local-handyman-marketplace",
+      "company": "TaskRabbit"
+    },
+    {
+      "slug": "local-handyman-marketplace",
+      "company": "Handy"
+    },
+    {
+      "slug": "loyalty-points-aggregator",
+      "company": "Points.com"
+    },
+    {
+      "slug": "meal-kit-delivery",
+      "company": "Blue Apron"
+    },
+    {
+      "slug": "meal-planning-app",
+      "company": "Whisk"
+    },
+    {
+      "slug": "medication-reminder-app",
+      "company": "PillPack"
+    },
+    {
+      "slug": "neighbourhood-social-network",
+      "company": "Nextdoor"
+    },
+    {
+      "slug": "niche-dating-app",
+      "company": "The League"
+    },
+    {
+      "slug": "niche-hotel-booking-site",
+      "company": "HotelTonight"
+    },
+    {
+      "slug": "parent-teacher-communication-app",
+      "company": "ClassDojo"
+    },
+    {
+      "slug": "peer-to-peer-lending",
+      "company": "Prosper"
+    },
+    {
+      "slug": "personal-styling-subscription",
+      "company": "Stitch Fix"
+    },
+    {
+      "slug": "photo-calorie-tracker",
+      "company": "MyFitnessPal"
+    },
+    {
+      "slug": "platonic-friend-matching",
+      "company": "Bumble BFF"
+    },
+    {
+      "slug": "renovation-project-management",
+      "company": "Houzz"
+    },
+    {
+      "slug": "reservation-system-for-small-restaurants",
+      "company": "Resy"
+    },
+    {
+      "slug": "restaurant-ordering-software",
+      "company": "ChowNow"
+    },
+    {
+      "slug": "resume-builder",
+      "company": "Resume.com"
+    },
+    {
+      "slug": "roommate-matching",
+      "company": "Roomster"
+    },
+    {
+      "slug": "second-brain-note-taking-app",
+      "company": "Evernote"
+    },
+    {
+      "slug": "second-hand-fashion-resale",
+      "company": "Vinted"
+    },
+    {
+      "slug": "second-hand-fashion-resale",
+      "company": "ThredUp"
+    },
+    {
+      "slug": "second-hand-fashion-resale",
+      "company": "Depop"
+    },
+    {
+      "slug": "second-hand-fashion-resale",
+      "company": "Poshmark"
+    },
+    {
+      "slug": "skills-course-marketplace",
+      "company": "CreativeLive"
+    },
+    {
+      "slug": "smart-doorbell-or-lock",
+      "company": "Ring"
+    },
+    {
+      "slug": "smart-home-hub",
+      "company": "Wink"
+    },
+    {
+      "slug": "smart-pet-feeder-or-tracker",
+      "company": "Petlibro"
+    },
+    {
+      "slug": "smart-water-bottle",
+      "company": "HidrateSpark"
+    },
+    {
+      "slug": "subscription-cancellation-manager",
+      "company": "Truebill"
+    },
+    {
+      "slug": "surplus-food-marketplace",
+      "company": "Too Good To Go"
+    },
+    {
+      "slug": "tool-library",
+      "company": "Berkeley Tool Library"
+    },
+    {
+      "slug": "travel-buddy-finder",
+      "company": "Couchsurfing"
+    },
+    {
+      "slug": "wedding-planning-marketplace",
+      "company": "The Knot Worldwide"
+    }
+  ],
+  "ended": [],
+  "remove": [
+    {
+      "slug": "carbon-offset-app",
+      "company": "Verra",
+      "why": "Standards body, not a company that tried the idea"
+    }
+  ],
+  "verdicts": [
+    {
+      "slug": "second-hand-fashion-resale",
+      "verdict": "cracked"
+    },
+    {
+      "slug": "smart-doorbell-or-lock",
+      "verdict": "cracked"
+    },
+    {
+      "slug": "subscription-cancellation-manager",
+      "verdict": "cracked"
+    }
+  ]
+}

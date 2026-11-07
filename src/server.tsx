@@ -49,9 +49,11 @@ import {
   getVotes,
   listCategories,
   listTarpits,
+  tarpitRuleProblem,
 } from './data.js';
 import { getDb } from './db.js';
 import { allow } from './rate-limit.js';
+import { isVerdict, MIN_ENDED_FOR_TARPIT } from './verdicts.js';
 import {
   AUTOHIDE_PER_HOUR,
   COMMENT_REPORT_REASONS,
@@ -131,19 +133,30 @@ app.use(secureHeaders());
 // Rejects cross-site form posts. Behind a proxy, set PUBLIC_URL so the expected origin is right.
 app.use(csrf(process.env.PUBLIC_URL ? { origin: process.env.PUBLIC_URL.replace(/\/$/, '') } : undefined));
 
-// Every visitor gets an anonymous id cookie, used for one-vote-per-person.
+const VID_RE = /^[0-9a-f-]{36}$/;
+
+/**
+ * Sets the anonymous `vid` cookie if the visitor doesn't have one yet. Call it only from actions
+ * that need it (voting), so reading the site never sets a cookie. Returns the hashed visitor id.
+ */
+function ensureVisitor(c: Context<Env>): string {
+  if (c.get('visitor')) return c.get('visitor');
+  const vid = randomUUID();
+  setCookie(c, 'vid', vid, {
+    httpOnly: true,
+    sameSite: 'Lax',
+    secure: process.env.NODE_ENV === 'production',
+    maxAge: 60 * 60 * 24 * 365,
+    path: '/',
+  });
+  const visitor = hash(`v:${vid}`);
+  c.set('visitor', visitor);
+  return visitor;
+}
+
+// Reads the anonymous id cookie if present; `visitor` is '' for visitors who haven't voted.
 app.use(async (c, next) => {
-  let vid = getCookie(c, 'vid');
-  if (!vid || !/^[0-9a-f-]{36}$/.test(vid)) {
-    vid = randomUUID();
-    setCookie(c, 'vid', vid, {
-      httpOnly: true,
-      sameSite: 'Lax',
-      secure: process.env.NODE_ENV === 'production',
-      maxAge: 60 * 60 * 24 * 365,
-      path: '/',
-    });
-  }
+  const vid = getCookie(c, 'vid');
   const forwarded = c.req.header('x-forwarded-for')?.split(',')[0]?.trim();
   let ip = forwarded || 'unknown';
   if (!forwarded) {
@@ -153,7 +166,7 @@ app.use(async (c, next) => {
       // Not running on the Node adapter (e.g. in tests).
     }
   }
-  c.set('visitor', hash(`v:${vid}`));
+  c.set('visitor', vid && VID_RE.test(vid) ? hash(`v:${vid}`) : '');
   c.set('ipHash', hash(`ip:${ip}`));
   await next();
 });
@@ -179,10 +192,19 @@ const isHtmx = (c: Context) => c.req.header('HX-Request') === 'true';
 app.get('/', async (c) => {
   const q = c.req.query('q')?.slice(0, 200);
   const category = c.req.query('category')?.slice(0, 100);
-  const [tarpits, categories] = await Promise.all([listTarpits({ q, category }), listCategories()]);
+  const rawVerdict = c.req.query('verdict');
+  const verdict = isVerdict(rawVerdict) ? rawVerdict : undefined;
+  const [tarpits, categories] = await Promise.all([listTarpits({ q, category, verdict }), listCategories()]);
   const totalAttempts = tarpits.reduce((sum, t) => sum + t.attempt_count, 0);
   return c.html(
-    <HomePage tarpits={tarpits} categories={categories} q={q} category={category} totalAttempts={totalAttempts} />,
+    <HomePage
+      tarpits={tarpits}
+      categories={categories}
+      q={q}
+      category={category}
+      verdict={verdict}
+      totalAttempts={totalAttempts}
+    />,
   );
 });
 
@@ -262,11 +284,11 @@ app.post('/t/:slug/vote', async (c) => {
   const form = await c.req.parseBody();
   const verdict = form.verdict;
   if ((verdict === 'still' || verdict === 'cracked') && allow(`vote:${c.get('ipHash')}`, 40, 10 * 60 * 1000)) {
-    await castVote(tarpit.id, c.get('visitor'), verdict);
+    await castVote(tarpit.id, ensureVisitor(c), verdict);
   }
   if (!isHtmx(c)) return c.redirect(`/t/${slug}#vote`);
   const tally = await getVotes(tarpit.id, c.get('visitor'));
-  return c.html(<VoteBox slug={slug} tally={tally} />);
+  return c.html(<VoteBox slug={slug} tally={tally} verdict={tarpit.verdict} />);
 });
 
 // ---------- Company suggestions ----------
@@ -523,7 +545,7 @@ if (adminPassword) {
 
   // ---------- Reported comments ----------
 
-  const commentParam = (c: Context) => Number.parseInt(c.req.param('id'), 10);
+  const commentParam = (c: Context) => Number.parseInt(c.req.param('id') ?? '', 10);
   const commentDone = (c: Context) =>
     c.html(<ReviewedCommentReport commentId={commentParam(c)} message="This comment has no open reports any more." />);
 
@@ -551,7 +573,7 @@ if (adminPassword) {
 
   // ---------- Reported companies ----------
 
-  const attemptParam = (c: Context) => Number.parseInt(c.req.param('id'), 10);
+  const attemptParam = (c: Context) => Number.parseInt(c.req.param('id') ?? '', 10);
   const alreadyReviewed = (c: Context) =>
     c.html(<ReviewedReport attemptId={attemptParam(c)} message="This company has no open reports any more." />);
 
@@ -594,7 +616,7 @@ if (adminPassword) {
 
   // ---------- Entry editor ----------
 
-  const id = (c: Context, name = 'id') => Number.parseInt(c.req.param(name), 10);
+  const id = (c: Context, name = 'id') => Number.parseInt(c.req.param(name) ?? '', 10);
   /** Puts an error message into an "add" form's message slot instead of appending a row. */
   const addError = (c: Context, slot: string, message: string) => {
     c.header('HX-Retarget', `#${slot}`);
@@ -618,6 +640,16 @@ if (adminPassword) {
         400,
       );
     }
+    if (parsed.value.status === 'reviewed' && parsed.value.verdict === 'tarpit') {
+      return c.html(
+        <NewEntryPage
+          categories={categories}
+          values={{ ...parsed.value, status: 'draft' }}
+          error={`A new tarpit can't start as reviewed: add at least ${MIN_ENDED_FOR_TARPIT} ended companies with sources first.`}
+        />,
+        400,
+      );
+    }
     const newId = await createEntry(parsed.value);
     await reembed(newId);
     return c.redirect(`/admin/tarpits/${newId}`);
@@ -634,6 +666,10 @@ if (adminPassword) {
     if (!parsed.ok) return c.html(<span class="form-error">{parsed.error}</span>);
     if (await slugTaken(parsed.value.slug, id(c))) {
       return c.html(<span class="form-error">Another entry already uses the URL name "{parsed.value.slug}".</span>);
+    }
+    if (parsed.value.status === 'reviewed') {
+      const problem = await tarpitRuleProblem(id(c), parsed.value.verdict);
+      if (problem) return c.html(<span class="form-error">Not saved. {problem}</span>);
     }
     await updateEntry(id(c), parsed.value);
     await reembed(id(c));
@@ -731,10 +767,10 @@ if (adminPassword) {
   });
 
   app.post('/admin/tarpits/:id/toggle', async (c) => {
-    const row = await adminToggleStatus(Number.parseInt(c.req.param('id'), 10));
-    if (!row) return c.notFound();
-    const check = (await adminNeedsChecking()).find((n) => n.id === row.id);
-    return c.html(<AdminTarpitRow t={row} unsourced={check?.unsourced} />);
+    const result = await adminToggleStatus(Number.parseInt(c.req.param('id'), 10));
+    if (!result) return c.notFound();
+    const check = (await adminNeedsChecking()).find((n) => n.id === result.row.id);
+    return c.html(<AdminTarpitRow t={result.row} check={check} error={result.error} />);
   });
 }
 

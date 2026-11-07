@@ -5,6 +5,7 @@
   "summary": "Share rides with people on your commute.",
   "keywords": "carpooling, commute, mobility",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Traffic and costs are painful.",
   "whyItFails": "Coordination. Schedules don't align. Low savings. Not worth the hassle. Trust. Strangers in cars.",
   "whatWouldChange": "Employer incentives and congestion pricing.",

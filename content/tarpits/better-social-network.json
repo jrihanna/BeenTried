@@ -5,6 +5,7 @@
   "summary": "A new social network that is more private, more positive, or less ad-driven than the incumbents.",
   "keywords": "social network, feed, friends, privacy, ad-free, followers, posts, alternative",
   "status": "reviewed",
+  "verdict": "tarpit",
   "whyTempting": "Lots of people say they dislike the social networks they use every day. That frustration looks like pent-up demand for an alternative, and launches often get a burst of sign-ups and press.",
   "whyItFails": "People stay on networks because their friends are there, not because they like the product. A new network has to move whole social graphs at once, and a sign-up spike is not the same as people posting week after week.\n\nEven companies with enormous resources and existing users have failed at this, which suggests money and distribution aren't the missing ingredient.",
   "whatWouldChange": "A new network needs a specific community that is badly served today and will move together, rather than 'everyone'.\n\nIt also needs a format or behaviour that is genuinely new, the way photo sharing, short video or disappearing messages were, rather than a better-run version of an existing feed.",

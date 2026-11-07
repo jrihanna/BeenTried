@@ -5,6 +5,7 @@
   "summary": "A social network for pets.",
   "keywords": "pets, social, community",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "People love sharing pet photos.",
   "whyItFails": "Instagram exists. Pets already thrive there. Low monetisation. Hard to earn. Novelty. Users churn.",
   "whatWouldChange": "Commerce integration.",

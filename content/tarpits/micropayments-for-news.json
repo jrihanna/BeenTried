@@ -5,6 +5,7 @@
   "summary": "Pay a few cents per article instead of subscribing.",
   "keywords": "news, micropayments, media",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "People hate subscription walls but would pay for single articles.",
   "whyItFails": "Mental transaction cost. Every payment decision creates friction, even if tiny. Publishers prefer subscriptions. Recurring revenue beats per-article income. Chicken and egg. Needs many publishers and many wallets at once.",
   "whatWouldChange": "Wallet-level payments built into browsers or OSes with automatic budgets.",

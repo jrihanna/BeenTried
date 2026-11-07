@@ -5,6 +5,7 @@
   "summary": "Describe your trip; get a full itinerary instantly.",
   "keywords": "travel, ai, planning",
   "status": "reviewed",
+  "verdict": "tarpit",
   "whyTempting": "Trip planning takes hours; AI can do it fast.",
   "whyItFails": "Revenue leaks. Bookings happen elsewhere. Low frequency. Users travel occasionally. Free general chatbots. General AI assistants do this well.",
   "whatWouldChange": "Agents that can actually book and manage changes end-to-end.",

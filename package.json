@@ -13,6 +13,7 @@
     "seed": "tsx src/scripts/seed.ts",
     "export": "tsx src/scripts/export.ts",
     "add-companies": "tsx src/scripts/add-companies.ts",
+    "apply-verdicts": "tsx src/scripts/apply-verdicts.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

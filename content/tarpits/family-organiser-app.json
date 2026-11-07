@@ -5,6 +5,7 @@
   "summary": "One app to coordinate family schedules.",
   "keywords": "family, calendar, organisation",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Families are busy.",
   "whyItFails": "Shared calendars exist. Google and Apple. Adoption. All members must use it. Low willingness to pay. Free alternatives.",
   "whatWouldChange": "AI that pulls schedules from school emails automatically.",

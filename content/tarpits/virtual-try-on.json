@@ -5,6 +5,7 @@
   "summary": "Try clothes on virtually before buying.",
   "keywords": "fashion, ar, ecommerce",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Online returns are costly.",
   "whyItFails": "Accuracy. Fit is hard to model. Adoption. Shoppers don't use it. Retailer integration. Hard to sell.",
   "whatWouldChange": "Better body scanning and AI.",

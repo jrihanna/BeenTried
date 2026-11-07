@@ -5,6 +5,7 @@
   "summary": "Cheap, simple booking software for independent restaurants.",
   "keywords": "restaurants, booking, smb",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Big booking platforms are expensive for small venues.",
   "whyItFails": "Restaurants are low-margin customers. Churn and closures are frequent. Sales cost. Selling to individual restaurants is expensive. Bundled by POS providers. POS systems add booking for free.",
   "whatWouldChange": "Distribution through a POS or supplier channel that already reaches restaurants.",

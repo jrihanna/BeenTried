@@ -5,6 +5,7 @@
   "summary": "Electric air taxis over traffic.",
   "keywords": "evtol, aviation, mobility",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Escape traffic; futuristic appeal.",
   "whyItFails": "Regulation. Aviation certification is slow. Cost. Expensive vehicles. Infrastructure. Landing sites needed.",
   "whatWouldChange": "Certification and battery advances.",

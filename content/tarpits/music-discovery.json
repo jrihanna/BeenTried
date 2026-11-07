@@ -5,6 +5,7 @@
   "summary": "A social or algorithmic app that finds you new music better than the big streaming services do.",
   "keywords": "music, streaming, playlists, recommendations, listening together, songs, artists",
   "status": "reviewed",
+  "verdict": "tarpit",
   "whyTempting": "Music fans are passionate, opinionated, and constantly complaining that their recommendations are stale. Sharing music with friends feels inherently social, and the technical side looks approachable.",
   "whyItFails": "Playing music means licensing it, and labels charge in ways that make thin margins thinner as you grow. Most people are happy enough with the recommendations from the service they already pay for, so discovery alone rarely justifies a second app or a second subscription.\n\nWhen a discovery feature does catch on, the large streaming services can build a version of it into a product with every song already licensed.",
   "whatWouldChange": "A new attempt needs a business that doesn't depend on playing licensed tracks itself, for example sending listeners to existing services, or serving artists and labels as paying customers.\n\nIt also needs a reason to exist that the big platforms are structurally unwilling to copy, such as being independent from any one service.",

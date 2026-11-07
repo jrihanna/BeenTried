@@ -5,6 +5,7 @@
   "summary": "A freelancer marketplace for a specific skill or industry.",
   "keywords": "freelance, marketplace, b2b",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Generic marketplaces are noisy and low quality.",
   "whyItFails": "Liquidity. Too few buyers and freelancers. Disintermediation. Repeat clients leave the platform. Big platforms. Upwork and Fiverr add categories.",
   "whatWouldChange": "Managed services where the platform guarantees outcomes.",

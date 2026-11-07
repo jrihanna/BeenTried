@@ -5,6 +5,7 @@
   "summary": "A general-purpose robot that helps around the house.",
   "keywords": "robotics, home, ai",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Everyone wants help with chores.",
   "whyItFails": "Technical difficulty. Homes are unstructured. Cost. Robots are expensive. Limited usefulness. Early robots do little.",
   "whatWouldChange": "Advances in foundation models for robotics and cheaper actuators.",

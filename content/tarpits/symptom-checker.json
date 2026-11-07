@@ -5,6 +5,7 @@
   "summary": "Describe your symptoms and get likely causes and next steps.",
   "keywords": "healthcare, diagnosis, ai",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Everyone googles symptoms; doctors are expensive and slow.",
   "whyItFails": "Liability. Regulators and lawyers watch medical advice closely. Low trust. Users still want to see a doctor. No clear payer. Consumers won't pay; insurers are slow to buy.",
   "whatWouldChange": "Integration with telehealth so triage leads directly to care and payment.",

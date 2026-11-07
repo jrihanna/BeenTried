@@ -5,6 +5,7 @@
   "summary": "Plan a group holiday — dates, budget, itinerary, votes — in one shared space.",
   "keywords": "travel, groups, planning",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Group trip planning is genuinely painful and everyone has a horror story.",
   "whyItFails": "Infrequent use. People take one or two group trips a year. Only one planner per group. One organiser does the work; others won't install an app. Revenue leaks to booking sites. Bookings happen on Airbnb and airlines, not in your app.",
   "whatWouldChange": "Embedding into existing chats (WhatsApp/iMessage bots) so nobody needs to install anything.",

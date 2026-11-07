@@ -5,6 +5,7 @@
   "summary": "Borrow tools from a shared community library.",
   "keywords": "sharing, tools, community",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Most tools are used minutes per year.",
   "whyItFails": "Volunteer reliance. Libraries depend on volunteers. Maintenance. Tools break and go missing. Low revenue. Members pay little.",
   "whatWouldChange": "Council or Bunnings-style retailer partnerships.",

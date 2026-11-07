@@ -5,6 +5,7 @@
   "summary": "Let shops accept crypto with lower fees than cards.",
   "keywords": "crypto, payments, merchants",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Card fees are a real pain for merchants.",
   "whyItFails": "Consumers don't pay in crypto. Holders don't want to spend appreciating assets. Volatility and tax complexity. Every payment becomes a tax event in many jurisdictions. Card networks fight back. Rewards make cards attractive to consumers.",
   "whatWouldChange": "Stablecoins with clear regulation and real consumer incentives.",

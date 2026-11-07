@@ -5,6 +5,7 @@
   "summary": "Find and cancel subscriptions you've forgotten about.",
   "keywords": "subscriptions, savings, consumer",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Everyone wastes money on forgotten subscriptions.",
   "whyItFails": "One-time value. Once cleaned up, there's nothing left to do. Banks add it. Bank apps surface recurring payments. Cancellations are hard to automate. Merchants make cancelling deliberately difficult.",
   "whatWouldChange": "Click-to-cancel regulations and AI agents that can navigate cancellation flows.",

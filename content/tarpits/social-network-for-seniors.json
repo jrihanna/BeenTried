@@ -5,6 +5,7 @@
   "summary": "A simple social app designed specifically for older adults.",
   "keywords": "seniors, social, ageing",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Ageing populations, loneliness among seniors, and they have money.",
   "whyItFails": "Seniors don't want a 'seniors app'. Segmenting by age feels patronising. They're already on Facebook. Where their families are. Distribution is hard. Seniors are expensive to reach and onboard.",
   "whatWouldChange": "Selling through aged-care providers or families rather than direct to seniors.",

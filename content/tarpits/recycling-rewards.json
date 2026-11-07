@@ -5,6 +5,7 @@
   "summary": "Earn rewards for recycling.",
   "keywords": "recycling, rewards, sustainability",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Recycling rates are low.",
   "whyItFails": "Low value. Rewards are tiny. Logistics. Collection is costly. Government schemes. Container deposit schemes exist.",
   "whatWouldChange": "Integration with deposit schemes.",

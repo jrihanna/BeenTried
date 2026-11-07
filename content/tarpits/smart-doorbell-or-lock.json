@@ -5,6 +5,7 @@
   "summary": "A smarter, safer doorbell or lock.",
   "keywords": "smart home, security, hardware",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Home security is a strong emotional purchase.",
   "whyItFails": "Incumbents. Major brands dominate. Security vulnerabilities. One hack ruins trust. Installation friction. Renters can't install.",
   "whatWouldChange": "Renter-friendly hardware with no installation.",

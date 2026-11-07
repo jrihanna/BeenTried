@@ -5,6 +5,7 @@
   "summary": "Connect students with tutors online.",
   "keywords": "tutoring, marketplace, education",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Parents spend heavily on tutoring.",
   "whyItFails": "Disintermediation. Tutors and parents go direct after the first session. Seasonal demand. Exams drive spikes. High acquisition cost. Parents are expensive to acquire.",
   "whatWouldChange": "AI tutoring changing the cost structure, though it competes rather than helps.",

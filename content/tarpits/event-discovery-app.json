@@ -5,6 +5,7 @@
   "summary": "Find out what's on tonight near you, personalised to your taste.",
   "keywords": "events, local, discovery",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Everyone has had the 'nothing to do' evening while great events happened nearby.",
   "whyItFails": "Supply is fragmented. Events live across hundreds of venues, ticketing sites and Instagram posts. Low frequency. Most people go out rarely, so retention is poor. Weak monetisation. Ticketing giants own the transaction; discovery gets crumbs.",
   "whatWouldChange": "Agents that can aggregate unstructured event listings cheaply and reliably.",

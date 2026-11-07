@@ -5,6 +5,7 @@
   "summary": "A stylist picks clothes for you.",
   "keywords": "fashion, styling, subscription",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "People want help with style.",
   "whyItFails": "Returns. High return rates. Inventory risk. Stock costs. Stylist costs. Human labour.",
   "whatWouldChange": "AI styling with on-demand inventory.",

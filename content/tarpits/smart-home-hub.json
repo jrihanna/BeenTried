@@ -5,6 +5,7 @@
   "summary": "One hub to control all your smart home devices.",
   "keywords": "smart home, iot, hardware",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Smart homes are fragmented and frustrating.",
   "whyItFails": "Big tech dominates. Apple, Google and Amazon own the platform. Standards churn. Protocols keep changing. Hardware economics. Margins are thin.",
   "whatWouldChange": "Matter standard reducing fragmentation (also reducing the need for hubs).",

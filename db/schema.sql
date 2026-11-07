@@ -183,3 +183,17 @@ create index if not exists comment_reports_comment_idx on comment_reports (comme
 -- moderation_log covers comments too. For comment rows, "company" holds the comment's author name.
 alter table moderation_log add column if not exists target text not null default 'attempt';
 alter table moderation_log add column if not exists comment_id integer;
+
+-- ---------- Verdicts and survivors ----------
+-- Whether a company is still pursuing this idea. 'active' covers companies that were acquired and
+-- still run the product (Venmo, Ring). A company that pivoted away from the idea counts as 'ended'.
+-- Active companies are listed under "Still operating", never under "Who tried".
+alter table attempts add column if not exists state text not null default 'ended'
+  check (state in ('ended', 'active'));
+
+-- Your editorial call on the entry, separate from the visitors' vote and from draft/reviewed.
+--   tarpit:    at least two sourced ended attempts, and nobody has made it work.
+--   contested: mostly failures, but someone is making it work.
+--   cracked:   someone has clearly made it work.
+alter table tarpits add column if not exists verdict text not null default 'tarpit'
+  check (verdict in ('tarpit', 'contested', 'cracked'));

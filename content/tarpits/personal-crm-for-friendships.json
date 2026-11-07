@@ -5,6 +5,7 @@
   "summary": "Reminds you to keep in touch with friends, remember birthdays and life events.",
   "keywords": "relationships, crm, productivity",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "People feel guilty about drifting apart from friends.",
   "whyItFails": "Manual data entry. Logging interactions feels transactional and tedious. Aspirational usage. People want to be the kind of person who uses it, but don't. Small paying segment. Mostly networkers and salespeople pay, and they already use real CRMs.",
   "whatWouldChange": "On-device AI that reads your messages and calendar and suggests check-ins automatically, privately.",

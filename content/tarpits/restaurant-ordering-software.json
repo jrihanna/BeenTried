@@ -5,6 +5,7 @@
   "summary": "Online ordering software for independent restaurants.",
   "keywords": "restaurants, ordering, saas",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Delivery apps charge high commissions.",
   "whyItFails": "Restaurants struggle. Low budgets. Platform competition. Delivery apps add tools. Sales cost. High acquisition costs.",
   "whatWouldChange": "Bundling with POS.",

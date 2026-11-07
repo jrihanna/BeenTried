@@ -5,6 +5,7 @@
   "summary": "A private network for your street or suburb: lost pets, recommendations, local news.",
   "keywords": "local, community, neighbourhood",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "People want local community and trusted local information.",
   "whyItFails": "Negativity spiral. Content skews to complaints, crime fears and disputes. Moderation burden. Hyper-local disputes are hard and legally risky to moderate. Facebook Groups exist. Local Facebook groups already capture most of this.",
   "whatWouldChange": "A narrow utility wedge (e.g. local services or council issues) rather than a general feed.",

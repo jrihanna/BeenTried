@@ -2,6 +2,7 @@ import { getDb } from './db.js';
 import { removeAttempt } from './reports.js';
 import type { SuggestionInput } from './suggestions.js';
 import { isTag } from './tags.js';
+import { isVerdict, type AttemptState, type Verdict } from './verdicts.js';
 
 // Queries and validation behind the admin editor. Everything here edits the database directly.
 
@@ -16,6 +17,7 @@ export interface EditableTarpit {
   what_would_change: string;
   keywords: string;
   status: 'draft' | 'reviewed';
+  verdict: Verdict;
 }
 
 export interface EditableAttempt {
@@ -26,6 +28,7 @@ export interface EditableAttempt {
   outcome: string;
   notes: string;
   source_url: string | null;
+  state: AttemptState;
   suggested_by: string | null;
   hidden_at: Date | null;
 }
@@ -49,8 +52,8 @@ export interface EntryEditor {
   sources: EditableSource[];
 }
 
-const TARPIT_COLUMNS = 'id, slug, title, category, summary, why_tempting, why_it_fails, what_would_change, keywords, status';
-const ATTEMPT_COLUMNS = 'id, company, start_year, end_year, outcome, notes, source_url, suggested_by, hidden_at';
+const TARPIT_COLUMNS = 'id, slug, title, category, summary, why_tempting, why_it_fails, what_would_change, keywords, status, verdict';
+const ATTEMPT_COLUMNS = 'id, company, start_year, end_year, outcome, notes, source_url, state, suggested_by, hidden_at';
 
 export async function getEntryEditor(id: number): Promise<EntryEditor | null> {
   const db = await getDb();
@@ -95,6 +98,7 @@ export function parseEntry(
     what_would_change: field('what_would_change'),
     keywords: field('keywords'),
     status: field('status') === 'reviewed' ? 'reviewed' : 'draft',
+    verdict: field('verdict') || 'tarpit',
   };
   const fail = (error: string) => ({ ok: false as const, error, values });
 
@@ -113,6 +117,7 @@ export function parseEntry(
     if ((values[key] ?? '').length > 6000) return fail(`${label} is too long. Keep it under 6,000 characters.`);
   }
   if ((values.keywords ?? '').length > 300) return fail('Keep keywords under 300 characters.');
+  if (!isVerdict(values.verdict)) return fail('Pick a verdict: tarpit, contested or cracked.');
 
   return {
     ok: true,
@@ -126,6 +131,7 @@ export function parseEntry(
       what_would_change: values.what_would_change ?? '',
       keywords: values.keywords ?? '',
       status: values.status as 'draft' | 'reviewed',
+      verdict: values.verdict,
     },
   };
 }
@@ -139,9 +145,9 @@ export async function slugTaken(slug: string, exceptId?: number): Promise<boolea
 export async function createEntry(e: EntryInput): Promise<number> {
   const db = await getDb();
   const [{ id }] = await db.query<{ id: number }>(
-    `insert into tarpits (slug, title, category, summary, why_tempting, why_it_fails, what_would_change, keywords, status)
-     values ($1, $2, $3, $4, $5, $6, $7, $8, $9) returning id`,
-    [e.slug, e.title, e.category, e.summary, e.why_tempting, e.why_it_fails, e.what_would_change, e.keywords, e.status],
+    `insert into tarpits (slug, title, category, summary, why_tempting, why_it_fails, what_would_change, keywords, status, verdict)
+     values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) returning id`,
+    [e.slug, e.title, e.category, e.summary, e.why_tempting, e.why_it_fails, e.what_would_change, e.keywords, e.status, e.verdict],
   );
   return id;
 }
@@ -150,9 +156,9 @@ export async function updateEntry(id: number, e: EntryInput): Promise<void> {
   const db = await getDb();
   await db.query(
     `update tarpits set slug = $2, title = $3, category = $4, summary = $5, why_tempting = $6,
-            why_it_fails = $7, what_would_change = $8, keywords = $9, status = $10, updated_at = now()
+            why_it_fails = $7, what_would_change = $8, keywords = $9, status = $10, verdict = $11, updated_at = now()
       where id = $1`,
-    [id, e.slug, e.title, e.category, e.summary, e.why_tempting, e.why_it_fails, e.what_would_change, e.keywords, e.status],
+    [id, e.slug, e.title, e.category, e.summary, e.why_tempting, e.why_it_fails, e.what_would_change, e.keywords, e.status, e.verdict],
   );
 }
 
@@ -166,10 +172,10 @@ export async function deleteEntry(id: number): Promise<void> {
 export async function addAttempt(tarpitId: number, a: SuggestionInput): Promise<EditableAttempt> {
   const db = await getDb();
   const [row] = await db.query<EditableAttempt>(
-    `insert into attempts (tarpit_id, company, start_year, end_year, outcome, notes, source_url, source)
-     values ($1, $2, $3, $4, $5, $6, $7, 'admin')
+    `insert into attempts (tarpit_id, company, start_year, end_year, outcome, notes, source_url, source, state)
+     values ($1, $2, $3, $4, $5, $6, $7, 'admin', $8)
      returning ${ATTEMPT_COLUMNS}`,
-    [tarpitId, a.company, a.startYear, a.endYear, a.outcome, a.notes, a.sourceUrl],
+    [tarpitId, a.company, a.startYear, a.endYear, a.outcome, a.notes, a.sourceUrl, a.state ?? 'ended'],
   );
   return row;
 }
@@ -177,9 +183,11 @@ export async function addAttempt(tarpitId: number, a: SuggestionInput): Promise<
 export async function updateAttempt(id: number, a: SuggestionInput): Promise<EditableAttempt | null> {
   const db = await getDb();
   const [row] = await db.query<EditableAttempt>(
-    `update attempts set company = $2, start_year = $3, end_year = $4, outcome = $5, notes = $6, source_url = $7
+    // Forms without a state field (the report review form) leave the state as it was.
+    `update attempts set company = $2, start_year = $3, end_year = $4, outcome = $5, notes = $6, source_url = $7,
+            state = coalesce($8, state)
       where id = $1 returning ${ATTEMPT_COLUMNS}`,
-    [id, a.company, a.startYear, a.endYear, a.outcome, a.notes, a.sourceUrl],
+    [id, a.company, a.startYear, a.endYear, a.outcome, a.notes, a.sourceUrl, a.state ?? null],
   );
   return row ?? null;
 }

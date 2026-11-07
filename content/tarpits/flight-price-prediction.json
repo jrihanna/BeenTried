@@ -5,6 +5,7 @@
   "summary": "Tells you when to book flights for the best price.",
   "keywords": "flights, pricing, prediction",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Airfares are confusing and people want deals.",
   "whyItFails": "Feature, not company. Search engines add predictions. Low margins. Affiliate fees are thin. Data access. Fare data is expensive.",
   "whatWouldChange": "Little has changed; best as a feature.",

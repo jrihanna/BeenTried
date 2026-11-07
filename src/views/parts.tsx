@@ -1,5 +1,6 @@
 import type { FC } from 'hono/jsx';
 import type { Attempt, Comment, TarpitSummary, VoteTally } from '../data.js';
+import { VERDICTS, type Verdict } from '../verdicts.js';
 
 export function paragraphs(text: string) {
   return text
@@ -32,6 +33,57 @@ export const MiniStrata: FC<{ count: number }> = ({ count }) => {
   );
 };
 
+/** The editor's verdict. Plain tarpits get no badge on the index, so the exceptions stand out. */
+export const VerdictBadge: FC<{ verdict: Verdict; always?: boolean }> = ({ verdict, always = false }) =>
+  verdict === 'tarpit' && !always ? null : (
+    <span class={`badge-verdict verdict-${verdict}`} title={VERDICTS[verdict].description}>
+      {VERDICTS[verdict].label}
+    </span>
+  );
+
+const ReportLink: FC<{ slug: string; a: Attempt }> = ({ slug, a }) => (
+  <a
+    class="layer-report"
+    href={`/t/${slug}/attempts/${a.id}/report`}
+    hx-get={`/t/${slug}/attempts/${a.id}/report`}
+    hx-target="#report-slot"
+    hx-swap="innerHTML"
+    rel="nofollow"
+  >
+    Report a problem<span class="visually-hidden"> with {a.company}</span>
+  </a>
+);
+
+const CompanyName: FC<{ a: Attempt }> = ({ a }) =>
+  a.source_url ? (
+    <a href={a.source_url} rel={a.source === 'community' ? 'noopener nofollow ugc' : 'noopener'} target="_blank">
+      {a.company}
+    </a>
+  ) : (
+    <>{a.company}</>
+  );
+
+/**
+ * Companies still pursuing the idea. Kept out of the strata, which are the buried attempts, and
+ * worded so nothing here reads as a claim that the company failed.
+ */
+export const Survivors: FC<{ slug: string; attempts: Attempt[] }> = ({ slug, attempts }) => (
+  <ul class="survivors">
+    {attempts.map((a) => (
+      <li id={`layer-${a.id}`}>
+        <span class="layer-years">{a.start_year ? `Since ${a.start_year}` : 'Start year unknown'}</span>
+        <span class="layer-company">
+          <CompanyName a={a} />
+        </span>
+        <span class="layer-outcome">{a.outcome}</span>
+        {a.notes && <span class="layer-notes">{a.notes}</span>}
+        {a.source === 'community' && <span class="layer-credit">Added by {a.suggested_by || 'a visitor'}</span>}
+        <ReportLink slug={slug} a={a} />
+      </li>
+    ))}
+  </ul>
+);
+
 /**
  * The signature element: attempts drawn as rock strata. Newest at the surface, oldest at
  * the bottom. A layer's thickness follows how many years the attempt lasted.
@@ -54,33 +106,14 @@ export const Strata: FC<{ slug: string; attempts: Attempt[] }> = ({ slug, attemp
             >
               <span class="layer-years">{yearSpan(a)}</span>
               <span class="layer-company">
-                {a.source_url ? (
-                  <a
-                    href={a.source_url}
-                    rel={a.source === 'community' ? 'noopener nofollow ugc' : 'noopener'}
-                    target="_blank"
-                  >
-                    {a.company}
-                  </a>
-                ) : (
-                  a.company
-                )}
+                <CompanyName a={a} />
               </span>
               <span class="layer-outcome">{a.outcome}</span>
               {a.notes && <span class="layer-notes">{a.notes}</span>}
               {a.source === 'community' && (
                 <span class="layer-credit">Added by {a.suggested_by || 'a visitor'}</span>
               )}
-              <a
-                class="layer-report"
-                href={`/t/${slug}/attempts/${a.id}/report`}
-                hx-get={`/t/${slug}/attempts/${a.id}/report`}
-                hx-target="#report-slot"
-                hx-swap="innerHTML"
-                rel="nofollow"
-              >
-                Report a problem<span class="visually-hidden"> with {a.company}</span>
-              </a>
+              <ReportLink slug={slug} a={a} />
             </li>
           );
         })}
@@ -106,14 +139,17 @@ export const PitList: FC<{ tarpits: TarpitSummary[]; q?: string }> = ({ tarpits,
         {tarpits.map((t) => (
           <li>
             <a class="pit-row" href={`/t/${t.slug}`}>
-              <MiniStrata count={t.attempt_count} />
+              <MiniStrata count={t.attempt_count - t.active_count} />
               <span class="pit-text">
-                <span class="pit-title">{t.title}</span>
+                <span class="pit-title">
+                  {t.title} <VerdictBadge verdict={t.verdict} />
+                </span>
                 <span class="pit-summary">{t.summary}</span>
                 <span class="pit-meta">
                   <span>
                     {t.attempt_count} {t.attempt_count === 1 ? 'attempt' : 'attempts'}
                     {t.earliest_year ? ` since ${t.earliest_year}` : ''}
+                    {t.active_count > 0 ? `, ${t.active_count} still operating` : ''}
                   </span>
                   <span>{t.category}</span>
                   {t.comment_count > 0 && (
@@ -132,12 +168,16 @@ export const PitList: FC<{ tarpits: TarpitSummary[]; q?: string }> = ({ tarpits,
   </div>
 );
 
-export const VoteBox: FC<{ slug: string; tally: VoteTally }> = ({ slug, tally }) => {
+export const VoteBox: FC<{ slug: string; tally: VoteTally; verdict: Verdict }> = ({ slug, tally, verdict }) => {
   const total = tally.still + tally.cracked;
   const stillPct = total ? Math.round((tally.still / total) * 100) : 50;
   return (
     <section class="vote" id="vote" aria-labelledby="vote-heading">
       <h2 id="vote-heading">Is this still a tarpit?</h2>
+      <p class="hint vote-verdict">
+        Our verdict: <VerdictBadge verdict={verdict} always /> {VERDICTS[verdict].description} Your vote is counted
+        separately and doesn't change it.
+      </p>
       <form method="post" action={`/t/${slug}/vote`} hx-post={`/t/${slug}/vote`} hx-target="#vote" hx-swap="outerHTML">
         <button
           type="submit"

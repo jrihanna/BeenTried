@@ -5,6 +5,7 @@
   "summary": "Rent or resell textbooks cheaply between students.",
   "keywords": "textbooks, students, marketplace",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Textbooks are expensive and students are broke.",
   "whyItFails": "Digital shift. Publishers move to digital access codes. Seasonal and local. Demand clumps at semester start. Edition changes. Publishers kill resale value.",
   "whatWouldChange": "Largely closed by digital licensing; little upside left.",

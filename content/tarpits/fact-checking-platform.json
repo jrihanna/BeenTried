@@ -5,6 +5,7 @@
   "summary": "Crowd or AI fact-checking for the internet.",
   "keywords": "fact checking, misinformation",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Misinformation is a recognised problem.",
   "whyItFails": "No paying customer. Consumers won't pay. Polarisation. Fact-checkers are distrusted. Scale. Misinformation outpaces checking.",
   "whatWouldChange": "Platform partnerships paying for checks.",

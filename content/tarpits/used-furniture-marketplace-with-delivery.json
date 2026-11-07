@@ -5,6 +5,7 @@
   "summary": "Buy and sell used furniture with delivery handled.",
   "keywords": "furniture, resale, logistics",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Furniture is bulky and moving it is the real pain.",
   "whyItFails": "Logistics costs. Delivery costs exceed item value. Inventory quality. Items vary wildly. Free alternatives. Facebook Marketplace and Gumtree.",
   "whatWouldChange": "Pooled logistics with existing delivery networks.",

@@ -5,6 +5,7 @@
   "summary": "Virtual worlds where people meet as avatars to chat, attend events, and spend time together.",
   "keywords": "virtual reality, metaverse, avatars, virtual events, VR social, headsets, virtual worlds",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Being in a room with someone in VR feels genuinely different from a video call, and demos are memorable. Every new headset launch makes it feel like the audience is about to arrive.",
   "whyItFails": "Only a small share of people own a headset, and fewer still wear it regularly. A social space needs a crowd to feel alive, so a small install base produces empty worlds, which then drive away the people who did show up.\n\nOpen spaces with strangers also attract harassment, which is more intense in VR than on a flat screen and expensive to moderate.",
   "whatWouldChange": "A new attempt needs to work well for people without a headset (on phones or desktops) so it isn't waiting on hardware sales, or it needs a reason for a specific group to show up together at set times, such as classes, teams or events.\n\nIt also needs moderation and personal safety tools designed in from the start.",

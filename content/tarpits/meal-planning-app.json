@@ -5,6 +5,7 @@
   "summary": "Plan your weekly meals and generate a shopping list automatically.",
   "keywords": "meal planning, recipes, health",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Deciding what to cook is a daily pain and tied to health goals.",
   "whyItFails": "Plans don't survive real life. Users abandon plans by midweek. Free recipe content. Recipes are free everywhere. Low willingness to pay. Hard to charge more than a few dollars.",
   "whatWouldChange": "AI that adapts plans to what's actually in the fridge and integrates grocery checkout.",

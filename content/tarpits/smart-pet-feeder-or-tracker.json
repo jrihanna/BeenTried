@@ -5,6 +5,7 @@
   "summary": "Track and feed your pet remotely.",
   "keywords": "pets, iot, hardware",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Pet owners spend heavily.",
   "whyItFails": "Hardware competition. Cheap alternatives. Reliability. Failures harm pets. Low recurring revenue. Hard to sell subscriptions.",
   "whatWouldChange": "Subscription services (food, vet) bundled with hardware.",

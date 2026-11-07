@@ -5,6 +5,7 @@
   "summary": "Save recipes and turn them into a smart grocery list.",
   "keywords": "recipes, shopping, groceries",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Saving recipes is universal; shopping lists are tedious.",
   "whyItFails": "Recipes are free. Content is abundant and commoditised. Retailers own checkout. Supermarket apps capture the transaction. Easily copied. Features are simple to replicate.",
   "whatWouldChange": "Direct checkout integrations with supermarkets earning referral revenue.",

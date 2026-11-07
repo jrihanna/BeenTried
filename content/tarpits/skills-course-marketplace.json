@@ -5,6 +5,7 @@
   "summary": "A marketplace for experts to sell online courses.",
   "keywords": "courses, marketplace, creators",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Creators want to monetise expertise and learners want skills.",
   "whyItFails": "Commoditisation. Courses are abundant and discounted heavily. Completion rates. Most learners never finish. Creators leave. Successful creators go to their own platforms.",
   "whatWouldChange": "Cohort-based or outcome-tied learning; AI-personalised instruction.",

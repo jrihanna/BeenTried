@@ -39,6 +39,18 @@ Each failure reason uses a label from `src/tags.ts` (`cold-start`, `unit-economi
 
 New entries start as **unreviewed** and show a fact-check notice until you tick "Reviewed" in the editor or click **Mark reviewed** in the entries list. In production, unreviewed entries are hidden from visitors (index, entry pages and the idea checker) unless you set `PUBLISH_DRAFTS=true`; use **Preview** in `/admin` to see them. The **Needs checking** table in `/admin` lists every unreviewed entry and every company without a source link.
 
+### Verdicts and companies still operating
+
+Each entry has a **verdict**, your editorial call, shown as a badge and as a filter on the home page. It is kept separate from the visitors' "still a tarpit / cracked" vote:
+
+- **Tarpit**: nobody has made it work. Needs at least 2 ended companies with sources (`MIN_ENDED_FOR_TARPIT` in `src/verdicts.ts`). An entry can't be marked reviewed until it has them, and the **Needs checking** table flags any that fall short.
+- **Contested**: mostly failures, but someone is making it work.
+- **Cracked**: someone has clearly made it work. The entry page headings become "Why it used to fail" and "What changed".
+
+Each company is either **ended** (listed under "Who tried") or **active** (listed under "Still operating"). Active means still doing this idea today, including after an acquisition (Venmo, Ring). A company that pivoted away counts as ended. Set it with "Listed under" in the editor. The idea checker names the companies still operating and, for contested or cracked entries, asks what the founder's edge over them is.
+
+`npm run apply-verdicts -- <file.json>` applies a reviewed list of company states, removals and verdicts (see `content/additions/2026-11-verdicts.json`). It is a dry run unless you add `--apply`.
+
 The privacy policy at `/privacy` (`PrivacyPage` in `src/views/pages.tsx`) describes what this code collects. Update it, and its date, whenever that changes.
 
 > The six starter entries were drafted from general knowledge and have not been fact-checked. Verify the dates, outcomes and sources before publishing.

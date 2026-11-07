@@ -5,6 +5,7 @@
   "summary": "A safe messaging app for children.",
   "keywords": "kids, messaging, safety",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Parents fear online dangers.",
   "whyItFails": "Kids want what peers use. Network effects. Safety burden. Moderation is expensive. Regulatory obligations. Online safety laws apply.",
   "whatWouldChange": "Regulation forcing age-appropriate design.",

@@ -5,6 +5,7 @@
   "summary": "Book trusted local tradespeople on demand.",
   "keywords": "services, local, marketplace",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Finding reliable tradies is painful.",
   "whyItFails": "Disintermediation. After the first job, customers go direct. Supply quality. Good tradies are busy and don't need you. Low frequency. Homeowners need help occasionally.",
   "whatWouldChange": "Software for tradies (scheduling, payments) that makes staying on-platform worth it.",

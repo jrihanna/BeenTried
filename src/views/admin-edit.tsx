@@ -2,6 +2,7 @@ import type { FC } from 'hono/jsx';
 import type { EditableAttempt, EditableReason, EditableSource, EntryEditor, EntryValues } from '../admin-data.js';
 import type { SuggestionValues } from '../suggestions.js';
 import { TAGS } from '../tags.js';
+import { VERDICTS } from '../verdicts.js';
 import { Layout } from './layout.js';
 import { OutcomeOptions, SuggestionFields } from './suggest.js';
 
@@ -19,6 +20,7 @@ export function attemptValues(a: EditableAttempt): SuggestionValues {
     outcome: a.outcome,
     notes: a.notes,
     source_url: a.source_url ?? '',
+    state: a.state,
   };
 }
 
@@ -50,7 +52,7 @@ export const AttemptEditRow: FC<{
         Hidden while a report is reviewed. Restore or remove it under <a href="/admin#reports">Reported companies</a>.
       </p>
     )}
-    <SuggestionFields v={v} prefix={`att${id}`} requireSource={false} />
+    <SuggestionFields v={v} prefix={`att${id}`} requireSource={false} showState />
     <RowMessage msg={msg} error={error} />
     <div class="form-actions">
       <button type="submit">Save company</button>
@@ -143,6 +145,18 @@ const EntryFields: FC<{ v: EntryValues; categories: string[] }> = ({ v, categori
     <textarea id="e-tempting" name="why_tempting" rows={5} maxlength={6000}>
       {v.why_tempting ?? ''}
     </textarea>
+    <label for="e-verdict">Verdict</label>
+    <select id="e-verdict" name="verdict">
+      {Object.entries(VERDICTS).map(([key, d]) => (
+        <option value={key} selected={(v.verdict ?? 'tarpit') === key}>
+          {d.label}: {d.description}
+        </option>
+      ))}
+    </select>
+    <p class="hint">
+      Your call, shown as a badge and kept separate from the visitors' vote. For a cracked entry the page headings
+      become "Why it used to fail" and "What changed", so write those two sections that way.
+    </p>
     <label for="e-fails">Why it keeps failing</label>
     <textarea id="e-fails" name="why_it_fails" rows={6} maxlength={6000}>
       {v.why_it_fails ?? ''}
@@ -218,8 +232,16 @@ export const EditEntryPage: FC<{ editor: EntryEditor; categories: string[] }> = 
         </section>
 
         <section>
-          <h2>Who tried ({attempts.length})</h2>
-          <p class="hint">Shown newest first on the page. Companies approved from visitor suggestions are listed here too.</p>
+          <h2>
+            Companies ({attempts.filter((a) => a.state === 'ended').length} who tried,{' '}
+            {attempts.filter((a) => a.state === 'active').length} still operating)
+          </h2>
+          <p class="hint">
+            Shown newest first on the page. Companies approved from visitor suggestions are listed here too. "Still
+            operating" means still doing this idea today; a company that pivoted away counts as ended. Only list a live
+            company that has launched and has been covered by someone other than itself, and describe it with facts
+            only.
+          </p>
           <OutcomeOptions />
           <div class="edit-list" id="attempt-list">
             {attempts.map((a) => (
@@ -234,7 +256,7 @@ export const EditEntryPage: FC<{ editor: EntryEditor; categories: string[] }> = 
             hx-swap="beforeend"
             hx-on--after-request={RESET_ON_SUCCESS}
           >
-            <SuggestionFields v={{}} prefix="new-att" requireSource={false} />
+            <SuggestionFields v={{}} prefix="new-att" requireSource={false} showState />
             <p class="form-error" id="attempt-add-msg" role="alert"></p>
             <div class="form-actions">
               <button type="submit">Add company</button>

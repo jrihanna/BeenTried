@@ -5,6 +5,7 @@
   "summary": "A device that tracks and improves your sleep.",
   "keywords": "sleep, wearables, hardware",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Sleep is a growing wellness obsession.",
   "whyItFails": "Data without action. Knowing you slept badly doesn't fix it. Wearables already do it. Watches and rings track sleep. Hardware economics. Inventory and returns are costly.",
   "whatWouldChange": "Closed-loop products that act (temperature, light, sound) rather than just measure.",

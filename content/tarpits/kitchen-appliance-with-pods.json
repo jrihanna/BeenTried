@@ -5,6 +5,7 @@
   "summary": "An appliance that uses proprietary pods (juice, cocktails, etc).",
   "keywords": "kitchen, pods, razor blades",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Razor-and-blades model like coffee pods.",
   "whyItFails": "Pods are unnecessary. Customers find workarounds. High hardware cost. Expensive machines. Waste backlash. Single-use pods draw criticism.",
   "whatWouldChange": "Unlikely; consumers resist lock-in.",

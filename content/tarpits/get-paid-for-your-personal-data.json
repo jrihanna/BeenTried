@@ -5,6 +5,7 @@
   "summary": "Users own their data and sell it to advertisers directly.",
   "keywords": "data, privacy, marketplace",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Feels fair; Big Tech profits from data that users give away.",
   "whyItFails": "Data is worth very little per person. Payouts are cents, not dollars. Buyers don't need you. Advertisers already get data elsewhere. Trust and privacy concerns. Selling data contradicts privacy motivations.",
   "whatWouldChange": "Data for AI training with clear rights might create genuinely valuable individual data.",

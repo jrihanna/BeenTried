@@ -5,6 +5,7 @@
   "summary": "Buy restaurants' and shops' surplus food at a discount.",
   "keywords": "food waste, sustainability, marketplace",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Food waste is huge and everyone hates it.",
   "whyItFails": "Unpredictable supply. Users can't rely on what's available. Thin margins. Discounted food leaves little to share. Merchant effort. Listing surplus is extra work at closing time.",
   "whatWouldChange": "POS integration that lists surplus automatically.",

@@ -4,7 +4,8 @@
   "category": "Commerce",
   "summary": "Order snacks, groceries or household items and get them in 10 to 30 minutes from local warehouses.",
   "keywords": "quick commerce, grocery delivery, dark stores, on-demand delivery, convenience, 15 minute delivery",
-  "status": "draft",
+  "status": "reviewed",
+  "verdict": "tarpit",
   "whyTempting": "Customers love it. Fast delivery is easy to explain, easy to market, and early cities show impressive order growth. It looks like a logistics problem that enough capital and software can solve.",
   "whyItFails": "Each order is small, but it still needs a rider, a warehouse in a high-rent area, and stock that can spoil. Growth is usually bought with discounts and free delivery, and when those stop, many customers order less.\n\nThe model only works with very high order density, and building that density costs more money than most companies can raise, especially once investment dries up.",
   "whatWouldChange": "A new attempt needs positive margin on a typical order without discounts, which usually means higher order values, delivery fees customers accept, or much cheaper fulfilment.\n\nAutomation of picking or delivery could change the cost structure, but it has to be cheaper in practice, not just in a pilot.",
@@ -38,7 +39,8 @@
       "startYear": 2020,
       "endYear": 2022,
       "outcome": "Acquired by Getir",
-      "notes": "Grew very fast across European cities on venture funding."
+      "notes": "Grew very fast across European cities on venture funding.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gorillas_(company)"
     },
     {
       "company": "Buyk",

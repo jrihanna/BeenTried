@@ -2,20 +2,32 @@ import type { Child, FC } from 'hono/jsx';
 import type { CheckResult } from '../check.js';
 import type { Comment, Tarpit, TarpitSummary, VoteTally } from '../data.js';
 import { tagLabel } from '../tags.js';
+import { sectionHeadings, VERDICTS, type Verdict } from '../verdicts.js';
 import { complaintsEmail } from '../reports.js';
 import { Layout, SITE_NAME } from './layout.js';
-import { CommentForm, CommentItem, paragraphs, PitList, Strata, VoteBox } from './parts.js';
+import { CommentForm, CommentItem, paragraphs, PitList, Strata, Survivors, VerdictBadge, VoteBox } from './parts.js';
 import { SuggestLink } from './suggest.js';
 
 // ---------- Home ----------
+
+/** Home page link that keeps the other filters. Pass null to drop one. */
+function homeHref(f: { q?: string | null; category?: string | null; verdict?: Verdict | null }): string {
+  const params = new URLSearchParams();
+  if (f.q) params.set('q', f.q);
+  if (f.category) params.set('category', f.category);
+  if (f.verdict) params.set('verdict', f.verdict);
+  const qs = params.toString();
+  return qs ? `/?${qs}` : '/';
+}
 
 export const HomePage: FC<{
   tarpits: TarpitSummary[];
   categories: string[];
   q?: string;
   category?: string;
+  verdict?: Verdict;
   totalAttempts: number;
-}> = ({ tarpits, categories, q, category, totalAttempts }) => (
+}> = ({ tarpits, categories, q, category, verdict, totalAttempts }) => (
   <Layout>
     <section class="hero">
       <h1>Some ideas have already swallowed hundreds of founders.</h1>
@@ -24,7 +36,7 @@ export const HomePage: FC<{
         who tried, how it ended, and what would have to be different for the next attempt to get out.
       </p>
       <p class="hero-count">
-        {tarpits.length && !q && !category
+        {tarpits.length && !q && !category && !verdict
           ? `${totalAttempts} recorded attempts across ${tarpits.length} pits so far.`
           : ''}
       </p>
@@ -47,20 +59,29 @@ export const HomePage: FC<{
         hx-include="closest form"
       />
       {category && <input type="hidden" name="category" value={category} />}
+      {verdict && <input type="hidden" name="verdict" value={verdict} />}
       <noscript>
         <button type="submit">Search</button>
       </noscript>
     </form>
 
+    <nav class="categories verdicts" aria-label="Filter by verdict">
+      <a href={homeHref({ q, category, verdict: null })} aria-current={!verdict ? 'page' : undefined}>
+        Every verdict
+      </a>
+      {(Object.keys(VERDICTS) as Verdict[]).map((v) => (
+        <a href={homeHref({ q, category, verdict: v })} aria-current={verdict === v ? 'page' : undefined} title={VERDICTS[v].description}>
+          {VERDICTS[v].label}
+        </a>
+      ))}
+    </nav>
+
     <nav class="categories" aria-label="Filter by category">
-      <a href={q ? `/?q=${encodeURIComponent(q)}` : '/'} aria-current={!category ? 'page' : undefined}>
+      <a href={homeHref({ q, category: null, verdict })} aria-current={!category ? 'page' : undefined}>
         All
       </a>
       {categories.map((c) => (
-        <a
-          href={`/?category=${encodeURIComponent(c)}${q ? `&q=${encodeURIComponent(q)}` : ''}`}
-          aria-current={category === c ? 'page' : undefined}
-        >
+        <a href={homeHref({ q, category: c, verdict })} aria-current={category === c ? 'page' : undefined}>
           {c}
         </a>
       ))}
@@ -81,6 +102,9 @@ export const TarpitPage: FC<{ tarpit: Tarpit; comments: Comment[]; tally: VoteTa
     (min, a) => (a.start_year && (!min || a.start_year < min) ? a.start_year : min),
     null,
   );
+  const ended = t.attempts.filter((a) => a.state === 'ended');
+  const active = t.attempts.filter((a) => a.state === 'active');
+  const headings = sectionHeadings(t.verdict);
   return (
     <Layout title={t.title} description={t.summary}>
       <article class="tarpit">
@@ -89,10 +113,14 @@ export const TarpitPage: FC<{ tarpit: Tarpit; comments: Comment[]; tally: VoteTa
             <a href="/">The pits</a> / <a href={`/?category=${encodeURIComponent(t.category)}`}>{t.category}</a>
           </p>
           <h1>{t.title}</h1>
+          <p class="verdict-line">
+            <VerdictBadge verdict={t.verdict} always /> {VERDICTS[t.verdict].description}
+          </p>
           <p class="lede">{t.summary}</p>
           <p class="depth">
             {t.attempts.length} {t.attempts.length === 1 ? 'company' : 'companies'} recorded
-            {earliest ? ` since ${earliest}` : ''}.
+            {earliest ? ` since ${earliest}` : ''}
+            {active.length > 0 ? `, ${active.length} still operating` : ''}.
           </p>
           {t.status === 'draft' && (
             <p class="draft-note">
@@ -105,7 +133,18 @@ export const TarpitPage: FC<{ tarpit: Tarpit; comments: Comment[]; tally: VoteTa
         <div class="tarpit-body">
           <aside class="tarpit-strata" aria-label="Who tried">
             <h2>Who tried</h2>
-            <Strata slug={t.slug} attempts={t.attempts} />
+            {ended.length > 0 ? (
+              <Strata slug={t.slug} attempts={ended} />
+            ) : (
+              <p class="hint">No ended attempts recorded yet.</p>
+            )}
+            {active.length > 0 && (
+              <>
+                <h2 class="survivors-head">Still operating</h2>
+                <p class="hint">Companies still doing this today, with how they've fared so far.</p>
+                <Survivors slug={t.slug} attempts={active} />
+              </>
+            )}
             {t.hidden_attempts > 0 && (
               <p class="hint hidden-note">
                 {t.hidden_attempts === 1 ? 'One more company is' : `${t.hidden_attempts} more companies are`} hidden
@@ -125,7 +164,7 @@ export const TarpitPage: FC<{ tarpit: Tarpit; comments: Comment[]; tally: VoteTa
             </section>
 
             <section>
-              <h2>Why it keeps failing</h2>
+              <h2>{headings.fails}</h2>
               {paragraphs(t.why_it_fails)}
               {t.reasons.length > 0 && (
                 <dl class="reasons">
@@ -140,11 +179,11 @@ export const TarpitPage: FC<{ tarpit: Tarpit; comments: Comment[]; tally: VoteTa
             </section>
 
             <section class="escape">
-              <h2>What would have to be true now</h2>
+              <h2>{headings.change}</h2>
               {paragraphs(t.what_would_change)}
             </section>
 
-            <VoteBox slug={t.slug} tally={tally} />
+            <VoteBox slug={t.slug} tally={tally} verdict={t.verdict} />
 
             {t.sources.length > 0 && (
               <section class="sources">
@@ -235,13 +274,18 @@ export const CheckResultView: FC<{ result: CheckResult }> = ({ result }) => (
             <li>
               <a href={`/t/${m.slug}`} class="match-title">
                 {m.title}
-              </a>
+              </a>{' '}
+              <VerdictBadge verdict={m.verdict} />
               <span class="match-meta">
                 {m.attempt_count} {m.attempt_count === 1 ? 'attempt' : 'attempts'} recorded
+                {m.survivors.length > 0 ? `, still operating: ${m.survivors.join(', ')}` : ''}
               </span>
               <p>{m.relation ?? m.summary}</p>
               {m.reasons.length > 0 && (
-                <p class="match-reasons">Failed on: {m.reasons.map((r) => tagLabel(r.tag)).join(', ')}</p>
+                <p class="match-reasons">
+                  {m.verdict === 'cracked' ? 'Used to fail on' : 'Failed on'}:{' '}
+                  {m.reasons.map((r) => tagLabel(r.tag)).join(', ')}
+                </p>
               )}
             </li>
           ))}
@@ -313,9 +357,7 @@ export const PrivacyPage: FC<{ aiOn: boolean }> = ({ aiOn }) => {
         <h2>What we collect</h2>
         <ul>
           <li>
-            <strong>A visitor cookie.</strong> A random id in a cookie called <code>vid</code>, kept for a year, so each
-            visitor gets one vote per entry. We store a scrambled (hashed) version of it with your vote, not the id
-            itself.
+            <strong>One cookie, only if you vote.</strong> See <a href="#cookies">Cookies</a> below.
           </li>
           <li>
             <strong>A scrambled version of your IP address.</strong> When you comment, suggest a company or send a
@@ -339,6 +381,31 @@ export const PrivacyPage: FC<{ aiOn: boolean }> = ({ aiOn }) => {
           </li>
         </ul>
 
+        <h2 id="cookies">Cookies</h2>
+        <p>
+          The site uses one cookie, and only after you vote. Reading, commenting, suggesting a company, reporting and
+          using the idea checker don't set any cookies.
+        </p>
+        <ul>
+          <li>
+            <strong>Name:</strong> <code>vid</code>
+          </li>
+          <li>
+            <strong>What it's for:</strong> it holds a random id so you get one vote per entry and can change your vote.
+            We store a scrambled (hashed) version of the id with your vote, not the id itself. It doesn't identify you.
+          </li>
+          <li>
+            <strong>How long it lasts:</strong> one year from when you vote.
+          </li>
+          <li>
+            <strong>Who sets it:</strong> only this site. It isn't shared with anyone and can't be read by other sites.
+          </li>
+        </ul>
+        <p>
+          There are no analytics, advertising or tracking cookies, and no third-party cookies. If we ever add any, we'll
+          update this page first and ask before setting them where the law requires it.
+        </p>
+
         <h2>Who else sees it</h2>
         <ul>
           <li>Our hosting and database providers store the site's data and may keep standard server logs.</li>
@@ -353,7 +420,7 @@ export const PrivacyPage: FC<{ aiOn: boolean }> = ({ aiOn }) => {
             When something is reported, the admin gets a short notification that names the company or comment author
             and the reason. It doesn't include what you wrote or your email.
           </li>
-          <li>We don't sell data, run ads or use analytics trackers.</li>
+          <li>We don't sell data, run ads, or use analytics or tracking of any kind.</li>
         </ul>
 
         <h2>Children</h2>
@@ -363,8 +430,8 @@ export const PrivacyPage: FC<{ aiOn: boolean }> = ({ aiOn }) => {
 
         <h2>Your choices</h2>
         <p>
-          You can read everything without commenting, suggesting or reporting. You can clear the <code>vid</code>{' '}
-          cookie at any time; you'll just be able to vote again.{' '}
+          You can read everything without any cookie being set. If you've voted, you can clear the <code>vid</code>{' '}
+          cookie at any time; your vote stays counted, but the site won't recognise it as yours.{' '}
           {email ? (
             <>
               To ask what we hold about you, or to have a comment, suggestion or report removed, email{' '}
@@ -380,7 +447,7 @@ export const PrivacyPage: FC<{ aiOn: boolean }> = ({ aiOn }) => {
 };
 
 /** Change this whenever the privacy policy text changes. */
-const PRIVACY_UPDATED = '29 October 2026';
+const PRIVACY_UPDATED = '7 November 2026';
 
 /**
  * Terms of use. Covers the Online Safety Act basics (no illegal or harmful content, a way to complain,

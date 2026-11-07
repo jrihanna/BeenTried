@@ -5,6 +5,7 @@
   "summary": "Resell event tickets at fair prices, no scalpers.",
   "keywords": "tickets, events, resale",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Fans hate scalpers and fees.",
   "whyItFails": "Primary ticketers control inventory. They own the tickets. Scalpers adapt. Bots and fraud persist. Low margins. Fair pricing limits revenue.",
   "whatWouldChange": "Regulation enforcing price caps and transfer controls.",

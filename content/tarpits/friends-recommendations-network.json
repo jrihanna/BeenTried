@@ -5,6 +5,7 @@
   "summary": "One place to see what restaurants, shows and products your friends actually recommend.",
   "keywords": "social, recommendations, cold start",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Everyone trusts friends over strangers, and asks for recommendations in group chats constantly.",
   "whyItFails": "Cold start. The app is useless until many of your friends are on it and posting. Low posting frequency. People consume recommendations far more than they bother to log them. Group chats already work. The behaviour happens fine in iMessage/WhatsApp with zero setup.",
   "whatWouldChange": "LLMs that can extract recommendations passively from chats, email or photos without manual logging.",

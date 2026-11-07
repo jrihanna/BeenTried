@@ -5,6 +5,7 @@
   "summary": "All your medical records from every provider in one app.",
   "keywords": "health records, interoperability",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Records are scattered and patients are frustrated.",
   "whyItFails": "Interoperability. Providers' systems don't share data easily. Low urgency. People only need records occasionally. Government and platform competition. Public health records and Apple Health exist.",
   "whatWouldChange": "Mandated interoperability standards (e.g. FHIR APIs) actually enforced.",

@@ -5,6 +5,7 @@
   "summary": "Hotel booking for a specific traveller niche.",
   "keywords": "hotels, booking, travel",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "OTAs are generic and niche travellers are underserved.",
   "whyItFails": "OTA dominance. Booking giants win on inventory and price. Customer acquisition. Search ads are expensive. Thin commissions. Little margin left.",
   "whatWouldChange": "Community-driven niches with loyal audiences.",

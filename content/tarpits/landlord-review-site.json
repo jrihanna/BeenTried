@@ -5,6 +5,7 @@
   "summary": "Tenants review landlords and properties.",
   "keywords": "housing, reviews, landlords",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Renters suffer bad landlords.",
   "whyItFails": "Defamation risk. Landlords sue reviewers and platforms. Low traffic. Used only when moving. Data sparsity. Few reviews per property.",
   "whatWouldChange": "Government-backed data on landlords.",

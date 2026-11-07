@@ -5,6 +5,7 @@
   "summary": "Order home-cooked meals from people in your neighbourhood.",
   "keywords": "home cooking, marketplace, food",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Home cooking is authentic and cooks want income.",
   "whyItFails": "Food safety regulation. Selling home-cooked food is restricted in most jurisdictions. Supply consistency. Hobby cooks don't cook reliably. Low order frequency. Customers revert to known delivery apps.",
   "whatWouldChange": "Cottage food law reforms and shared commercial kitchens.",

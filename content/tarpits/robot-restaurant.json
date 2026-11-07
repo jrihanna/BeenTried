@@ -5,6 +5,7 @@
   "summary": "Robots cook and serve food to cut labour costs.",
   "keywords": "robotics, restaurants, automation",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Labour is a restaurant's biggest cost and it's hard to hire.",
   "whyItFails": "Hardware cost. Robots are expensive and break down. Limited menus. Automation forces narrow, rigid menus. Novelty isn't loyalty. Customers return for food, not robots.",
   "whatWouldChange": "Cheaper general-purpose robotics; automating back-of-house tasks first.",

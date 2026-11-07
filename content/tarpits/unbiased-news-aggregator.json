@@ -5,6 +5,7 @@
   "summary": "News from all sides without bias.",
   "keywords": "news, aggregation, bias",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Polarisation is a widely felt problem.",
   "whyItFails": "People prefer their bias. Demand is lower than stated. Publisher dependency. Content isn't yours. Monetisation. Ads and subscriptions are hard.",
   "whatWouldChange": "AI summarisation of multiple perspectives.",

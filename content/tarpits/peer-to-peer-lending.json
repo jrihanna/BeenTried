@@ -4,7 +4,8 @@
   "category": "Fintech",
   "summary": "Cut out the bank: individuals lend directly to borrowers.",
   "keywords": "lending, p2p, marketplace",
-  "status": "draft",
+  "status": "reviewed",
+  "verdict": "tarpit",
   "whyTempting": "Banks' spread looks like pure waste to remove.",
   "whyItFails": "Adverse selection. The best borrowers get bank loans; you get the rest. Credit cycles. Losses spike in downturns and lenders flee. Regulation and capital. You end up becoming a bank anyway.",
   "whatWouldChange": "Better underwriting data, but the structural issues remain largely unchanged.",
@@ -34,6 +35,7 @@
       "company": "RateSetter",
       "endYear": 2020,
       "outcome": "Sold to Metro Bank for £2.5 million; investor accounts closed",
+      "notes": "Plenti to reflect a broader focus on consumer, automotive, and renewable energy (green) loans rather than just peer-to-peer lending.",
       "sourceUrl": "https://www.crowdfundinsider.com/2020/08/164883-metro-bank-acquires-p2p-lender-ratesetter-metro-bank-to-use-its-deposit-base-to-new-fund-loans/"
     }
   ],

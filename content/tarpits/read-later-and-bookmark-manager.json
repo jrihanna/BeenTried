@@ -5,6 +5,7 @@
   "summary": "Save articles to read later, organised and searchable.",
   "keywords": "reading, bookmarks, productivity",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Everyone has 200 open tabs and good intentions.",
   "whyItFails": "Saved, never read. Users save compulsively and never return, then churn. Browser features. Reading lists and bookmarks are built into browsers. Low willingness to pay. Few pay for what feels like a utility.",
   "whatWouldChange": "Summarisation and digest delivery so the value arrives without the user returning.",

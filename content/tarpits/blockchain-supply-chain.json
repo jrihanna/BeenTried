@@ -5,6 +5,7 @@
   "summary": "A shared ledger that lets shippers, ports and buyers track goods and paperwork end to end.",
   "keywords": "blockchain, distributed ledger, logistics, shipping, traceability, provenance, trade finance",
   "status": "reviewed",
+  "verdict": "tarpit",
   "whyTempting": "Global trade really does run on scattered paperwork, and nobody trusts anyone else's database. A ledger that every party can see and nobody controls sounds like the perfect fix, and large companies were eager to announce pilots.",
   "whyItFails": "The hard part of supply chain tracking is getting accurate data in at each step, which a ledger doesn't solve: if someone records the wrong thing, the blockchain faithfully stores the wrong thing.\n\nThe network is only valuable if competitors all join, but each one is wary of a platform run by, or benefiting, a rival. Once governance is sorted out, a conventional shared database usually does the job more cheaply.",
   "whatWouldChange": "A new attempt needs a neutral operator that rivals are willing to trust, or a regulation that requires them to share the same data.\n\nIt should also solve the data entry problem directly, for example with sensors or automatic document capture, and be honest about whether a blockchain is needed at all.",

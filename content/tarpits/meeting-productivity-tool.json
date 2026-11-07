@@ -5,6 +5,7 @@
   "summary": "Make meetings shorter and more productive.",
   "keywords": "meetings, productivity, saas",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Everyone hates meetings.",
   "whyItFails": "Behaviour change. Tools don't change culture. Bundled. Zoom and Teams add features. Low urgency. Meetings persist.",
   "whatWouldChange": "AI notes and actions built in.",

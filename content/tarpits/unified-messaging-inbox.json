@@ -5,6 +5,7 @@
   "summary": "All your chats — WhatsApp, Messenger, SMS, Slack — in one app.",
   "keywords": "messaging, aggregation, productivity",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Context-switching between messaging apps is a universal annoyance.",
   "whyItFails": "Platforms block you. Messaging apps don't offer APIs and break unofficial integrations. Security concerns. Users hesitate to hand all messages to a third party. Constant breakage. Maintenance never ends.",
   "whatWouldChange": "Regulation forcing messaging interoperability (e.g. EU Digital Markets Act).",

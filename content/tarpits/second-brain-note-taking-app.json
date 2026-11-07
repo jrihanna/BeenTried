@@ -5,6 +5,7 @@
   "summary": "A note app that connects your ideas and resurfaces them when useful.",
   "keywords": "notes, productivity, pkm",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Knowledge workers drown in notes; enthusiasts evangelise loudly.",
   "whyItFails": "Crowded and free. Notion, Obsidian, Apple Notes and Google Keep cover most needs. Switching cost. People don't migrate years of notes. Power-user trap. Enthusiasts love it, mainstream users find it too much work.",
   "whatWouldChange": "Capture becomes zero effort (voice, screen, meetings) and retrieval is conversational.",

@@ -27,11 +27,15 @@ export const SuggestLink: FC<{ slug: string }> = ({ slug }) => (
   </a>
 );
 
-/** Company fields shared by the public form, the review queue and the entry editor. */
-export const SuggestionFields: FC<{ v: SuggestionValues; prefix: string; requireSource?: boolean }> = ({
+/**
+ * Company fields shared by the public form, the review queue and the entry editor. Admin forms
+ * pass showState to choose between "Who tried" and "Still operating"; visitors never see it.
+ */
+export const SuggestionFields: FC<{ v: SuggestionValues; prefix: string; requireSource?: boolean; showState?: boolean }> = ({
   v,
   prefix,
   requireSource = true,
+  showState = false,
 }) => {
   const id = (name: string) => `${prefix}-${name}`;
   const thisYear = new Date().getFullYear();
@@ -49,7 +53,20 @@ export const SuggestionFields: FC<{ v: SuggestionValues; prefix: string; require
           <input id={id('end')} type="number" name="end_year" min={1980} max={thisYear} placeholder="2019" value={v.end_year ?? ''} />
         </span>
       </div>
-      <label for={id('outcome')}>How it ended</label>
+      {showState && (
+        <>
+          <label for={id('state')}>Listed under</label>
+          <select id={id('state')} name="state">
+            <option value="ended" selected={v.state !== 'active'}>
+              Who tried (ended, or no longer doing this)
+            </option>
+            <option value="active" selected={v.state === 'active'}>
+              Still operating (still doing this, including after an acquisition)
+            </option>
+          </select>
+        </>
+      )}
+      <label for={id('outcome')}>{showState ? 'How it ended, or where it stands' : 'How it ended'}</label>
       <input
         id={id('outcome')}
         type="text"
@@ -184,7 +201,7 @@ export const PendingSuggestionCard: FC<{ s: PendingSuggestion; error?: string; v
         </a>
       </p>
       <form class="suggest-form review-form">
-        <SuggestionFields v={v} prefix={`r${s.id}`} />
+        <SuggestionFields v={v} prefix={`r${s.id}`} showState />
         <p class="form-error" id={`sg-error-${s.id}`} role="alert">
           {error ?? ''}
         </p>

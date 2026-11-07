@@ -5,6 +5,7 @@
   "summary": "Track your spending automatically and stick to a budget.",
   "keywords": "budgeting, personal finance",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Most people are stressed about money and say they want to budget.",
   "whyItFails": "Motivation decays. People use it for a few weeks then stop looking. Bank data access is fragile. Connections break and data is messy. Banks bundle it free. Banking apps add spending insights.",
   "whatWouldChange": "Open banking (e.g. Australia's Consumer Data Right) making data access reliable, plus agentic actions not just charts.",

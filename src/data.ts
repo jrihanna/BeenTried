@@ -1,4 +1,5 @@
 import { getDb } from './db.js';
+import { MIN_ENDED_FOR_TARPIT, type AttemptState, type Verdict } from './verdicts.js';
 
 export interface TarpitSummary {
   id: number;
@@ -7,7 +8,11 @@ export interface TarpitSummary {
   category: string;
   summary: string;
   status: 'draft' | 'reviewed';
+  verdict: Verdict;
+  /** Every visible company, ended or still operating. */
   attempt_count: number;
+  /** Visible companies still pursuing the idea. */
+  active_count: number;
   earliest_year: number | null;
   comment_count: number;
 }
@@ -20,6 +25,7 @@ export interface Attempt {
   outcome: string;
   notes: string;
   source_url: string | null;
+  state: AttemptState;
   source: 'content' | 'community';
   suggested_by: string | null;
 }
@@ -72,14 +78,15 @@ export function draftsArePublic(): boolean {
 }
 
 const SUMMARY_COLUMNS = `
-  t.id, t.slug, t.title, t.category, t.summary, t.status,
+  t.id, t.slug, t.title, t.category, t.summary, t.status, t.verdict,
   (select count(*)::int from attempts a where a.tarpit_id = t.id and a.hidden_at is null) as attempt_count,
+  (select count(*)::int from attempts a where a.tarpit_id = t.id and a.hidden_at is null and a.state = 'active') as active_count,
   (select min(a.start_year) from attempts a where a.tarpit_id = t.id and a.hidden_at is null) as earliest_year,
   (select count(*)::int from comments c where c.tarpit_id = t.id and not c.hidden) as comment_count
 `;
 
 export async function listTarpits(
-  opts: { q?: string; category?: string; includeDrafts?: boolean } = {},
+  opts: { q?: string; category?: string; verdict?: Verdict; includeDrafts?: boolean } = {},
 ): Promise<TarpitSummary[]> {
   const db = await getDb();
   const q = opts.q?.trim() || null;
@@ -89,6 +96,7 @@ export async function listTarpits(
        from tarpits t
       where ($3::boolean or t.status = 'reviewed')
         and ($1::text is null or t.category = $1)
+        and ($4::text is null or t.verdict = $4)
         and ($2::text is null
              or t.search @@ websearch_to_tsquery('english', $2)
              or t.title ilike '%' || $2 || '%'
@@ -98,7 +106,7 @@ export async function listTarpits(
              else ts_rank(t.search, websearch_to_tsquery('english', $2)) end desc,
         attempt_count desc,
         t.title`,
-    [category, q, opts.includeDrafts ?? draftsArePublic()],
+    [category, q, opts.includeDrafts ?? draftsArePublic(), opts.verdict ?? null],
   );
 }
 
@@ -123,7 +131,7 @@ export async function getTarpit(slug: string, opts: { includeDrafts?: boolean } 
 
   const [attempts, reasons, sources] = await Promise.all([
     db.query<Attempt>(
-      `select id, company, start_year, end_year, outcome, notes, source_url, source, suggested_by
+      `select id, company, start_year, end_year, outcome, notes, source_url, state, source, suggested_by
          from attempts where tarpit_id = $1 and hidden_at is null
         order by start_year desc nulls last, position`,
       [row.id],
@@ -248,15 +256,50 @@ export async function adminToggleComment(id: number): Promise<AdminComment | nul
   return row ?? null;
 }
 
-export async function adminToggleStatus(id: number): Promise<TarpitSummary | null> {
+/**
+ * Flips draft/reviewed. Refuses to mark an entry reviewed while it breaks the tarpit rule, and
+ * returns the reason instead.
+ */
+export async function adminToggleStatus(id: number): Promise<{ row: TarpitSummary; error?: string } | null> {
   const db = await getDb();
-  await db.query(
-    `update tarpits set status = case when status = 'draft' then 'reviewed' else 'draft' end,
-            updated_at = now() where id = $1`,
+  const [current] = await db.query<{ status: 'draft' | 'reviewed' }>('select status from tarpits where id = $1', [id]);
+  if (!current) return null;
+  const problem = current.status === 'draft' ? await tarpitRuleProblem(id) : null;
+  if (!problem) {
+    await db.query(
+      `update tarpits set status = case when status = 'draft' then 'reviewed' else 'draft' end,
+              updated_at = now() where id = $1`,
+      [id],
+    );
+  }
+  const [row] = await db.query<TarpitSummary>(`select ${SUMMARY_COLUMNS} from tarpits t where t.id = $1`, [id]);
+  return row ? { row, error: problem ?? undefined } : null;
+}
+
+/**
+ * Ended companies with a source link, the evidence a "tarpit" verdict rests on. Companies hidden
+ * by a report don't count, since visitors can't see them.
+ */
+const ENDED_SOURCED = (alias: string) => `(select count(*)::int from attempts a
+   where a.tarpit_id = ${alias}.id and a.state = 'ended' and a.hidden_at is null
+     and coalesce(a.source_url, '') <> '')`;
+
+/**
+ * Why an entry can't be marked reviewed yet, or null if it can. A "tarpit" verdict needs at
+ * least MIN_ENDED_FOR_TARPIT ended companies with sources; contested and cracked entries don't.
+ * Pass the verdict about to be saved, or leave it out to use the stored one. Only the step from
+ * draft to reviewed is blocked: an entry that is already reviewed can still be saved, so you can
+ * fix it. It stays listed under "need checking" until it meets the rule.
+ */
+export async function tarpitRuleProblem(id: number, verdict?: Verdict): Promise<string | null> {
+  const db = await getDb();
+  const [row] = await db.query<{ status: 'draft' | 'reviewed'; verdict: Verdict; ended_sourced: number }>(
+    `select t.status, t.verdict, ${ENDED_SOURCED('t')} as ended_sourced from tarpits t where t.id = $1`,
     [id],
   );
-  const [row] = await db.query<TarpitSummary>(`select ${SUMMARY_COLUMNS} from tarpits t where t.id = $1`, [id]);
-  return row ?? null;
+  if (!row || row.status === 'reviewed' || (verdict ?? row.verdict) !== 'tarpit') return null;
+  if (row.ended_sourced >= MIN_ENDED_FOR_TARPIT) return null;
+  return `A tarpit needs at least ${MIN_ENDED_FOR_TARPIT} ended companies with sources (this has ${row.ended_sourced}). Add one, or change the verdict.`;
 }
 
 export interface AdminCheck {
@@ -279,22 +322,33 @@ export interface NeedsCheck {
   slug: string;
   title: string;
   status: 'draft' | 'reviewed';
+  verdict: Verdict;
   companies: number;
   /** Companies on this entry with no source link. */
   unsourced: string[];
+  /** Ended companies with a source. Below MIN_ENDED_FOR_TARPIT, a "tarpit" verdict isn't supported. */
+  ended_sourced: number;
 }
 
-/** Entries that are still drafts, or list a company without a source. Drafts first. */
+/**
+ * Entries that are still drafts, list a company without a source, or have a "tarpit" verdict
+ * with too few sourced ended companies to back it. Drafts first.
+ */
 export async function adminNeedsChecking(): Promise<NeedsCheck[]> {
   const db = await getDb();
   return db.query<NeedsCheck>(
-    `select t.id, t.slug, t.title, t.status,
-            (select count(*)::int from attempts a where a.tarpit_id = t.id) as companies,
-            coalesce((select jsonb_agg(a.company order by a.company) from attempts a
-                       where a.tarpit_id = t.id and coalesce(a.source_url, '') = ''), '[]'::jsonb) as unsourced
-       from tarpits t
-      where t.status = 'draft'
-         or exists (select 1 from attempts a where a.tarpit_id = t.id and coalesce(a.source_url, '') = '')
-      order by t.status, t.title`,
+    `select * from (
+       select t.id, t.slug, t.title, t.status, t.verdict,
+              (select count(*)::int from attempts a where a.tarpit_id = t.id) as companies,
+              coalesce((select jsonb_agg(a.company order by a.company) from attempts a
+                         where a.tarpit_id = t.id and coalesce(a.source_url, '') = ''), '[]'::jsonb) as unsourced,
+              ${ENDED_SOURCED('t')} as ended_sourced
+         from tarpits t
+     ) n
+      where n.status = 'draft'
+         or jsonb_array_length(n.unsourced) > 0
+         or (n.verdict = 'tarpit' and n.ended_sourced < $1)
+      order by n.status, n.title`,
+    [MIN_ENDED_FOR_TARPIT],
   );
 }

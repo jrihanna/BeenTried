@@ -5,6 +5,7 @@
   "summary": "Post anonymously to everyone at your school or company.",
   "keywords": "anonymous, social, campus",
   "status": "reviewed",
+  "verdict": "tarpit",
   "whyTempting": "Anonymous apps spike in popularity and generate huge engagement fast.",
   "whyItFails": "Toxicity and bullying. Anonymity reliably produces harassment and defamation. Legal exposure. Hosts get dragged into complaints, subpoenas and takedown demands. Spike-and-crash. Engagement collapses once novelty and safety issues hit.",
   "whatWouldChange": "Probably nothing; the failure mode is structural, not technological.",

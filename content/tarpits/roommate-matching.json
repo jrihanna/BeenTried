@@ -5,6 +5,7 @@
   "summary": "Find compatible roommates.",
   "keywords": "housing, roommates, matching",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Bad roommates are miserable.",
   "whyItFails": "One-time use. People move rarely. Free alternatives. Facebook groups and listings. Liquidity. Local markets.",
   "whatWouldChange": "Integration with rental listings.",

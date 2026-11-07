@@ -5,6 +5,7 @@
   "summary": "Teach teenagers to invest with small amounts.",
   "keywords": "investing, teens, education",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Parents want financially literate kids; long customer lifetime.",
   "whyItFails": "Low balances. Tiny accounts make revenue negligible. Regulatory burden. Minors, custody and licensing add cost. Kids churn to adult platforms. Lifetime value doesn't materialise.",
   "whatWouldChange": "Bank partnerships that absorb compliance and value the customer acquisition.",

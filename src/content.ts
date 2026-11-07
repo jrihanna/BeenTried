@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { aiEnabled, embed } from './ai.js';
 import { getDb, toVector } from './db.js';
 import { isTag } from './tags.js';
+import { isAttemptState, isVerdict, type AttemptState, type Verdict } from './verdicts.js';
 
 /**
  * The database is the source of truth. JSON files are only an import/export format:
@@ -24,8 +25,12 @@ export interface TarpitFile {
   whatWouldChange: string;
   keywords?: string;
   status?: 'draft' | 'reviewed';
+  /** Defaults to "tarpit". */
+  verdict?: Verdict;
   attempts: {
     company: string;
+    /** Defaults to "ended". "active" lists the company under "Still operating". */
+    state?: AttemptState;
     startYear?: number;
     endYear?: number;
     outcome: string;
@@ -59,6 +64,14 @@ function validate(t: TarpitFile, file: string): void {
   }
   if (!/^[a-z0-9-]+$/.test(t.slug)) throw new Error(`${file}: slug must be lowercase letters, numbers and dashes`);
   if (!Array.isArray(t.attempts)) throw new Error(`${file}: "attempts" must be a list`);
+  if (t.verdict !== undefined && !isVerdict(t.verdict)) {
+    throw new Error(`${file}: "verdict" must be tarpit, contested or cracked`);
+  }
+  for (const a of t.attempts) {
+    if (a.state !== undefined && !isAttemptState(a.state)) {
+      throw new Error(`${file}: ${a.company} has an unknown "state" (use ended or active)`);
+    }
+  }
   for (const r of t.reasons ?? []) {
     if (!isTag(r.tag)) throw new Error(`${file}: unknown reason tag "${r.tag}" (see src/tags.ts)`);
   }
@@ -82,19 +95,19 @@ export async function importContent(log: (msg: string) => void = console.log, di
 
     const [{ id }] = await db.query<{ id: number }>(
       `insert into tarpits (slug, title, category, summary, why_tempting, why_it_fails,
-                            what_would_change, keywords, status)
-       values ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+                            what_would_change, keywords, status, verdict)
+       values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
        returning id`,
       [t.slug, t.title, t.category, t.summary, t.whyTempting, t.whyItFails, t.whatWouldChange,
-        t.keywords ?? '', t.status ?? 'draft'],
+        t.keywords ?? '', t.status ?? 'draft', t.verdict ?? 'tarpit'],
     );
     for (const a of t.attempts) {
       await db.query(
         `insert into attempts (tarpit_id, company, start_year, end_year, outcome, notes, source_url, suggested_by, source,
-                               hidden_at)
-         values ($1, $2, $3, $4, $5, $6, $7, $8, $9, case when $10::boolean then now() end)`,
+                               hidden_at, state)
+         values ($1, $2, $3, $4, $5, $6, $7, $8, $9, case when $10::boolean then now() end, $11)`,
         [id, a.company, a.startYear ?? null, a.endYear ?? null, a.outcome, a.notes ?? '', a.sourceUrl ?? null,
-          a.suggestedBy ?? null, a.suggestedBy ? 'community' : 'admin', a.hidden === true],
+          a.suggestedBy ?? null, a.suggestedBy ? 'community' : 'admin', a.hidden === true, a.state ?? 'ended'],
       );
     }
     for (const [i, r] of (t.reasons ?? []).entries()) {
@@ -119,12 +132,13 @@ export async function exportContent(dir: string, log: (msg: string) => void = co
   const tarpits = await db.query<{
     id: number; slug: string; title: string; category: string; summary: string; why_tempting: string;
     why_it_fails: string; what_would_change: string; keywords: string; status: 'draft' | 'reviewed';
-  }>('select id, slug, title, category, summary, why_tempting, why_it_fails, what_would_change, keywords, status from tarpits order by slug');
+    verdict: Verdict;
+  }>('select id, slug, title, category, summary, why_tempting, why_it_fails, what_would_change, keywords, status, verdict from tarpits order by slug');
 
   for (const t of tarpits) {
     const [attempts, reasons, sources] = await Promise.all([
-      db.query<{ company: string; start_year: number | null; end_year: number | null; outcome: string; notes: string; source_url: string | null; suggested_by: string | null; hidden: boolean }>(
-        `select company, start_year, end_year, outcome, notes, source_url, suggested_by, hidden_at is not null as hidden
+      db.query<{ company: string; start_year: number | null; end_year: number | null; outcome: string; notes: string; source_url: string | null; suggested_by: string | null; hidden: boolean; state: AttemptState }>(
+        `select company, start_year, end_year, outcome, notes, source_url, suggested_by, hidden_at is not null as hidden, state
            from attempts where tarpit_id = $1 order by start_year nulls last, id`,
         [t.id],
       ),
@@ -143,12 +157,15 @@ export async function exportContent(dir: string, log: (msg: string) => void = co
       summary: t.summary,
       keywords: t.keywords || undefined,
       status: t.status,
+      verdict: t.verdict,
       whyTempting: t.why_tempting,
       whyItFails: t.why_it_fails,
       whatWouldChange: t.what_would_change,
       attempts: attempts.map((a) =>
         clean({
           company: a.company,
+          // Only written when active, so most companies stay as they were.
+          state: a.state === 'active' ? a.state : undefined,
           startYear: a.start_year ?? undefined,
           endYear: a.end_year ?? undefined,
           outcome: a.outcome,

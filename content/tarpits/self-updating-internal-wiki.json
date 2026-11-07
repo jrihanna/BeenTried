@@ -5,6 +5,7 @@
   "summary": "A knowledge base that stays accurate.",
   "keywords": "knowledge base, wiki, saas",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Wikis rot quickly.",
   "whyItFails": "Nobody maintains it. Content goes stale. Search failures. Users can't find info. Crowded. Many tools.",
   "whatWouldChange": "AI that updates and answers questions.",

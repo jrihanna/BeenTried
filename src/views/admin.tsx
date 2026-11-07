@@ -3,6 +3,7 @@ import type { AdminCheck, AdminComment, NeedsCheck, TarpitSummary } from '../dat
 import type { ReportedComment, ReportedCompany } from '../reports.js';
 import type { CommunityAttempt, PendingSuggestion } from '../suggestions.js';
 import { Layout } from './layout.js';
+import { MIN_ENDED_FOR_TARPIT, VERDICTS } from '../verdicts.js';
 import { formatDate } from './parts.js';
 import { ReportedCommentCard, ReportedCompanyCard } from './report.js';
 import { CommunityAttemptRow, OutcomeOptions, PendingSuggestionCard } from './suggest.js';
@@ -23,14 +24,34 @@ export const AdminCommentRow: FC<{ c: AdminComment }> = ({ c }) => (
   </tr>
 );
 
-export const AdminTarpitRow: FC<{ t: TarpitSummary; unsourced?: string[] }> = ({ t, unsourced = [] }) => (
-  <tr id={`at${t.id}`} class={t.status !== 'reviewed' || unsourced.length ? 'needs-check' : ''}>
+/** True when a "tarpit" verdict has too few sourced ended companies behind it. */
+const shortOfEvidence = (check?: NeedsCheck) =>
+  !!check && check.verdict === 'tarpit' && check.ended_sourced < MIN_ENDED_FOR_TARPIT;
+
+export const AdminTarpitRow: FC<{ t: TarpitSummary; check?: NeedsCheck; error?: string }> = ({ t, check, error }) => {
+  const unsourced = check?.unsourced ?? [];
+  const short = shortOfEvidence(check);
+  return (
+  <tr id={`at${t.id}`} class={t.status !== 'reviewed' || unsourced.length || short ? 'needs-check' : ''}>
     <td>
       <a href={`/admin/tarpits/${t.id}`}>{t.title}</a>
     </td>
-    <td>{t.attempt_count}</td>
+    <td>
+      {t.attempt_count - t.active_count}
+      {t.active_count ? ` + ${t.active_count} operating` : ''}
+    </td>
+    <td>{VERDICTS[t.verdict].label}</td>
     <td>{t.status === 'reviewed' ? 'Reviewed' : 'Unreviewed'}</td>
-    <td>{unsourced.length ? unsourced.join(', ') : ''}</td>
+    <td>
+      {unsourced.length ? `No source: ${unsourced.join(', ')}. ` : ''}
+      {short ? `Only ${check!.ended_sourced} sourced ended ${check!.ended_sourced === 1 ? 'company' : 'companies'}; a tarpit needs ${MIN_ENDED_FOR_TARPIT}.` : ''}
+      {error && (
+        <span class="form-error" role="alert">
+          {' '}
+          {error}
+        </span>
+      )}
+    </td>
     <td class="row-actions">
       <a href={`/admin/tarpits/${t.id}`}>Edit</a>
       <a href={t.status === 'reviewed' ? `/t/${t.slug}` : `/admin/preview/${t.slug}`}>
@@ -41,7 +62,8 @@ export const AdminTarpitRow: FC<{ t: TarpitSummary; unsourced?: string[] }> = ({
       </button>
     </td>
   </tr>
-);
+  );
+};
 
 export const AdminPage: FC<{
   comments: AdminComment[];
@@ -54,8 +76,13 @@ export const AdminPage: FC<{
   needsChecking: NeedsCheck[];
   draftsPublic: boolean;
 }> = ({ comments, tarpits, checks, suggestions, community, reports, commentReports, needsChecking, draftsPublic }) => {
-  // Entries needing a check (unreviewed, or a company with no source), keyed by id.
-  const unsourcedById = new Map(needsChecking.map((n) => [n.id, n.unsourced]));
+  // Entries needing a check (unreviewed, a company with no source, or a tarpit short of evidence), keyed by id.
+  const checkById = new Map(needsChecking.map((n) => [n.id, n]));
+  // Reviewed entries with a problem are the urgent ones: they're public.
+  const urgent = (id: number) => {
+    const n = checkById.get(id);
+    return !!n && n.status === 'reviewed';
+  };
   return (
   <Layout title="Admin">
     <div class="admin">
@@ -110,23 +137,29 @@ export const AdminPage: FC<{
         {draftsPublic
           ? 'Unreviewed entries are currently public (PUBLISH_DRAFTS is on, or this is development). '
           : 'Unreviewed entries are hidden from visitors until you mark them reviewed. '}
-        Companies without a source are a defamation risk: add a source or remove them.
+        Companies without a source are a defamation risk: add a source or remove them. A tarpit verdict needs at
+        least {MIN_ENDED_FOR_TARPIT} ended companies with sources, and can't be marked reviewed until it has them.
+        Reviewed entries with a problem are listed first, because they're public.
       </p>
       <table>
         <thead>
           <tr>
             <th>Entry</th>
             <th>Companies</th>
+            <th>Verdict</th>
             <th>Status</th>
-            <th>Without a source</th>
+            <th>Problems</th>
             <th></th>
           </tr>
         </thead>
         <tbody>
           {[...tarpits]
-            .sort((a, b) => Number(unsourcedById.has(b.id)) - Number(unsourcedById.has(a.id)))
+            .sort(
+              (a, b) =>
+                Number(urgent(b.id)) - Number(urgent(a.id)) || Number(checkById.has(b.id)) - Number(checkById.has(a.id)),
+            )
             .map((t) => (
-              <AdminTarpitRow t={t} unsourced={unsourcedById.get(t.id)} />
+              <AdminTarpitRow t={t} check={checkById.get(t.id)} />
             ))}
         </tbody>
       </table>

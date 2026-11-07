@@ -5,6 +5,7 @@
   "summary": "A 3D printer in every home.",
   "keywords": "3d printing, maker, hardware",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Make anything at home.",
   "whyItFails": "Limited use cases. Most people don't need custom parts. Usability. Printing is fiddly. Price competition. Cheap printers commoditise the market.",
   "whatWouldChange": "Remains hobbyist; AI-generated designs might help.",

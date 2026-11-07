@@ -5,6 +5,7 @@
   "summary": "Find great podcasts tailored to you.",
   "keywords": "podcasts, discovery, audio",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Podcasts are hard to discover.",
   "whyItFails": "Platform dominance. Spotify and Apple own listeners. Low monetisation. Discovery doesn't pay. Retention. Users stick with default apps.",
   "whatWouldChange": "AI-generated clips and highlights for discovery.",

@@ -5,6 +5,7 @@
   "summary": "See interesting people around you right now and say hi.",
   "keywords": "social, location, friendship",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Loneliness is widespread and people want serendipitous connection.",
   "whyItFails": "Safety and creepiness. Showing nearby strangers invites harassment and attracts the wrong users. Density problem. Needs many active users in the same place at the same time. Novelty decays. Initial curiosity fades fast.",
   "whatWouldChange": "Anchoring to an existing trusted context (a campus, a workplace, an event) rather than open location.",

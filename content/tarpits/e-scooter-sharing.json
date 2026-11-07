@@ -5,6 +5,7 @@
   "summary": "Dockless scooters for short trips.",
   "keywords": "scooters, micromobility, sharing",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Short trips are common and convenient.",
   "whyItFails": "Vandalism and wear. Scooters break. Regulation. Cities restrict. Unit economics. Costs exceed revenue.",
   "whatWouldChange": "Durable hardware and better regulation.",

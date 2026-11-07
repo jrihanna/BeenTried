@@ -4,7 +4,8 @@
   "category": "Travel",
   "summary": "Book unique experiences hosted by locals.",
   "keywords": "travel, experiences, local",
-  "status": "draft",
+  "status": "reviewed",
+  "verdict": "contested",
   "whyTempting": "Travellers want authentic experiences.",
   "whyItFails": "Supply quality. Hosts vary widely. Big platforms. Airbnb and others offer experiences. Seasonality. Demand fluctuates.",
   "whatWouldChange": "Curated niches with strong quality control.",
@@ -12,8 +13,16 @@
     {
       "company": "Vayable",
       "startYear": 2011,
+      "endYear": 2019,
       "outcome": "Shut down",
       "sourceUrl": "https://arival.travel/vayable-shutters-operations/"
+    },
+    {
+      "company": "RAVN",
+      "startYear": 2011,
+      "endYear": 2012,
+      "outcome": "Shut down after six months",
+      "sourceUrl": "https://www.phocuswire.com/RAVN-shuts-down-after-just-six-months-not-the-Airbnb-for-experiences-before-or-after-rebrand"
     },
     {
       "company": "Airbnb Experiences",
@@ -26,11 +35,6 @@
       "company": "SideTour",
       "outcome": "Bought by Groupon, then closed",
       "sourceUrl": "https://skift.com/?p=151085"
-    },
-    {
-      "company": "RAVN",
-      "outcome": "Shut down after six months",
-      "sourceUrl": "https://www.phocuswire.com/RAVN-shuts-down-after-just-six-months-not-the-Airbnb-for-experiences-before-or-after-rebrand"
     }
   ],
   "reasons": [

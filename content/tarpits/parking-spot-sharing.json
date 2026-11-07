@@ -5,6 +5,7 @@
   "summary": "Rent out your driveway or parking spot.",
   "keywords": "parking, sharing, mobility",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Parking is scarce and owners have idle spaces.",
   "whyItFails": "Local liquidity. Demand is hyper-local. Low prices. Spot owners earn little. Access issues. Gates and keys complicate things.",
   "whatWouldChange": "Smart access tech and integration with navigation apps.",

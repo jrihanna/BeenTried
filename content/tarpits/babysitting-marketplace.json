@@ -5,6 +5,7 @@
   "summary": "Find vetted babysitters on demand.",
   "keywords": "childcare, marketplace, parents",
   "status": "reviewed",
+  "verdict": "tarpit",
   "whyTempting": "Parents desperately need reliable childcare.",
   "whyItFails": "Trust is local. Parents prefer word-of-mouth sitters. Disintermediation. Good matches go direct. Liability. Safety incidents are catastrophic.",
   "whatWouldChange": "Employer-paid childcare benefits creating a paying buyer.",

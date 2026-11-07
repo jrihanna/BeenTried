@@ -5,6 +5,7 @@
   "summary": "Rent a drill, tent or camera from your neighbour.",
   "keywords": "rental, sharing economy, p2p",
   "status": "draft",
+  "verdict": "tarpit",
   "whyTempting": "Most owned items sit unused.",
   "whyItFails": "Low item value. Cheap items aren't worth renting. Logistics friction. Coordinating pickup and return is a hassle. Trust and damage. Insurance and disputes are costly.",
   "whatWouldChange": "Lockers or delivery that remove coordination friction.",
